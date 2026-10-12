@@ -1,0 +1,35 @@
+{
+  "id": 6, "name": "La Troyenne", "gloss": "The Woman from Troyes", "color": "#e8582a",
+  "stats": {"routes": 20, "grades": "5c – 7b+", "aspect": "South & East-facing", "height": "25 m to 30 m"},
+  "intro": "p24",
+  "notes": [
+    "Varied grades and climbing styles on this sector.",
+    "Rock quality ranges from poor to exceptional."
+  ],
+  "topos": [
+    {"page": "p25", "routes": "137–144"},
+    {"page": "p26", "routes": "145–155"}
+  ],
+  "routes": [
+    ["137", "Burn's", "", "6c+ / 7a", "30 m", "Sustained with good rests; difficulty increases and is varied. Both technical and physical.", "p25"],
+    ["138", "Croule Raoul", "", "6b+", "30 m", "Delicate slab livened up by a curious mantel onto a glued block. Unusual climbing.", "p25"],
+    ["138-1", "Tomo", "", "7a", "30 m", "Direct variant of 138 straight up the slab. Consistent and sustained overall.", "p25"],
+    ["139", "L'éclair", "The Lightning Bolt", "5c", "30 m", "Original line with successive traverses that give this route a unique character. (Possible start via 140: 5c+.)", "p25"],
+    ["140", "La dure réalité de la friction", "The Harsh Reality of Friction", "6a", "30 m", "Very nice route with fun tufa in the first part; some loose flakes at the top need care. A must-do!", "p25"],
+    ["141", "Luliberine", "", "6b", "30 m", "Finishing variant of 140 (trend slightly right after the horizontal band).", "p25"],
+    ["142", "L'éclair direct", "Lightning Bolt Direct", "6b/c", "30 m", "Not consistent; a slightly reach-dependent roof move, but pleasant nonetheless.", "p25"],
+    ["143", "Le cheval blanc aux oreilles bleues", "The White Horse with Blue Ears", "6c", "30 m", "Sustained, varied and surprising climbing. A rather sneaky Cormot-style pillar.", "p25"],
+    ["144", "La Simone", "", "6b", "30 m", "Varied climbing that needs good route-reading and good anticipation of the line. A classic.", "p25"],
+    ["145", "Bebe cadum", "Cadum Baby (soap advert)", "6c", "30 m", "Sustained. Needs good reading (some holds are hidden). Nice technical climbing in the first part; the rest is rather athletic on good holds.", "p26"],
+    ["146", "La Troyenne", "The Woman from Troyes", "6b+", "28 m", "Sustained, continuous and varied. Physical start on edges, then a slab all about balance, a corner and a fun mantel. Loose rock on the last 2 metres. Nice route.", "p26"],
+    ["147", "Les gars du bâtiment", "The Building-Site Guys", "7b+", "28 m", "Pump galore. Not easy onsight — reading and determination are essential weapons for this route. Very fun overhanging pillar.", "p26"],
+    ["148", "Valse sur peau de banane", "Waltz on a Banana Skin", "7a", "28 m", "Direct variant of 149. Bouldery. Demanding technical climbing.", "p26"],
+    ["149", "La romaine", "The Roman", "6b+/c", "25 m", "Route with an original line. Start with a traverse under a small roof, then a traversing line. The rock sometimes has no texture, so you have to squeeze the holds all the harder.", "p26"],
+    ["150", "Passage quaternaire", "Quaternary Passage", "6b", "30 m", "Finishing variant of 149. Traverse all the way left to finish on the left face. Move over a big wedged block, great atmosphere.", "p26"],
+    ["151", "Valium cassis", "Blackcurrant Valium", "6b+", "30 m", "Slightly bouldery but original route. The finish on the side of the prow may leave you with a few souvenirs.", "p26"],
+    ["152", "La Christine", "", "5c+", "30 m", "Traverses slightly left, on good holds. The rock is loose at the top — careful with some unstable blocks.", "p26"],
+    ["153", "La Vincendon", "", "6a", "28 m", "Historic but inconsistent route, broken up by ledges. Demanding and very aesthetic summit overhang.", "p26"],
+    ["154", "La guerre des clans", "The Clan War", "6b", "28 m", "Sustained, varied climbing. Sneaky, demanding exit slab. Slightly loose rock at the top below the anchor.", "p26"],
+    ["155", "Soie et velours", "Silk and Velvet", "6a", "28 m", "Starting variant of 153. Technical finger climbing.", "p26"]
+  ]
+}

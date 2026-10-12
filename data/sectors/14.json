@@ -1,0 +1,40 @@
+{
+  "id": 14, "name": "Grand Steak", "gloss": "", "color": "#e3201b",
+  "stats": {"routes": 21, "grades": "4a – 7a", "aspect": "West-facing", "height": "8 m to 25 m"},
+  "intro": "p53",
+  "notes": [
+    "Sector currently being cleaned and re-bolted.",
+    "Small sector with sometimes abrasive rock.",
+    "Uncomfortable ground at the base of the routes.",
+    "Rarely visited sector.",
+    "Some grades are still to be confirmed (shown as '?').",
+    "Short, nasty climbing."
+  ],
+  "topos": [
+    {"page": "p54", "routes": "300–307"},
+    {"page": "p55", "routes": "308–320"}
+  ],
+  "routes": [
+    ["300", "Violette bleue", "Blue Violet", "4b", "8 m", "Slab, often mossy.", "p54"],
+    ["301", "Droz erra", "", "6a", "15 m", "Slab arête.", "p54"],
+    ["302", "K2", "", "6c", "15 m", "Overhanging slab, smooth, then less steep and easier.", "p54"],
+    ["303", "Le D", "", "7a", "15 m", "Faint corner.", "p54"],
+    ["304", "Kin top", "", "6c", "15 m", "Vertical corner.", "p54"],
+    ["305", "Grand steack", "", "6b+", "18 m", "Sculpted corner.", "p54"],
+    ["306", "BIP BIP", "Beep Beep", "6c", "18 m", "Scoop in rounded rock.", "p54"],
+    ["307", "Flot de parole", "Flood of Words", "7a", "18 m", "Overhanging slab.", "p54"],
+    ["308", "Rone", "", "6c", "18 m", "Overhanging slab at the finish.", "p55"],
+    ["309", "Vincent", "", "6a", "18 m", "Slab arête with big holds.", "p55"],
+    ["310", "Ailez", "", "4c", "15 m", "Leaning slab.", "p55"],
+    ["311", "Zotres", "", "4c", "15 m", "Leaning slab.", "p55"],
+    ["312", "Yakari", "", "5b", "18 m", "Overhanging slab broken up by ledges.", "p55"],
+    ["313", "Pluto", "", "5a", "18 m", "Crack, then steps.", "p55"],
+    ["314", "Papooses", "", "5a", "20 m", "Big crack, then slab.", "p55"],
+    ["315", "Pitchoune", "Little One", "6a", "20 m", "Bulge, then scoop.", "p55"],
+    ["316", "Symphonia", "", "6a+", "20 m", "Vertical slab with small holds, then flakes.", "p55"],
+    ["317", "Nirvana", "", "?", "20 m", "Thin slab, overhang and slab.", "p55"],
+    ["318", "Keraban", "", "?", "23 m", "Flared corner and overhang.", "p55"],
+    ["319", "Bosse fort", "Work Hard (pun)", "?", "23 m", "Finishing variant of 318. Vague overhanging corner.", "p55"],
+    ["320", "Arabesque", "", "?", "23 m", "Slab, overhang, pillar.", "p55"]
+  ]
+}

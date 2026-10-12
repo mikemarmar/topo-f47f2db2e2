@@ -1,0 +1,42 @@
+{
+  "id": 1, "name": "Rêve d'enfant", "gloss": "Child's Dream", "color": "#c9c42c",
+  "stats": {"routes": 23, "grades": "4a – 6a", "aspect": "South-facing", "height": "3 m to 18 m"},
+  "intro": "p05",
+  "notes": [
+    "Small sector with a lot of vegetation.",
+    "The bolts are fairly close together.",
+    "Even on the easy routes the holds can be far apart — the climbing is often reachy for very young children.",
+    "The base of the routes is not always very comfortable for belaying.",
+    "Routes 17 to 23 start from a promontory where you should clip yourself in (self-belay) for extra safety."
+  ],
+  "topos": [
+    {"page": "p06", "routes": "1–7"},
+    {"page": "p07", "routes": "8–16"},
+    {"page": "p08", "routes": "17–23"}
+  ],
+  "routes": [
+    ["1", "Miniclimb", "", "4a", "3 m", "Short, low-angled slab.", "p06"],
+    ["2", "Yosenain", "", "4a", "3 m", "Short, low-angled slab.", "p06"],
+    ["3", "Eléphantillage", "pun: elephant + 'sample'", "4a", "5 m", "Big flake.", "p06"],
+    ["4", "Conte du premier œuf", "Tale of the First Egg", "4a", "8 m", "Crack in a corner.", "p06"],
+    ["5", "Rêve d'enfant", "Child's Dream", "4b", "10 m", "Short pillar.", "p06"],
+    ["6", "Papy boom", "Grandpa Boom", "4b", "10 m", "Crack.", "p06"],
+    ["7", "Hamster jovial", "Jolly Hamster", "5c", "10 m", "Slab with crimps.", "p06"],
+    ["8", "Goldovrac", "", "4a", "10 m", "Corner (dihedral).", "p07"],
+    ["9", "Gromignon", "Big Cutie", "4b", "10 m", "Corner (dihedral).", "p07"],
+    ["10", "Telemoche", "", "5b", "15 m", "Low-angled slab.", "p07"],
+    ["11", "Salut monchus", "", "6a", "18 m", "Corner and bulge.", "p07"],
+    ["12", "Fear and desire", "", "5b", "15 m", "Vague corner.", "p07"],
+    ["13", "Le maître des abeilles", "The Master of the Bees", "6a", "15 m", "Overhang and crack.", "p07"],
+    ["14", "A chacun ses croûtes", "To Each Their Own Scabs", "4c", "15 m", "Big angular corner.", "p07"],
+    ["15", "Mon petit sceau et ma truelle", "My Little Bucket and My Trowel", "5c", "12 m", "Slab.", "p07"],
+    ["16", "Fantasia", "", "4b", "10 m", "Crack and leaning slab.", "p07"],
+    ["17", "Anal plus", "", "5a", "10 m", "Leaning pillar.", "p08"],
+    ["18", "Restos du cœur", "Restaurants of the Heart (a French food charity)", "4a", "8 m", "Overhanging corner.", "p08"],
+    ["19", "Free go", "", "4a", "8 m", "Big chimney crack.", "p08"],
+    ["20", "Le dernier ampère heure", "The Last Amp-Hour", "4b", "8 m", "Vague cracks.", "p08"],
+    ["21", "Pipi caca", "Pee-Pee Poo-Poo", "4a", "8 m", "Big, short corner.", "p08"],
+    ["22", "Tête de turc", "Whipping Boy", "5c", "10 m", "Cracked slab.", "p08"],
+    ["23", "Ragots intimes", "Intimate Gossip", "5b", "10 m", "Slab and small roof.", "p08"]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 3, "name": "Floconnerie", "gloss": "", "color": "#1f8a4c",
+  "stats": {"routes": 22, "grades": "4a – 7c", "aspect": "South & East-facing", "height": "18 m to 25 m"},
+  "intro": "p12",
+  "notes": [
+    "Sector with lots of corners (dihedrals). Quite shady and very pleasant on hot days.",
+    "Some historic lines.",
+    "The rock is sometimes loose/fractured — be very careful.",
+    "On the other hand, some routes are of exceptional quality."
+  ],
+  "topos": [
+    {"page": "p13", "routes": "49–60"},
+    {"page": "p14", "routes": "61–70"}
+  ],
+  "routes": [
+    ["49", "Le siège", "The Seat", "4a", "18 m", "Well bolted. A ledge in the middle breaks up the route and its consistency a bit.", "p13"],
+    ["50", "L'appui tête", "The Headrest", "5a", "22 m", "Joins route 49 at the ledge.", "p13"],
+    ["51", "Odyssée dudulesque", "", "5c", "22 m", "Same start as route 50, then head left to reach a cracked slab with nice balance moves. Not very consistent.", "p13"],
+    ["52", "Rillettes à tous les étages", "Rillettes on Every Floor", "7a", "22 m", "Bouldery, needs determination. Easier finish.", "p13"],
+    ["53", "Pollution intime", "Intimate Pollution", "6b", "25 m", "Very nice route at the grade. Short and pumpy, with some steepness. Nice, very physical moves.", "p13"],
+    ["54", "Dièdre à Leblanc", "Leblanc's Corner", "5c", "25 m", "Historic, legendary route at the grade. Slightly polished as the route gets little rain. Sustained and consistent.", "p13"],
+    ["55", "Floconnerie", "", "6a", "25 m", "A must at the grade. Somewhat disconcerting climbing on quartz, all on smooth slab. A great classic.", "p13"],
+    ["56", "Chute ascensionnelle", "Upward Fall", "6b+", "25 m", "Difficulties in the first 15 m, with a roof that is technical for the feet; finishes up route 55.", "p13"],
+    ["57", "L'encombrée", "The Cluttered One", "5b", "25 m", "Chimneying technique to the fore. A very particular style — love it or hate it, your choice.", "p13"],
+    ["58", "Bamboche", "Binge", "6c", "25 m", "Not consistent but varied. Loose rock at the start. The roof may put some people off but is quite interesting, and the slab finish is classy.", "p13"],
+    ["59", "Liaisons dangereuses", "Dangerous Liaisons", "5c", "25 m", "Start up 60 and traverse to reach the chimney of route 57. Not uninteresting, but not the best route at the grade.", "p13"],
+    ["60", "Combat dans l'île de velours", "Fight on Velvet Island", "6b", "25 m", "Starts on loose rock; the rest is quite disconcerting, following the line of the arête. A nice route all the same.", "p13"],
+    ["61", "L'étagée", "The Tiered One", "6a", "25 m", "Not consistent, but interesting overall with a nice slab to finish.", "p14"],
+    ["62", "No suture", "", "6a", "25 m", "Progressive difficulty. Physical finger-jamming crack where you shouldn't hang around too long. Fun route.", "p14"],
+    ["63", "Gand vé", "", "5a / 5b+", "25 m", "A historic route, all in a corner. Layback, bridging, smearing: every technique gets a turn. Finish left 5a, or finish right a solid 5b+.", "p14"],
+    ["64", "Micropore et maxitruie", "Micropore and Maxi-Sow", "6b", "25 m", "25 m line with an original path, all traversing. Fun, airy finish.", "p14"],
+    ["65", "Très mauvaise", "Very Bad", "5c+", "25 m", "Consistent and athletic. First part overhanging on big holds. Fairly technical corner at the top.", "p14"],
+    ["66", "Examains de passage", "Passing Exams (pun on 'hands')", "6b", "25 m", "Sustained and consistent route with varied styles. A nice, sometimes surprising route.", "p14"],
+    ["67", "Zone érogène", "Erogenous Zone", "7a", "25 m", "Finishing variant of 66. Awkward crack climbing, technical, needs real determination.", "p14"],
+    ["68", "La hulotte", "The Tawny Owl", "7b+", "25 m", "Varied, sustained climbing, mostly on fingers. Rounded crack and slopers at the top. Bouldery.", "p14"],
+    ["69", "Les rampants du roc", "The Rock Crawlers", "7c", "25 m", "Bouldery route. Few footholds at the crux, and crack technique to the fore.", "p14"],
+    ["70", "Le singe", "The Monkey", "5c+", "25 m", "Overhanging on jugs — a nice, original route. 6a if you finish on the right.", "p14"]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 11, "name": "Magie blanche", "gloss": "White Magic", "color": "#155a99",
+  "stats": {"routes": 18, "grades": "5b – 7b", "aspect": "South-West-facing", "height": "30 m to 35 m"},
+  "intro": "p40",
+  "notes": [
+    "Sector with rather continuous, very vertical climbing.",
+    "Sun from mid-morning.",
+    "Fairly shady at the base thanks to the trees."
+  ],
+  "topos": [
+    {"page": "p41", "routes": "227-1–230"},
+    {"page": "p42", "routes": "231–236"},
+    {"page": "p43", "routes": "236-1–240"}
+  ],
+  "routes": [
+    ["227-1", "Indiana JMB", "", "7a+/b", "30 m", "Complex to read. Climbing on dubious, really pumpy flakes; keep a bit in reserve for the finish. Sustained overall.", "p41"],
+    ["228", "La pivoine", "The Peony", "6c", "30 m", "Very continuous up to the horizontal band. Economy and speed are good weapons for this route. A route with character. Very fun.", "p41"],
+    ["228-1", "Tonton inox", "Stainless Uncle", "7a", "30 m", "Difficulty concentrated at the start. Technical footwork. Reading is essential.", "p41"],
+    ["229", "Magie blanche", "White Magic", "6b+", "32 m", "Very continuous route that needs a good analysis of the line. Often physical climbing that needs good management of the rests. A staple at the grade.", "p41"],
+    ["230", "L'arrachée", "The Snatch", "5c", "32 m", "Really vertical climbing on jugs. A treat.", "p41"],
+    ["231", "Les coups et les douleurs", "Blows and Pains (pun on 'colours')", "6c", "32 m", "Continuous climbing with a hard move in the 2nd part. The summit wall is complex to decipher. Somewhat mixed route.", "p42"],
+    ["232", "Le mètre déplié", "The Unfolded Ruler", "5c", "30 m", "Very fun route on very sculpted rock. Athletic climbing on good holds.", "p42"],
+    ["233", "Dis, l'auvergne saoud ?", "", "6b", "30 m", "Inconsistent but varied. Funny overhang with a nice cluster of holds.", "p42"],
+    ["233-1", "Fin de siècle", "End of the Century", "7a", "30 m", "Finishing variant of 233. Short but intense. An overhanging slab with crimps and a blocked crack on the menu.", "p42"],
+    ["233-2", "Trivial merdic", "", "6b+", "32 m", "Left finishing variant of 233. Athletic, with a nice variety of sometimes surprising holds.", "p42"],
+    ["234", "Le mètre pliant", "The Folding Ruler", "P1 5a / P2 5c", "20 m / 35 m", "The first pitch is short, on beautiful rock with plenty of vertical cracks. The second pitch is an airy traverse under a band of overhang, on rock that is sometimes a little polished.", "p42"],
+    ["235", "La marc", "", "6a", "30 m", "A very beautiful route at the grade. Stunning atmosphere at the top with a great variety of moves.", "p42"],
+    ["236", "Bourbon's club", "", "6b", "30 m", "Same profile as 235 with less obvious holds. Good lock-offs; a nice, really physical route.", "p42"],
+    ["236-1", "Calinette", "", "7a+", "30 m", "Nice bouldery route.", "p43"],
+    ["237", "Satyre", "Satyr", "7a", "30 m", "Route through a small overhang, one very bouldery move. Lacks consistency.", "p43"],
+    ["238", "Satan", "", "6b", "30 m", "Very nice, varied route that needs good pacing. Awkward positions give this route a unique character.", "p43"],
+    ["239", "Le piano à queue", "The Grand Piano", "5b+", "32 m", "Slightly polished corner route. After the ledge, branch left; belay attentively because of the ledges.", "p43"],
+    ["240", "Le piano droit", "The Upright Piano", "5c", "30 m", "Same start as route 239, then continue up the cracked slab straight above. Very beautiful.", "p43"]
+  ]
+}

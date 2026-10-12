@@ -1,0 +1,37 @@
+{
+  "id": 8, "name": "Vieille maîtresse", "gloss": "Old Mistress", "color": "#46b3c4",
+  "stats": {"routes": 21, "grades": "4b – 7b+", "aspect": "South-West-facing", "height": "20 m to 30 m"},
+  "intro": "p29",
+  "notes": [
+    "Sector with fairly demanding starts.",
+    "Sector that stays sunny for a long time despite the trees.",
+    "Rock of variable quality, but decent overall."
+  ],
+  "topos": [
+    {"page": "p30", "routes": "174–183"},
+    {"page": "p31", "routes": "184–193"}
+  ],
+  "routes": [
+    ["174", "La cheminée de l'enfant de chœur", "The Choirboy's Chimney", "4b", "20 m", "Easy route in a wide chimney (old descent route); chimneying technique may come in handy. Unstable blocks — be vigilant.", "p30"],
+    ["175", "La Bob", "", "5c", "20 m", "Surprising, mixed route. Steps, then a nice slab.", "p30"],
+    ["176", "Le Groseiller", "The Currant Bush", "5a", "25 m", "Slightly polished classic. Two technical moves in a corner. Fun overall.", "p30"],
+    ["176-1", "Marietou", "", "6a+", "27 m", "Pleasant overall on good jugs.", "p30"],
+    ["177", "Le Domino direct", "Domino Direct", "6a+/b", "30 m", "Starting variant of 178. Athletic in a wide crack. Intense start.", "p30"],
+    ["178", "Le Domino", "", "6a+", "30 m", "Sustained, vertical climbing. Nice, really physical route on good holds.", "p30"],
+    ["179", "Gorillodrome", "", "7b+", "30 m", "Varied route. Slightly nasty start, rock with loose flakes after that, and a nice slab of sloping pockets to finish. Mixed, but very fun all the same.", "p30"],
+    ["180", "Gros bras et jambettes", "Big Arms and Little Legs", "7a+", "30 m", "Consistent, technical finger climbing. A must-do.", "p30"],
+    ["181", "Le passe muraille", "The Man Who Walked Through Walls", "7a", "30 m", "Major route at the grade. Intense start on edges and water drips, followed by a crack in very sculpted rock. Fairly pumpy overall.", "p30"],
+    ["182", "Vieille maîtresse", "Old Mistress", "6b+", "30 m", "Sustained, pleasant climbing.", "p30"],
+    ["183", "Trans zen 10", "", "7a", "30 m", "Intense start on an overhanging pillar that needs careful reading beforehand. The second part is less intense but technically demanding.", "p30"],
+    ["184", "L'Armir", "", "6b", "27 m", "Nice consistent route — a must-do.", "p31"],
+    ["185", "Les hommes préfèrent les bombes", "Men Prefer Bombshells", "6c/6c+", "27 m", "Mixed route. A series of small slabs with technical problems, broken up by good rests.", "p31"],
+    ["186", "La BAF", "", "6a+", "27 m", "Consistent but not very sustained. Rather balance-oriented in the first part, followed by a traverse right at the niche on good edges. Fun.", "p31"],
+    ["187", "La BAF directe", "BAF Direct", "6a+", "27 m", "Finishing variant of 186. Straight up above the niche. Fingery.", "p31"],
+    ["188", "Beauté cachée", "Hidden Beauty", "6a", "27 m", "Consistent, technical slab climbing. Nice big moves. Tends to be run-out.", "p31"],
+    ["189", "Banana slip", "", "5c+ / 6a", "25 m", "Finishing variant of 188. Nicely consistent. Steep, technical slab.", "p31"],
+    ["190", "Que dalle", "Zilch (pun on 'slab')", "6c", "25 m", "Bouldery. Slab with spaced holds at the start, then a rest, then a thin flake and a demanding compact slab.", "p31"],
+    ["191", "Hyperbole", "", "5c+", "30 m", "Traversing route with an original path. Committing and unusual. Not the most interesting at the grade.", "p31"],
+    ["192", "Liturgie cathodique", "Cathode Liturgy", "6a", "25 m", "Consistent, sustained and demanding route. Crimps on a slab to tame. There is a bees' nest at the time of writing.", "p31"],
+    ["193", "L'éloge de la fuite", "In Praise of Running Away", "6a", "25 m", "Finishing variant of 192. A demanding boulder move to leave the niche.", "p31"]
+  ]
+}
