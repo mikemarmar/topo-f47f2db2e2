@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -17,13 +17,14 @@
 <header id="bar">
   <a id="back" href="#/" aria-label="Home">‹</a>
   <h1 id="title">Saffres</h1>
-  <a id="searchlink" href="#/routes" aria-label="Search routes">⌕</a>
+  <div id="langs" role="group" aria-label="Langue / Language"><button data-lang="fr" aria-label="Français">🇫🇷</button><button data-lang="en" aria-label="English">🇬🇧</button></div>
+  <a id="searchlink" href="#/routes" aria-label="Chercher une voie">⌕</a>
 </header>
 <main id="app"></main>
 <div id="viewer" hidden>
   <div id="vstage"><img id="vimg" alt=""></div>
   <button id="vclose" aria-label="Close">✕</button>
-  <div id="vhint">Pinch or double-tap to zoom</div>
+  <div id="vhint">Pincer ou toucher deux fois pour zoomer</div>
 </div>
 <script src="data.js"></script>
 <script src="app.js"></script>

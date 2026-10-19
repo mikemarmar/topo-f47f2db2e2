@@ -1,4 +1,4 @@
-const SHELL_CACHE = 'saffres-shell-57ed17f57a';
+const SHELL_CACHE = 'saffres-shell-47cd642f23';
 const IMG_CACHE = 'saffres-img-d076710bed';
 const SHELL = ["./", "index.html", "app.js", "style.css", "data.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
