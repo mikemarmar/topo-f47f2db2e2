@@ -1,193 +1,1316 @@
 {
   "credits": "Unofficial English adaptation of <i>Escalade Saffres en Terres d'Auxois</i> (6th edition, 2021) by Yannick Dupin, published with the Communauté de Communes des Terres d'Auxois (CCTA). Layout &amp; maps: Rochana HM. Photos: © Matthias Paré. Buying the book (€19, e.g. at the Vitteaux tourist office) funds bolting and upkeep of the crag. Translations may contain mistakes — when in doubt, check the original pages included with each sector.",
   "sections": [
-    {"id": "access", "title": "Getting there & map", "pages": ["p04"], "blocks": [
-      {"img": "p04L", "cap": "Access map. Dotted = footpaths, thin line = tracks, teal = roads, red = climbing site. Saffres is off the A6 (exit 23, Vitteaux), between Vitteaux and Dijon."},
-      {"p": "From Saffres village, the parking is about 800 m away. Go through the barrier and park at <b>P</b>; there are toilets by the lower car park."},
-      {"img": "p04R", "cap": "Sector map. Dotted = footpath, white line = top of the cliff, hatched = poor-quality rock, tree = camping area, key icon = ask for the key at the town hall (mairie). DZ = helicopter landing area."},
-      {"h": "Walk-in from the car park"},
-      {"ul": ["Sector 1: about 4 minutes", "Sector 14: about 10 minutes", "Sector 16: about 6–8 minutes"]},
-      {"h": "Sectors and route numbers"},
-      {"table": [["Sector", "Routes"],
-        ["1 · Rêve d'enfant", "1–23"], ["2 · Pimprenelle", "24–48"], ["3 · Floconnerie", "49–70"], ["4 · Les Auxerrois", "71–99"],
-        ["5 · La Kir", "100–136"], ["6 · La Troyenne", "137–155"], ["7 · La Voie de l'arbre", "156–167"],
-        ["between 7 & 8 · Le curé de Miraude, L'enfant de chœur", "bolting postponed, poor rock"],
-        ["8 · Vieille maîtresse", "174–193"], ["9 · Le Boulevard à Mathieu", "194–206"], ["10 · Robert clef de 12", "207–227"],
-        ["11 · Magie blanche", "227-1–240"], ["12 · Damoclès", "241–260"], ["13 · Sans nom", "261–299"],
-        ["14 · Grand Steak (being re-bolted)", "300–320"],
-        ["15 · Tour Carrée", "North face 1–10 · West 11–23 · South 24–33 · East 34–42"],
-        ["16 · Tour Penchée", "South & East faces 1–13 · West face 14–28"]], "head": true}
-    ]},
-    {"id": "intro", "title": "Introduction & crag rules", "pages": ["p02"], "blocks": [
-      {"p": "<b>You are holding the sixth edition of the Saffres crag topo.</b> By buying this topo you indirectly contribute to the bolting and upkeep of the site. Be aware that duplicates or photocopies are very much frowned upon at the crag. You have been warned."},
-      {"p": "The Saffres climbing site, also called the “Groupe des Rochers de Miraude”, is a sport-climbing site with 400 routes equipped with glue-in bolts. Overall the routes are accessible (most are in the 5s and 6s)."},
-      {"p": "The best climbing seasons are March to June and September to November. The cliff faces south, dries quickly and has little seepage. Read the topo carefully — many variants and traverses have been opened."},
-      {"p": "The climbing is usually on very good compact limestone, with rare areas of loose/fractured rock. Some sections may be polished, mainly on the easy routes."},
-      {"p": "After the re-bolting I carried out, the route names are the same as in the very first topo; I have only named a few new variants. Some grades have been raised because of the extra fatigue caused by the new clipping. There is still some commitment, but there are no longer any overly exposed (run-out) routes. Still, keep in mind that you are responsible for your own safety."},
-      {"h": "Crag rules"},
-      {"ul": [
-        "Avoid shouting during your attempts; respect the wildlife and don't disturb it.",
-        "Respect the parking areas.",
-        "Take your rubbish home, including cigarette butts.",
-        "Fires are forbidden throughout the whole commune.",
-        "There are no bins on site — leave with your rubbish.",
-        "No chipping/creating holds here.",
-        "Safety: climbing outdoors, if badly practised, is potentially fatal. Precise, effective belaying is essential. If needed, ask a professional or a club to help you improve your knowledge.",
-        "The bolts are relatively reliable, but the rock is not — it remains a living, fragile material. So be careful."
-      ]},
-      {"p": "A topo is not always an infallible source, so there may be some errors or omissions left; thank you for your indulgence. And finally: <b>HAPPY CLIMBING!</b>"}
-    ]},
-    {"id": "safety", "title": "Safety at the crag", "pages": ["p67"], "blocks": [
-      {"p": "<b>Every climber is responsible for assessing the risks they take when they set off on a route.</b> Several factors will help you assess these risks correctly:"},
-      {"ul": ["Your knowledge of safety techniques.", "Your knowledge of the natural environment and its hazards.", "Your knowledge of equipment/bolting.", "How self-sufficient you are with safety, and your years of experience."]},
-      {"p": "For relaxed outdoor climbing you therefore need sufficient knowledge and skill. If that's not the case, I encourage you to call on a professional or a club who can teach you good technique and give you good advice."},
-      {"h": "Non-exhaustive list of recommendations for climbing outdoors"},
-      {"ul": [
-        "Adjust your harness properly.", "Wear a helmet.", "Regularly check the wear of your PPE: slings, ropes…",
-        "Tie a knot in the end of the rope.", "Know how to tie in to your harness correctly.",
-        "Master lead and top-rope belaying techniques.", "Check each other before climbing.",
-        "Spot the climber before the first bolt.", "Clip quickdraws correctly.",
-        "Communicate with your belayer, especially when lowering/threading the rope.",
-        "Master the lower-off procedure at the anchor (threading the quick-link).",
-        "Never top-rope directly through slings.", "Know how to recognise reliable anchors.",
-        "Know how to recognise loose or potentially unstable rock, and test your holds."
-      ]},
-      {"h": "Reporting problems"},
-      {"p": "If you notice anything significant on site (bolting problem, unstable block…), you can report it to:"},
-      {"ul": [
-        "Yannick Dupin, the author and route-setter (contact details on the original page below).",
-        "La Communauté de Communes des Terres d'Auxois: <a href=\"tel:+33380972665\">03 80 97 26 65</a>",
-        "The Ministry's SURICATE site (Sports de Nature resource centre): <a href=\"https://sentinelles.sportsdenature.fr\">sentinelles.sportsdenature.fr</a>"
-      ]}
-    ]},
-    {"id": "glossary", "title": "Glossary (French climbing terms)", "pages": ["p66"], "blocks": [
-      {"p": "French terms you'll see on the original pages and hear at the crag, with the book's definitions translated."},
-      {"dl": [
-        ["À vue — onsight", "Climbing a route cleanly on the first attempt, without knowing it beforehand."],
-        ["Artif., artificielle — aid climbing", "Where there are no holds, the climber's progress is helped by artificial aid points (pitons, bolts, nuts) used for pulling on."],
-        ["Athlétique — athletic", "A climbing style or route that relies heavily on muscle. Rather gymnastic climbing."],
-        ["Bac — jug", "A large, deep hold that's easy to hold."],
-        ["Cheminée — chimney", "A wide crack you can fit your body into and climb using opposition techniques."],
-        ["Coincement, coincer — jamming", "The climber wedges fingers, hands, feet… into holes or cracks."],
-        ["Continu, continuité (conti.) — continuous", "Fairly sustained, consistent and long climbing without real rests, that you have to manage through rhythm and breathing."],
-        ["Cotation — grade", "A route's difficulty level."],
-        ["Crux", "The key section of a pitch or route."],
-        ["Dalle — slab", "A generally smooth wall of low angle… 'slabby', a style that has been losing popularity since the late '80s."],
-        ["Délité(e) — loose, fractured", "A route or rock that is at risk because of its instability."],
-        ["Dévers — overhang, steep ground", "A wall that leans out beyond vertical."],
-        ["Dièdre — corner, dihedral", "Where two faces of the cliff meet to form an angle, which climbers use by alternately opposing feet and hands."],
-        ["Dülfer — layback", "A German mountaineer who gave his name to an opposition technique for climbing cracks and corners."],
-        ["Engager, engagement — committing", "A committing route, with 'airy' (spaced) bolts, usually leaves memories. Subjective risk-taking by the climber."],
-        ["Exposé — exposed, dangerous", "A route (or move) whose obsolete or badly placed equipment makes it potentially dangerous in a fall. Objective risk-taking by the climber."],
-        ["Fin, finesse — delicate", "Describes balance climbing on small holds, mostly on slabs."],
-        ["Gaz, gazeux — exposure, airy", "The void below you, which gives your climb its atmosphere…"],
-        ["Lecture — reading", "Working out your route, either from the bottom or while climbing."],
-        ["Libérer, libre — free climb", "Climbing a route that used to be aided, without aid points, using only natural holds."],
-        ["Ligne — line", "Term for the path of a route and its overall aesthetics."],
-        ["Morphologique (morpho) — reachy, morpho", "A move adapted to a certain body type, usually favouring tall people."],
-        ["Moulinette (moule) — top-rope", "Belaying a climber from the ground, the rope having first been passed through the lower quick-link of the anchor at the top of the route."],
-        ["Mouvement (mouv.) — move", "A body position that lets you make a climbing move."],
-        ["Opposition (oppo.) — bridging, opposition", "A move that lets you progress by pushing in opposite directions in particular rock features: chimney, corner, flake."],
-        ["Ouverture, ouvrir — route setting, first ascent", "Spotting a line, cleaning it and bolting it on a natural crag; indoors, placing holds on a wall (also called 'screwing on' holds)."],
-        ["Pas — move, crux move", "Made up of one or two movements."],
-        ["Patiné(e) — polished", "Said of rock or a route that is very worn and shiny from repeated passages."],
-        ["Placement — body positioning", "A particular body position that lets you make a move."],
-        ["Point (d'ancrage) — protection point, bolt", "Fixed (hangers, glue-in bolts) or removable (nuts, rope slings) points that protect the climber in a fall."],
-        ["Réglette — crimp, edge", "A small horizontal hold, more or less incut, that you can make the most of by crimping it."],
-        ["Relais — anchor, belay", "Where the lead climber stops to clip in and be lowered on top-rope. The anchor must be installed on two anchor points linked by a chain with quick-links."],
-        ["Résistance (rési.) — endurance, stamina, pumpy", "What lets you hold onto small holds for a long time on hard routes without resting."],
-        ["Rétablissement (réta) — mantel", "The move made to get over an overhang or onto a ledge."],
-        ["Rythme — rhythm", "Not lingering in the hard sections and slowing down to recover on the easier ones — finding the right rhythm on the route."],
-        ["Technique — technical", "Everything that makes climbing more than a sport of pulling on holds: positioning, tricks, rhythm…"],
-        ["Tirage — rope drag", "…of the rope, whose path is slowed by obstacles (roofs, quickdraws at sharp angles…), which therefore hinders the climber."],
-        ["Toit — roof", "A feature perpendicular to the wall."],
-        ["Traversée (trav.) — traverse", "A part of the climb that runs horizontally or diagonally."],
-        ["Verrou — lock, jam", "Wedging fingers, hands, feet, sometimes knees in a crack. Used especially on big walls in the USA."],
-        ["Verticale — vertical hold, side-pull", "A vertical hold that requires positioning accordingly."],
-        ["Vire — ledge", "A terrace or system of sometimes very narrow terraces crossing a wall (e.g. the middle ledge at Presles)."],
-        ["Vol, voler — fall, to fall", "A fall by a climber who is leading."],
-        ["Zipper — slip", "Your foot slipping — whether or not you catch yourself, it can lead to a fall."]
-      ]},
-      {"h": "Other words on the original pages"},
-      {"dl": [
-        ["Voie", "Route"], ["Niveau", "Grade"], ["Hauteur", "Height"], ["Secteur", "Sector"], ["Orienté Sud / Est / Ouest", "Facing south / east / west"],
-        ["Écaille", "Flake"], ["Fissure", "Crack"], ["Pilier", "Pillar"], ["Surplomb", "Overhang"], ["Arête", "Arête, edge"], ["Bombé", "Bulge"],
-        ["Conque", "Scoop, concave bowl"], ["Pince", "Pinch"], ["Plat", "Sloper"], ["Variante de départ / de sortie", "Starting / finishing variant"],
-        ["R1 / R2 (longueur)", "Pitch 1 / pitch 2"], ["Broches", "Glue-in bolts"], ["Dégaines", "Quickdraws"], ["Mairie", "Town hall"]
-      ]}
-    ]},
-    {"id": "history", "title": "History of the crag", "pages": ["p65"], "blocks": [
-      {"p": "<i>Note: the first column of this chapter was cut off in the scan, so the beginning (early history: the first routes in the 1930s–40s by alpinists such as F. Bâtier (GHM), about a dozen routes climbed on top-rope or aid, including La Marguerite, Dièdre de Grand Vé and La Montagne, later developments with around 90 routes, and expansions by G. Romain and J. Recorbet) is only partly legible. What follows is the legible part.</i>"},
-      {"p": "…legendary routes to climb (Le Balancier, La Mondette, La Gus, La Quille, La Caporal…). Climbing became more and more of a sport and began to break away from mountaineering."},
-      {"p": "<b>1977:</b> Free ascent of “Le Rateau” by J.C. Droyer — the first French 6c in climbing history. This incredible performance was the world's 5th 6c in free climbing. The free-climbing era was under way."},
-      {"p": "<b>1980:</b> Ascent of “Le Boulevard à Mathieu”, the third French 7b, by the gifted climber/alpinist of the time, Benoit Grison."},
-      {"p": "<b>1985/1988:</b> A big wave of bolting by J.Y. Gerbet and J. Wiedmer, supported by the CAF Dijon. The cliff was now equipped with stainless-steel bolts set in mortar. The lowering system was a home-made one known as the “pig's tail” or “Moulinox”. In total about 450 routes were equipped with bolts and Moulinox."},
-      {"p": "<b>1988:</b> Publication of a very complete topo with 450 routes plus about thirty routes in the western group (adventure terrain with mountain grades), republished in 1993 (CAF, J.Y. Gerbet)."},
-      {"p": "<b>1989:</b> First “4 heures de Saffres” (4 Hours of Saffres), organised by the Club Alpin Français de Dijon — a national competition with lots of media coverage, featuring the best climbers of the time, such as Jean-Marc Boivin… The event was dropped because of the unpredictable weather and uncertain media interest. It was revived locally a few years later by the CT FFME 21 from 2012."},
-      {"p": "<b>From 1997:</b> The first bolter/climber to start modifying the bolting at Saffres was J.Y. Leguy, a colleague and friend, who re-bolted about ten routes with a few extra bolts and some lines bolted in remote sectors that aren't in this topo. This state-certified instructor then turned to bolting the Gérigny cliff in 1998."},
-      {"p": "<b>2007:</b> A new topo published by the Club Alpin Français, by O. Juaneda and Ph. Ducrot (with drawings and watercolours)."},
-      {"p": "<b>2013–2015:</b> The CT FFME 21 replaced the Moulinox anchors with standard chain-and-quick-link anchors. I carried out the replacement of more than 400 anchors on behalf of the FFME, funded by the Communauté de Communes de Vitteaux."},
-      {"p": "<b>2017–2019:</b> With the merger of the communities of communes in 2017, the Communauté de Communes des Terres d'Auxois (CCTA) was created and took responsibility for maintaining the site. I was therefore commissioned by the CCTA for the upkeep and annual maintenance, as with the other sites in the area."},
-      {"p": "To limit risks, it was first necessary — before talking about maintenance — to make the route starts safe and to complete the bolting, notably on easy routes that were too exposed for leading. So about 1,000 bolts were glued in and about 300 bolts removed over those 3 years."}
-    ]},
-    {"id": "geology", "title": "Geology", "pages": ["p67"], "blocks": [
-      {"img": "p67R", "cap": "Geological cross-section (south-west to north-east)"},
-      {"p": "<b>Saffres is a place rich and diverse in landscapes and natural features linked to the local geology.</b>"},
-      {"p": "The Saffres cliff is made of limestone dating from the Jurassic (Mesozoic era, about 170 million years ago). This rock, formed from consolidated marine sediment, has been eroding ever since the seas withdrew."},
-      {"p": "The surrounding landscape reflects the local geology well: a plateau at the top with small wooded hills here and there (limestone formation j2a and clayey limestone j1b in the illustration), and valleys with clay lower slopes that are often prone to landslides (formations l 6-5), topped by cliffs of the same limestone as the Saffres cliff (formation j1a). The foot of the cliff is cluttered with a chaos of fallen limestone blocks that hide the clays."},
-      {"p": "Sometimes large masses of limestone slide on the surface of the clays: that is the case of the Tour Carrée, which was originally pressed against the cliff. It is also the case of the Tour Penchée, which partly toppled onto its side as it slid (rest assured, it takes time — you won't feel it move while you're climbing!)."},
-      {"p": "Water flowing through the rock over thousands of years has created a network of fissures, cavities, tunnels… called a karst network, producing typical, easily visible features such as the natural tunnel of the Tour Carrée (which your children will love crossing). It can also deposit concretions (often good holds, but sometimes fragile) or calcite crystals, like those you can see on route 55 “Floconnerie”. Erosion has sometimes exposed the remains of marine organisms that make up much of the rock, giving it a more or less rough and abrasive surface."},
-      {"p": "A spring, which historically supplied the village with drinking water, is tapped below the cliff. Water flows quickly through the cracks in the limestone and between the fallen blocks, and the ground has no filtering power. <b>So please avoid peeing upstream of this spring — that is, at the foot of the cliff and on the summit plateau — out of respect for the residents and their health.</b>"},
-      {"p": "You can also see orchids, typical of these limestone soils."},
-      {"p": "<i>Written by Anne-Laure Guillermin, geotechnical engineer, and Emmanuel Soncourt, hydrogeologist.</i>"}
-    ]},
-    {"id": "nature", "title": "Wildlife & the peregrine falcon", "pages": ["p68"], "blocks": [
-      {"h": "Fauna and flora"},
-      {"p": "<b>At Saffres you'll meet forest species (fox, roe deer, badger…) as well as cliff-dwelling species (lizards, bats, owls…).</b>"},
-      {"p": "The cliff can be a home for some species (jackdaws' nests in the holes of the Tour Carrée, a natural beehive on the route “Le Pigeon à Odette”…), a breeding site for others (peregrine falcon nesting) and also a roost (tawny owl in the Grotte aux Filles)."},
-      {"p": "The cliff is a biotope in its own right. I won't list every species living here — there are so many."},
-      {"p": "The Saffres cliffs are listed as a ZNIEFF (Natural Area of Ecological, Faunal and Floral Interest), and regular surveys take place as part of this. ZNIEFF listing allows better management of the environment. Plant surveys are carried out by the Conservatoire des Espaces Naturels de Bourgogne."},
-      {"p": "Some species are protected (fauna and flora) — for example the viper, which you may come across at Saffres. It is forbidden to move them; if you see one, leave it alone."},
-      {"p": "The same goes for some birds of prey, notably the peregrine falcon, an emblematic species at Saffres: a pair of peregrines returns every year to nest."},
-      {"h": "The peregrine falcon (Falco peregrinus)"},
-      {"p": "<b>The peregrine falcon found on the cliffs of the Côte-d'Or belongs to the order Falconiformes and the genus Falco.</b>"},
-      {"p": "A species with a worldwide distribution, it is present on every continent except Antarctica. It has fascinated people since Antiquity for its speed and hunting skills. In the Middle Ages, falconry was often practised by the nobility."},
-      {"p": "The male can exceed 300 km/h during its spectacular courtship displays. The species is also very fast when catching prey, which are exclusively birds."},
-      {"p": "Given its worldwide distribution, it has between 18 and 25 subspecies. The European population belongs to the subspecies Falco peregrinus peregrinus."},
-      {"p": "In our regions it breeds mainly on cliffs. In the Côte-d'Or, the cliffs of the Auxois, the Arrière-côte, the Val Suzon and the Ouche valley offer very suitable nesting sites. In France it is not unusual for it to settle in towns to breed, using tall buildings such as churches, or factory chimneys and power-station cooling towers."},
-      {"p": "Very attached to its breeding site, the pair is back from February. On a newly occupied site the pair may arrive later. The breeding season starts with courtship displays, with calls from the female and the male."},
-      {"p": "Falcons don't build nests: the female just scrapes a hollow on a platform or ledge of the cliff, or settles in a cavity. Eggs are laid around mid-March, usually 3 or 4, sometimes 2 or 5."},
-      {"p": "Incubation, by the female, lasts about 30 days and hatching is around mid-April. The young stay in the nest for about a month and a half before fledging."},
-      {"p": "Throughout incubation the male hunts for the female and himself. After hatching, the male feeds the female and the young for 2 weeks while the female stays at the nest to watch over and warm them. Then the pair share the hunting."},
-      {"p": "The brood fledges at the end of May / early June, but the pair and the young stay on site for 3 to 4 weeks, during which the male and female teach the young to hunt. This phase is essential before they become independent."},
-      {"p": "<b>To protect this species, climbing is forbidden from 15 February to 15 June (APPB prefectoral biotope-protection order) on the “La Kir” sector (sector 5).</b>"},
-      {"p": "<i>Written by Christian Lanaud — LPO (Ligue de Protection des Oiseaux, the French bird-protection league).</i>"}
-    ]},
-    {"id": "tourism", "title": "Nearby crags & rainy days", "pages": ["p69"], "blocks": [
-      {"h": "Other climbing sites near Saffres"},
-      {"table": [["Crag", "Distance", "Topo"],
-        ["Géligny (near Sombernon)", "15 km", "No topo yet"],
-        ["Hauteroche", "20 km", "FSGT topo available at Vieux Campeur"],
-        ["Vieux Château (Roches Sainte Catherine)", "45 km", "CC Terres d'Auxois topo, at the Semur-en-Auxois tourist office"],
-        ["Bouilland and Arcenant", "45 km", "Online topo on J.Y. Salin's blog “Escalade en Pays beaunois”"],
-        ["Cormot / Le Bout du Monde", "60 km", "CAF Chalon-sur-Saône topo"]], "head": true},
-      {"h": "Where to climb when it rains?"},
-      {"ul": ["Climbing gym “Climb'Up Dijon” — 14 impasse Boirac, 21000 Dijon", "Climbing gym “Cime Altitude 245 Dijon” — 14 rue Marius Chanteur, 21000 Dijon"]},
-      {"h": "Welcome to Terres d'Auxois"},
-      {"p": "Plan your stay with the Terres d'Auxois Tourist Office: accommodation, restaurants and takeaway, leisure activities, events, local services. Ask for the climbers' welcome booklet (digital version)!"},
-      {"p": "On site, visit the tourist information office in <b>Vitteaux</b>, just 5 km from Saffres."},
-      {"p": "Office de Tourisme des Terres d'Auxois · <a href=\"tel:+33380970596\">03 80 97 05 96</a> · contact@terres-auxois.fr · <a href=\"https://www.terres-auxois.fr\">www.terres-auxois.fr</a>"}
-    ]},
-    {"id": "thanks", "title": "Acknowledgements", "pages": ["p03"], "blocks": [
-      {"ul": [
-        "A big thank-you to the first discoverers of some of the lines and other brave adventurers who, back in the day, were training here for big mountain routes.",
-        "A huge thank-you to the first CAF bolters, Guy Gerbet and his companions — visionaries who brought some incredible lines to life.",
-        "Thanks to the Communauté de Communes des Terres d'Auxois (CCTA), which supports the bolting and development of climbing in the area. In particular it funds the re-bolting of routes and the annual upkeep of the site. The whole climbing community is grateful.",
-        "Thanks to the CT FFME 21 for the material help of 180 bolts donated through an FFME bolting grant.",
-        "Thanks to the commune of Saffres for letting us climb in this magical place and for its support of climbers.",
-        "Thanks to everyone who took part, near or far, in creating this topo for their advice and expertise — Matthias, Anne-Laure, Emmanuel, Christian — and to all my climbing mates for the belays and other debates at the foot of the cliff. A big thank-you to you all…"
-      ]},
-      {"p": "Graphic design, layout, cartography: Rochana HM. Printing: ADN Imprimerie, printed May 2021. Photo credits: © Matthias Paré."}
-    ]}
-  ]
+    {
+      "id": "access",
+      "title": "Getting there & map",
+      "pages": [
+        "p04"
+      ],
+      "blocks": [
+        {
+          "img": "p04L",
+          "cap": "Access map. Dotted = footpaths, thin line = tracks, teal = roads, red = climbing site. Saffres is off the A6 (exit 23, Vitteaux), between Vitteaux and Dijon."
+        },
+        {
+          "p": "From Saffres village, the parking is about 800 m away. Go through the barrier and park at <b>P</b>; there are toilets by the lower car park."
+        },
+        {
+          "img": "p04R",
+          "cap": "Sector map. Dotted = footpath, white line = top of the cliff, hatched = poor-quality rock, tree = camping area, key icon = ask for the key at the town hall (mairie). DZ = helicopter landing area."
+        },
+        {
+          "h": "Walk-in from the car park"
+        },
+        {
+          "ul": [
+            "Sector 1: about 4 minutes",
+            "Sector 14: about 10 minutes",
+            "Sector 16: about 6–8 minutes"
+          ]
+        },
+        {
+          "h": "Sectors and route numbers"
+        },
+        {
+          "table": [
+            [
+              "Sector",
+              "Routes"
+            ],
+            [
+              "1 · Rêve d'enfant",
+              "1–23"
+            ],
+            [
+              "2 · Pimprenelle",
+              "24–48"
+            ],
+            [
+              "3 · Floconnerie",
+              "49–70"
+            ],
+            [
+              "4 · Les Auxerrois",
+              "71–99"
+            ],
+            [
+              "5 · La Kir",
+              "100–136"
+            ],
+            [
+              "6 · La Troyenne",
+              "137–155"
+            ],
+            [
+              "7 · La Voie de l'arbre",
+              "156–167"
+            ],
+            [
+              "between 7 & 8 · Le curé de Miraude, L'enfant de chœur",
+              "bolting postponed, poor rock"
+            ],
+            [
+              "8 · Vieille maîtresse",
+              "174–193"
+            ],
+            [
+              "9 · Le Boulevard à Mathieu",
+              "194–206"
+            ],
+            [
+              "10 · Robert clef de 12",
+              "207–227"
+            ],
+            [
+              "11 · Magie blanche",
+              "227-1–240"
+            ],
+            [
+              "12 · Damoclès",
+              "241–260"
+            ],
+            [
+              "13 · Sans nom",
+              "261–299"
+            ],
+            [
+              "14 · Grand Steak (being re-bolted)",
+              "300–320"
+            ],
+            [
+              "15 · Tour Carrée",
+              "North face 1–10 · West 11–23 · South 24–33 · East 34–42"
+            ],
+            [
+              "16 · Tour Penchée",
+              "South & East faces 1–13 · West face 14–28"
+            ]
+          ],
+          "head": true
+        }
+      ],
+      "title_fr": "Accès et plan",
+      "blocks_fr": [
+        {
+          "img": "p04L",
+          "cap": "Plan d'accès. Pointillés = sentiers, trait fin = chemins, vert = routes, rouge = site d'escalade. Saffres se situe près de l'A6 (sortie n°23, Vitteaux), entre Vitteaux et Dijon."
+        },
+        {
+          "p": "Depuis le village de Saffres, le parking est à environ 800 m. Passez la barrière et garez-vous au <b>P</b> ; sanitaires près du parking du bas."
+        },
+        {
+          "img": "p04R",
+          "cap": "Plan des secteurs. Pointillés = sentier pédestre, trait blanc = haut de la falaise, hachures = rocher de qualité médiocre, sapin = aire de camping, clé = demandez la clé en mairie. DZ = aire hélicoptère."
+        },
+        {
+          "h": "Accès pédestres depuis le parking"
+        },
+        {
+          "ul": [
+            "Secteur 1 : 4 minutes",
+            "Secteur 14 : 10 minutes",
+            "Secteur 16 : 6-8 minutes"
+          ]
+        },
+        {
+          "h": "Secteurs et numéros de voies"
+        },
+        {
+          "table": [
+            [
+              "Secteur",
+              "Voies"
+            ],
+            [
+              "1 · Rêve d'enfant",
+              "1 à 23"
+            ],
+            [
+              "2 · Pimprenelle",
+              "24 à 48"
+            ],
+            [
+              "3 · Floconnerie",
+              "49 à 70"
+            ],
+            [
+              "4 · Les Auxerrois",
+              "71 à 99"
+            ],
+            [
+              "5 · La Kir",
+              "100 à 136"
+            ],
+            [
+              "6 · La Troyenne",
+              "137 à 155"
+            ],
+            [
+              "7 · La Voie de l'arbre",
+              "156 à 167"
+            ],
+            [
+              "entre 7 et 8 · Le curé de Miraude, L'enfant de chœur",
+              "équipement différé, rocher de qualité médiocre"
+            ],
+            [
+              "8 · Vieille maîtresse",
+              "174 à 193"
+            ],
+            [
+              "9 · Le Boulevard à Mathieu",
+              "194 à 206"
+            ],
+            [
+              "10 · Robert clef de 12",
+              "207 à 227"
+            ],
+            [
+              "11 · Magie blanche",
+              "227-1 à 240"
+            ],
+            [
+              "12 · Damoclès",
+              "241 à 260"
+            ],
+            [
+              "13 · Sans nom",
+              "261 à 299"
+            ],
+            [
+              "14 · Grand Steak (en cours de rééquipement)",
+              "300 à 320"
+            ],
+            [
+              "15 · Tour Carrée",
+              "Face Nord 1 à 10 · Ouest 11 à 23 · Sud 24 à 33 · Est 34 à 42"
+            ],
+            [
+              "16 · Tour Penchée",
+              "Faces Sud et Est 1 à 13 · Face Ouest 14 à 28"
+            ]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "title": "Introduction & crag rules",
+      "pages": [
+        "p02"
+      ],
+      "blocks": [
+        {
+          "p": "<b>You are holding the sixth edition of the Saffres crag topo.</b> By buying this topo you indirectly contribute to the bolting and upkeep of the site. Be aware that duplicates or photocopies are very much frowned upon at the crag. You have been warned."
+        },
+        {
+          "p": "The Saffres climbing site, also called the “Groupe des Rochers de Miraude”, is a sport-climbing site with 400 routes equipped with glue-in bolts. Overall the routes are accessible (most are in the 5s and 6s)."
+        },
+        {
+          "p": "The best climbing seasons are March to June and September to November. The cliff faces south, dries quickly and has little seepage. Read the topo carefully — many variants and traverses have been opened."
+        },
+        {
+          "p": "The climbing is usually on very good compact limestone, with rare areas of loose/fractured rock. Some sections may be polished, mainly on the easy routes."
+        },
+        {
+          "p": "After the re-bolting I carried out, the route names are the same as in the very first topo; I have only named a few new variants. Some grades have been raised because of the extra fatigue caused by the new clipping. There is still some commitment, but there are no longer any overly exposed (run-out) routes. Still, keep in mind that you are responsible for your own safety."
+        },
+        {
+          "h": "Crag rules"
+        },
+        {
+          "ul": [
+            "Avoid shouting during your attempts; respect the wildlife and don't disturb it.",
+            "Respect the parking areas.",
+            "Take your rubbish home, including cigarette butts.",
+            "Fires are forbidden throughout the whole commune.",
+            "There are no bins on site — leave with your rubbish.",
+            "No chipping/creating holds here.",
+            "Safety: climbing outdoors, if badly practised, is potentially fatal. Precise, effective belaying is essential. If needed, ask a professional or a club to help you improve your knowledge.",
+            "The bolts are relatively reliable, but the rock is not — it remains a living, fragile material. So be careful."
+          ]
+        },
+        {
+          "p": "A topo is not always an infallible source, so there may be some errors or omissions left; thank you for your indulgence. And finally: <b>HAPPY CLIMBING!</b>"
+        }
+      ],
+      "title_fr": "Intro et règles",
+      "blocks_fr": [
+        {
+          "p": "<b>Vous tenez entre vos mains la sixième édition du topo de la falaise de Saffres.</b> En achetant ce topo, vous participez indirectement à l'équipement et à l'entretien du site. Sachez que les duplicatas ou autres photocopies sont très mal vus sur le site. À bon entendeur."
+        },
+        {
+          "p": "Le site d'escalade de Saffres, aussi appelé « Groupe des Rochers de Miraude », est un site sportif de 400 voies équipées sur broches. Le niveau des voies dans l'ensemble est abordable (majorité de voies en 5 et en 6)."
+        },
+        {
+          "p": "Les meilleures périodes de grimpe sont de mars à juin et de septembre à novembre. La falaise est orientée au Sud, sèche rapidement et montre peu de résurgences. Pensez à bien lire le topo, de nombreuses variantes et traversées ont été ouvertes."
+        },
+        {
+          "p": "L'escalade se fait souvent sur un très bon calcaire compact, avec de rares zones de rocher délité. Quelques passages peuvent être patinés essentiellement dans les voies faciles."
+        },
+        {
+          "p": "À la suite du rééquipement que j'ai réalisé, les noms des voies sont identiques au tout premier topo, j'ai seulement nommé quelques nouvelles variantes. Certaines cotations ont été augmentées en raison de la fatigue supplémentaire occasionnée par les nouveaux mousquetonnages. L'engagement est encore présent mais il n'y a plus de voies trop exposées. Gardez tout de même à l'esprit que vous êtes responsable de votre propre sécurité."
+        },
+        {
+          "h": "En falaise, un certain nombre de règles s'impose"
+        },
+        {
+          "ul": [
+            "Évitez de crier lors de vos essais, respectez les espèces animales, ne les dérangez pas.",
+            "Respectez les parkings.",
+            "Ramenez vos déchets, vos mégots de cigarettes, …",
+            "Feux interdits sur toute la commune.",
+            "Pas de poubelle sur place, repartez avec vos déchets.",
+            "Ici pas de taille de prise.",
+            "En matière de sécurité, l'escalade en falaise, si elle est mal pratiquée, représente un risque mortel. L'assurage précis et efficace est indispensable. Si besoin faites appel à un professionnel ou à un club pour vous aider à affiner vos connaissances en la matière.",
+            "Sachez que si l'équipement est relativement fiable, ce n'est pas le cas du caillou qui reste une matière vivante et fragile. Prudence donc."
+          ]
+        },
+        {
+          "p": "Un topo n'est pas toujours une source infaillible, à ce titre il se peut qu'il reste quelques erreurs ou oublis, merci pour votre indulgence. Et enfin : <b>BONNE GRIMPE !</b>"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Safety at the crag",
+      "pages": [
+        "p67"
+      ],
+      "blocks": [
+        {
+          "p": "<b>Every climber is responsible for assessing the risks they take when they set off on a route.</b> Several factors will help you assess these risks correctly:"
+        },
+        {
+          "ul": [
+            "Your knowledge of safety techniques.",
+            "Your knowledge of the natural environment and its hazards.",
+            "Your knowledge of equipment/bolting.",
+            "How self-sufficient you are with safety, and your years of experience."
+          ]
+        },
+        {
+          "p": "For relaxed outdoor climbing you therefore need sufficient knowledge and skill. If that's not the case, I encourage you to call on a professional or a club who can teach you good technique and give you good advice."
+        },
+        {
+          "h": "Non-exhaustive list of recommendations for climbing outdoors"
+        },
+        {
+          "ul": [
+            "Adjust your harness properly.",
+            "Wear a helmet.",
+            "Regularly check the wear of your PPE: slings, ropes…",
+            "Tie a knot in the end of the rope.",
+            "Know how to tie in to your harness correctly.",
+            "Master lead and top-rope belaying techniques.",
+            "Check each other before climbing.",
+            "Spot the climber before the first bolt.",
+            "Clip quickdraws correctly.",
+            "Communicate with your belayer, especially when lowering/threading the rope.",
+            "Master the lower-off procedure at the anchor (threading the quick-link).",
+            "Never top-rope directly through slings.",
+            "Know how to recognise reliable anchors.",
+            "Know how to recognise loose or potentially unstable rock, and test your holds."
+          ]
+        },
+        {
+          "h": "Reporting problems"
+        },
+        {
+          "p": "If you notice anything significant on site (bolting problem, unstable block…), you can report it to:"
+        },
+        {
+          "ul": [
+            "Yannick Dupin, the author and route-setter (contact details on the original page below).",
+            "La Communauté de Communes des Terres d'Auxois: <a href=\"tel:+33380972665\">03 80 97 26 65</a>",
+            "The Ministry's SURICATE site (Sports de Nature resource centre): <a href=\"https://sentinelles.sportsdenature.fr\">sentinelles.sportsdenature.fr</a>"
+          ]
+        }
+      ],
+      "title_fr": "La sécurité en falaise",
+      "blocks_fr": [
+        {
+          "p": "<b>Il est de la responsabilité de chaque pratiquant d'estimer lui-même les risques qu'il prend en s'engageant dans une voie.</b> Plusieurs paramètres vont vous permettre d'évaluer ces risques correctement :"
+        },
+        {
+          "ul": [
+            "Vos connaissances dans les techniques de sécurité.",
+            "Vos connaissances dans le milieu naturel et ses aléas.",
+            "Vos connaissances en matière d'équipement.",
+            "Votre degré d'autonomie en matière de sécurité et vos années d'expérience."
+          ]
+        },
+        {
+          "p": "Pour une pratique sereine de l'escalade en milieu naturel, il convient donc d'avoir un niveau de connaissance et de compétence suffisant. Si ce n'est pas le cas, je vous invite à faire appel à un professionnel ou à un club qui saura vous enseigner les bonnes techniques et vous donner les bons conseils."
+        },
+        {
+          "h": "Liste non exhaustive de quelques recommandations pour la pratique de l'escalade en milieux naturels"
+        },
+        {
+          "ul": [
+            "Bien ajuster son harnais.",
+            "Porter un casque.",
+            "Vérifier régulièrement l'état d'usure de vos EPI : sangles, cordes…",
+            "Réaliser un nœud en bout de corde.",
+            "Savoir réaliser correctement son nœud d'encordement au harnais.",
+            "Maîtriser les techniques d'assurage en tête et en moulinette.",
+            "Se vérifier mutuellement avant de grimper.",
+            "Se parer avant le premier point d'ancrage.",
+            "Mousquetonner correctement les dégaines.",
+            "Communiquer avec son assureur, surtout lors des manœuvres de corde.",
+            "Maîtriser la manœuvre de haut de voie (manœuvre de maillon rapide).",
+            "Ne jamais faire de moulinette directement sur sangles.",
+            "Savoir identifier des points d'ancrage fiables.",
+            "Savoir identifier du rocher délité ou potentiellement instable et savoir sonder ses prises."
+          ]
+        },
+        {
+          "h": "Signaler un problème"
+        },
+        {
+          "p": "En cas de remarques importantes, d'anomalies constatées sur le site (problème d'équipement, bloc instable…) vous pouvez les signaler à :"
+        },
+        {
+          "ul": [
+            "Yannick Dupin (D.E. escalade et D.E. escalade en Milieux Naturels) — coordonnées sur la page originale ci-dessous.",
+            "La Communauté de Communes des Terres d'Auxois : <a href=\"tel:+33380972665\">03 80 97 26 65</a>",
+            "Sur le site du Ministère SURICATE (Pôle Ressource des sports de nature) : <a href=\"https://sentinelles.sportsdenature.fr\">sentinelles.sportsdenature.fr</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary (French climbing terms)",
+      "pages": [
+        "p66"
+      ],
+      "blocks": [
+        {
+          "p": "French terms you'll see on the original pages and hear at the crag, with the book's definitions translated."
+        },
+        {
+          "dl": [
+            [
+              "À vue — onsight",
+              "Climbing a route cleanly on the first attempt, without knowing it beforehand."
+            ],
+            [
+              "Artif., artificielle — aid climbing",
+              "Where there are no holds, the climber's progress is helped by artificial aid points (pitons, bolts, nuts) used for pulling on."
+            ],
+            [
+              "Athlétique — athletic",
+              "A climbing style or route that relies heavily on muscle. Rather gymnastic climbing."
+            ],
+            [
+              "Bac — jug",
+              "A large, deep hold that's easy to hold."
+            ],
+            [
+              "Cheminée — chimney",
+              "A wide crack you can fit your body into and climb using opposition techniques."
+            ],
+            [
+              "Coincement, coincer — jamming",
+              "The climber wedges fingers, hands, feet… into holes or cracks."
+            ],
+            [
+              "Continu, continuité (conti.) — continuous",
+              "Fairly sustained, consistent and long climbing without real rests, that you have to manage through rhythm and breathing."
+            ],
+            [
+              "Cotation — grade",
+              "A route's difficulty level."
+            ],
+            [
+              "Crux",
+              "The key section of a pitch or route."
+            ],
+            [
+              "Dalle — slab",
+              "A generally smooth wall of low angle… 'slabby', a style that has been losing popularity since the late '80s."
+            ],
+            [
+              "Délité(e) — loose, fractured",
+              "A route or rock that is at risk because of its instability."
+            ],
+            [
+              "Dévers — overhang, steep ground",
+              "A wall that leans out beyond vertical."
+            ],
+            [
+              "Dièdre — corner, dihedral",
+              "Where two faces of the cliff meet to form an angle, which climbers use by alternately opposing feet and hands."
+            ],
+            [
+              "Dülfer — layback",
+              "A German mountaineer who gave his name to an opposition technique for climbing cracks and corners."
+            ],
+            [
+              "Engager, engagement — committing",
+              "A committing route, with 'airy' (spaced) bolts, usually leaves memories. Subjective risk-taking by the climber."
+            ],
+            [
+              "Exposé — exposed, dangerous",
+              "A route (or move) whose obsolete or badly placed equipment makes it potentially dangerous in a fall. Objective risk-taking by the climber."
+            ],
+            [
+              "Fin, finesse — delicate",
+              "Describes balance climbing on small holds, mostly on slabs."
+            ],
+            [
+              "Gaz, gazeux — exposure, airy",
+              "The void below you, which gives your climb its atmosphere…"
+            ],
+            [
+              "Lecture — reading",
+              "Working out your route, either from the bottom or while climbing."
+            ],
+            [
+              "Libérer, libre — free climb",
+              "Climbing a route that used to be aided, without aid points, using only natural holds."
+            ],
+            [
+              "Ligne — line",
+              "Term for the path of a route and its overall aesthetics."
+            ],
+            [
+              "Morphologique (morpho) — reachy, morpho",
+              "A move adapted to a certain body type, usually favouring tall people."
+            ],
+            [
+              "Moulinette (moule) — top-rope",
+              "Belaying a climber from the ground, the rope having first been passed through the lower quick-link of the anchor at the top of the route."
+            ],
+            [
+              "Mouvement (mouv.) — move",
+              "A body position that lets you make a climbing move."
+            ],
+            [
+              "Opposition (oppo.) — bridging, opposition",
+              "A move that lets you progress by pushing in opposite directions in particular rock features: chimney, corner, flake."
+            ],
+            [
+              "Ouverture, ouvrir — route setting, first ascent",
+              "Spotting a line, cleaning it and bolting it on a natural crag; indoors, placing holds on a wall (also called 'screwing on' holds)."
+            ],
+            [
+              "Pas — move, crux move",
+              "Made up of one or two movements."
+            ],
+            [
+              "Patiné(e) — polished",
+              "Said of rock or a route that is very worn and shiny from repeated passages."
+            ],
+            [
+              "Placement — body positioning",
+              "A particular body position that lets you make a move."
+            ],
+            [
+              "Point (d'ancrage) — protection point, bolt",
+              "Fixed (hangers, glue-in bolts) or removable (nuts, rope slings) points that protect the climber in a fall."
+            ],
+            [
+              "Réglette — crimp, edge",
+              "A small horizontal hold, more or less incut, that you can make the most of by crimping it."
+            ],
+            [
+              "Relais — anchor, belay",
+              "Where the lead climber stops to clip in and be lowered on top-rope. The anchor must be installed on two anchor points linked by a chain with quick-links."
+            ],
+            [
+              "Résistance (rési.) — endurance, stamina, pumpy",
+              "What lets you hold onto small holds for a long time on hard routes without resting."
+            ],
+            [
+              "Rétablissement (réta) — mantel",
+              "The move made to get over an overhang or onto a ledge."
+            ],
+            [
+              "Rythme — rhythm",
+              "Not lingering in the hard sections and slowing down to recover on the easier ones — finding the right rhythm on the route."
+            ],
+            [
+              "Technique — technical",
+              "Everything that makes climbing more than a sport of pulling on holds: positioning, tricks, rhythm…"
+            ],
+            [
+              "Tirage — rope drag",
+              "…of the rope, whose path is slowed by obstacles (roofs, quickdraws at sharp angles…), which therefore hinders the climber."
+            ],
+            [
+              "Toit — roof",
+              "A feature perpendicular to the wall."
+            ],
+            [
+              "Traversée (trav.) — traverse",
+              "A part of the climb that runs horizontally or diagonally."
+            ],
+            [
+              "Verrou — lock, jam",
+              "Wedging fingers, hands, feet, sometimes knees in a crack. Used especially on big walls in the USA."
+            ],
+            [
+              "Verticale — vertical hold, side-pull",
+              "A vertical hold that requires positioning accordingly."
+            ],
+            [
+              "Vire — ledge",
+              "A terrace or system of sometimes very narrow terraces crossing a wall (e.g. the middle ledge at Presles)."
+            ],
+            [
+              "Vol, voler — fall, to fall",
+              "A fall by a climber who is leading."
+            ],
+            [
+              "Zipper — slip",
+              "Your foot slipping — whether or not you catch yourself, it can lead to a fall."
+            ]
+          ]
+        },
+        {
+          "h": "Other words on the original pages"
+        },
+        {
+          "dl": [
+            [
+              "Voie",
+              "Route"
+            ],
+            [
+              "Niveau",
+              "Grade"
+            ],
+            [
+              "Hauteur",
+              "Height"
+            ],
+            [
+              "Secteur",
+              "Sector"
+            ],
+            [
+              "Orienté Sud / Est / Ouest",
+              "Facing south / east / west"
+            ],
+            [
+              "Écaille",
+              "Flake"
+            ],
+            [
+              "Fissure",
+              "Crack"
+            ],
+            [
+              "Pilier",
+              "Pillar"
+            ],
+            [
+              "Surplomb",
+              "Overhang"
+            ],
+            [
+              "Arête",
+              "Arête, edge"
+            ],
+            [
+              "Bombé",
+              "Bulge"
+            ],
+            [
+              "Conque",
+              "Scoop, concave bowl"
+            ],
+            [
+              "Pince",
+              "Pinch"
+            ],
+            [
+              "Plat",
+              "Sloper"
+            ],
+            [
+              "Variante de départ / de sortie",
+              "Starting / finishing variant"
+            ],
+            [
+              "R1 / R2 (longueur)",
+              "Pitch 1 / pitch 2"
+            ],
+            [
+              "Broches",
+              "Glue-in bolts"
+            ],
+            [
+              "Dégaines",
+              "Quickdraws"
+            ],
+            [
+              "Mairie",
+              "Town hall"
+            ]
+          ]
+        }
+      ],
+      "title_fr": "Glossaire",
+      "blocks_fr": [
+        {
+          "dl": [
+            [
+              "À vue",
+              "Réussir à enchaîner une voie dès le premier essai, sans connaître la voie."
+            ],
+            [
+              "Artif., artificielle (escalade)",
+              "En l'absence de prises sur le rocher, la progression du grimpeur est facilitée par des points d'aide artificiels (pitons, spits, coinceurs) utilisés en tire-clous."
+            ],
+            [
+              "Athlétique",
+              "Style d'escalade ou voie qui fait la part belle à l'utilisation des muscles. Escalade plutôt gymnique."
+            ],
+            [
+              "Bac",
+              "Prise large et profonde, facile à tenir."
+            ],
+            [
+              "Cheminée",
+              "Fissure large dans laquelle on peut introduire le corps, et que l'on remonte en utilisant des techniques d'opposition."
+            ],
+            [
+              "Coincement, coincer",
+              "Le grimpeur peut coincer les doigts, les mains, les pieds, … dans des trous ou fissures prévus à cet effet."
+            ],
+            [
+              "Continu, continuité (conti.)",
+              "Escalade assez soutenue, homogène et longue, sans véritable repos, qu'il faut gérer grâce au rythme et à la respiration."
+            ],
+            [
+              "Cotation",
+              "Niveau de difficulté d'une voie."
+            ],
+            [
+              "Crux",
+              "Passage clef d'une longueur ou d'une voie."
+            ],
+            [
+              "Dalle",
+              "Paroi généralement lisse de faible inclinaison… dalleux, style en perte de vitesse depuis la fin des années 80."
+            ],
+            [
+              "Délité(e)",
+              "Voie ou rocher qui présente des risques de par son instabilité."
+            ],
+            [
+              "Dévers",
+              "Ou paroi déversante, au-delà de la verticale."
+            ],
+            [
+              "Dièdre",
+              "Passage où les parois de la falaise se rapprochent pour former un angle que les grimpeurs utilisent dans leur progression, en opposant les pieds et les mains alternativement."
+            ],
+            [
+              "Dülfer",
+              "Alpiniste allemand qui a donné son nom à une technique d'opposition permettant de remonter les fissures, les dièdres."
+            ],
+            [
+              "Engager, engagement",
+              "Une voie engagée, équipée « aérée », est généralement une voie qui laisse des souvenirs. Prise de risque subjective de la part du grimpeur."
+            ],
+            [
+              "Exposé",
+              "La voie (ou le passage), de par son équipement obsolète ou mal placé, est rendue potentiellement dangereuse lors d'une chute. Prise de risque objective de la part du grimpeur."
+            ],
+            [
+              "Fin, finesse",
+              "Caractérise l'escalade d'équilibre sur petites prises, principalement en dalle."
+            ],
+            [
+              "Gaz, gazeux",
+              "C'est le vide, celui qui donne de l'ambiance à votre escalade…"
+            ],
+            [
+              "Lecture",
+              "Une manière de découvrir sa voie soit depuis le bas de la voie, soit pendant la progression."
+            ],
+            [
+              "Libérer, libre",
+              "Enchaîner une voie qui passait en artif. sans les points d'aide, juste avec les prises naturelles."
+            ],
+            [
+              "Ligne",
+              "Terme utilisé pour désigner le trajet d'une voie, son esthétique générale."
+            ],
+            [
+              "Morphologique (morpho)",
+              "C'est un pas ou un mouvement adapté à un certain type d'anatomie, favorisant généralement les grands."
+            ],
+            [
+              "Moulinette (moule)",
+              "Technique qui permet d'assurer un grimpeur depuis le sol en ayant au préalable passé une corde dans le maillon rapide inférieur du relais en sommet de voie."
+            ],
+            [
+              "Mouvement (mouv.)",
+              "C'est un placement de corps qui permet de réaliser un pas d'escalade."
+            ],
+            [
+              "Opposition (oppo.)",
+              "Mouvement qui permet de progresser en poussant dans des sens opposés dans des configurations de rocher particulières : la cheminée, le dièdre, l'écaille."
+            ],
+            [
+              "Ouverture, ouvrir",
+              "C'est repérer une ligne, la nettoyer et l'équiper pour un site naturel ; c'est disposer des prises sur un mur pour l'escalade en salle (on dit aussi visser des prises)."
+            ],
+            [
+              "Pas",
+              "Composé d'un ou deux mouvements."
+            ],
+            [
+              "Patiné(e)",
+              "Se dit d'un rocher ou d'une voie très usée, lustrée par des passages répétés."
+            ],
+            [
+              "Placement",
+              "Position particulière du corps qui permet de réaliser un mouvement."
+            ],
+            [
+              "Point (d'ancrage)",
+              "En place de manière fixe (plaquettes, broches) ou amovibles (coinceurs, anneaux de cordes), ils permettent au grimpeur de s'assurer en cas de chute."
+            ],
+            [
+              "Réglette",
+              "Petite prise horizontale plus ou moins crochetante que l'on peut optimiser en arquant dessus."
+            ],
+            [
+              "Relais",
+              "C'est l'endroit où le grimpeur de tête s'arrête pour s'auto-assurer et redescendre en moulinette. Le relais doit être installé sur deux points d'ancrage reliés par une chaîne à l'aide de maillons rapides."
+            ],
+            [
+              "Résistance (rési.)",
+              "C'est ce qui permet de tenir des petites prises pendant longtemps dans des voies difficiles, sans point de repos."
+            ],
+            [
+              "Rétablissement (réta)",
+              "Mouvement effectué pour sortir d'un surplomb ou prendre pied sur une vire."
+            ],
+            [
+              "Rythme",
+              "Ne pas traîner dans les sections dures, ralentir pour se refaire dans les sections plus faciles, c'est trouver le bon rythme dans la voie."
+            ],
+            [
+              "Technique",
+              "Tout ce qui fait que l'escalade n'est pas qu'un sport où l'on tire sur les prises : placements, ruses, rythme…"
+            ],
+            [
+              "Tirage",
+              "…de la corde dont le bon cheminement est freiné par des obstacles (passage en toit, dégaines en angles aigus…), et qui par conséquent gêne la progression du grimpeur."
+            ],
+            [
+              "Toit",
+              "Relief perpendiculaire à une paroi."
+            ],
+            [
+              "Traversée (trav.)",
+              "C'est une partie de l'ascension qui se déroule à l'horizontale ou en oblique."
+            ],
+            [
+              "Verrou",
+              "Coincement de doigts, de mains, de pieds, parfois de genou dans une fissure. Particulièrement utilisé dans les Big Walls aux États-Unis."
+            ],
+            [
+              "Verticale",
+              "Prise verticale qui implique un placement en conséquence."
+            ],
+            [
+              "Vire",
+              "Terrasse ou système de terrasses parfois très étroites, traversant une paroi (ex : la vire médiane à Presles)."
+            ],
+            [
+              "Vol, voler",
+              "C'est une chute d'un grimpeur qui grimpe en tête."
+            ],
+            [
+              "Zipper",
+              "Glisser du pied en se rattrapant ou non, peut conduire à la chute."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History of the crag",
+      "pages": [
+        "p65"
+      ],
+      "blocks": [
+        {
+          "p": "<i>Note: the first column of this chapter was cut off in the scan, so the beginning (early history: the first routes in the 1930s–40s by alpinists such as F. Bâtier (GHM), about a dozen routes climbed on top-rope or aid, including La Marguerite, Dièdre de Grand Vé and La Montagne, later developments with around 90 routes, and expansions by G. Romain and J. Recorbet) is only partly legible. What follows is the legible part.</i>"
+        },
+        {
+          "p": "…legendary routes to climb (Le Balancier, La Mondette, La Gus, La Quille, La Caporal…). Climbing became more and more of a sport and began to break away from mountaineering."
+        },
+        {
+          "p": "<b>1977:</b> Free ascent of “Le Rateau” by J.C. Droyer — the first French 6c in climbing history. This incredible performance was the world's 5th 6c in free climbing. The free-climbing era was under way."
+        },
+        {
+          "p": "<b>1980:</b> Ascent of “Le Boulevard à Mathieu”, the third French 7b, by the gifted climber/alpinist of the time, Benoit Grison."
+        },
+        {
+          "p": "<b>1985/1988:</b> A big wave of bolting by J.Y. Gerbet and J. Wiedmer, supported by the CAF Dijon. The cliff was now equipped with stainless-steel bolts set in mortar. The lowering system was a home-made one known as the “pig's tail” or “Moulinox”. In total about 450 routes were equipped with bolts and Moulinox."
+        },
+        {
+          "p": "<b>1988:</b> Publication of a very complete topo with 450 routes plus about thirty routes in the western group (adventure terrain with mountain grades), republished in 1993 (CAF, J.Y. Gerbet)."
+        },
+        {
+          "p": "<b>1989:</b> First “4 heures de Saffres” (4 Hours of Saffres), organised by the Club Alpin Français de Dijon — a national competition with lots of media coverage, featuring the best climbers of the time, such as Jean-Marc Boivin… The event was dropped because of the unpredictable weather and uncertain media interest. It was revived locally a few years later by the CT FFME 21 from 2012."
+        },
+        {
+          "p": "<b>From 1997:</b> The first bolter/climber to start modifying the bolting at Saffres was J.Y. Leguy, a colleague and friend, who re-bolted about ten routes with a few extra bolts and some lines bolted in remote sectors that aren't in this topo. This state-certified instructor then turned to bolting the Géligny cliff in 1998."
+        },
+        {
+          "p": "<b>2007:</b> A new topo published by the Club Alpin Français, by O. Juaneda and Ph. Ducrot (with drawings and watercolours)."
+        },
+        {
+          "p": "<b>2013–2015:</b> The CT FFME 21 replaced the Moulinox anchors with standard chain-and-quick-link anchors. I carried out the replacement of more than 400 anchors on behalf of the FFME, funded by the Communauté de Communes de Vitteaux."
+        },
+        {
+          "p": "<b>2017–2019:</b> With the merger of the communities of communes in 2017, the Communauté de Communes des Terres d'Auxois (CCTA) was created and took responsibility for maintaining the site. I was therefore commissioned by the CCTA for the upkeep and annual maintenance, as with the other sites in the area."
+        },
+        {
+          "p": "To limit risks, it was first necessary — before talking about maintenance — to make the route starts safe and to complete the bolting, notably on easy routes that were too exposed for leading. So about 1,000 bolts were glued in and about 300 bolts removed over those 3 years."
+        }
+      ],
+      "title_fr": "Historique de la falaise",
+      "blocks_fr": [
+        {
+          "p": "<i>Note : la première colonne de ce chapitre est coupée dans le scan (premières voies dans les années 1930-1940 par les alpinistes F. Bâtier (GHM) et une douzaine de voies assurées du haut ou en artif — La Marguerite, Dièdre de Grand Vé, la Montagne… — puis environ 90 voies, et les premières expansions de G. Romain et J. Recorbet). Voici la partie lisible.</i>"
+        },
+        {
+          "p": "…mythiques à réaliser (Le Balancier, La Mondette, La Gus, La Quille, La Caporal…). L'escalade se veut de plus en plus sportive et commence à se détacher de l'alpinisme."
+        },
+        {
+          "p": "<b>1977 :</b> Enchaînement en libre du « Rateau » qui sera le premier 6c français dans l'histoire de l'escalade par J.C. Droyer. Cette incroyable performance est le 5e 6c mondial en escalade libre. L'ère de l'escalade libre est en marche."
+        },
+        {
+          "p": "<b>1980 :</b> Enchaînement du « Boulevard à Mathieu » qui est le troisième 7b français. La voie est enchaînée par le grimpeur/alpiniste surdoué de l'époque Benoit Grison."
+        },
+        {
+          "p": "<b>1985/1988 :</b> Grosse vague d'équipement réalisée par J.Y. Gerbet et J. Wiedmer soutenus par le CAF Dijon. La falaise est désormais équipée de broches inox et mortier. Le système de descente est un système artisanal que l'on appelle « queue de cochon » ou « Moulinox ». Au total environ 450 voies se verront équipées avec broches et moulinox."
+        },
+        {
+          "p": "<b>1988 :</b> Édition du topo très complet, avec 450 voies plus une trentaine de voies du groupe de l'ouest (terrain d'aventure avec cotations montagne), et réédité en 1993 (CAF, J.Y. Gerbet)."
+        },
+        {
+          "p": "<b>1989 :</b> Première édition des « 4 heures de Saffres » organisée par le Club Alpin Français de Dijon, compétition d'ampleur nationale très médiatisée avec les meilleurs grimpeurs de l'époque, Jean-Marc Boivin… L'évènement sera abandonné suite aux aléas météo et aux enjeux médiatiques incertains. L'évènement sera repris et relancé à l'échelle locale quelques années plus tard par le CT FFME 21 à partir de 2012."
+        },
+        {
+          "p": "<b>À partir de 1997 :</b> Le premier équipeur/grimpeur à s'atteler à modifier l'équipement à Saffres sera J.Y. Leguy, un collègue et ami qui rééquipera une dizaine de voies avec quelques points supplémentaires et quelques lignes équipées dans des secteurs reculés qui n'apparaissent pas dans ce topo. Ce Brevet d'État se tournera ensuite vers l'équipement de la falaise de Géligny en 1998."
+        },
+        {
+          "p": "<b>2007 :</b> Édition d'un nouveau topo du Club Alpin Français par O. Juaneda et Ph. Ducrot (avec des dessins et aquarelles)."
+        },
+        {
+          "p": "<b>2013-2015 :</b> Le CT FFME 21 change les relais moulinox par des relais classiques sur chaînes et maillons rapides. Le changement des 400 relais sera effectué par mes soins pour le compte de la FFME et financé par la Communauté de Communes de Vitteaux."
+        },
+        {
+          "p": "<b>2017-2019 :</b> Avec la fusion des Communautés de communes en 2017, la Communauté de communes des Terres d'Auxois (CCTA) voit le jour et se doit d'assurer l'entretien du site. Je me vois donc missionné par la CCTA pour l'entretien et la maintenance annuelle comme les autres sites du territoire."
+        },
+        {
+          "p": "Pour limiter les risques, il était nécessaire dans un premier temps, avant de parler d'entretien, de sécuriser les départs de voies et de compléter l'équipement, notamment dans les voies faciles trop exposées pour l'escalade en tête. Ainsi quelque 1000 broches seront scellées et environ 300 broches seront supprimées sur ces 3 années."
+        }
+      ]
+    },
+    {
+      "id": "geology",
+      "title": "Geology",
+      "pages": [
+        "p67"
+      ],
+      "blocks": [
+        {
+          "img": "p67R",
+          "cap": "Geological cross-section (south-west to north-east)"
+        },
+        {
+          "p": "<b>Saffres is a place rich and diverse in landscapes and natural features linked to the local geology.</b>"
+        },
+        {
+          "p": "The Saffres cliff is made of limestone dating from the Jurassic (Mesozoic era, about 170 million years ago). This rock, formed from consolidated marine sediment, has been eroding ever since the seas withdrew."
+        },
+        {
+          "p": "The surrounding landscape reflects the local geology well: a plateau at the top with small wooded hills here and there (limestone formation j2a and clayey limestone j1b in the illustration), and valleys with clay lower slopes that are often prone to landslides (formations l 6-5), topped by cliffs of the same limestone as the Saffres cliff (formation j1a). The foot of the cliff is cluttered with a chaos of fallen limestone blocks that hide the clays."
+        },
+        {
+          "p": "Sometimes large masses of limestone slide on the surface of the clays: that is the case of the Tour Carrée, which was originally pressed against the cliff. It is also the case of the Tour Penchée, which partly toppled onto its side as it slid (rest assured, it takes time — you won't feel it move while you're climbing!)."
+        },
+        {
+          "p": "Water flowing through the rock over thousands of years has created a network of fissures, cavities, tunnels… called a karst network, producing typical, easily visible features such as the natural tunnel of the Tour Carrée (which your children will love crossing). It can also deposit concretions (often good holds, but sometimes fragile) or calcite crystals, like those you can see on route 55 “Floconnerie”. Erosion has sometimes exposed the remains of marine organisms that make up much of the rock, giving it a more or less rough and abrasive surface."
+        },
+        {
+          "p": "A spring, which historically supplied the village with drinking water, is tapped below the cliff. Water flows quickly through the cracks in the limestone and between the fallen blocks, and the ground has no filtering power. <b>So please avoid peeing upstream of this spring — that is, at the foot of the cliff and on the summit plateau — out of respect for the residents and their health.</b>"
+        },
+        {
+          "p": "You can also see orchids, typical of these limestone soils."
+        },
+        {
+          "p": "<i>Written by Anne-Laure Guillermin, geotechnical engineer, and Emmanuel Soncourt, hydrogeologist.</i>"
+        }
+      ],
+      "title_fr": "Géologie",
+      "blocks_fr": [
+        {
+          "img": "p67R",
+          "cap": "Coupe géologique (sud-ouest – nord-est)"
+        },
+        {
+          "p": "<b>Saffres est un lieu riche et diversifié en matière de paysages et de décors naturels liés à la géologie locale.</b>"
+        },
+        {
+          "p": "La falaise de Saffres est constituée de roche calcaire datant du Jurassique (ère secondaire, environ -170 millions d'années). Cette roche, issue de dépôts sédimentaires marins consolidés, subit l'érosion depuis que les mers se sont retirées."
+        },
+        {
+          "p": "Les paysages alentour reflètent bien la géologie locale, avec un plateau au sommet, comportant çà et là de petites buttes boisées (formation calcaire j2a et calcaire argileux j1b sur l'illustration), et des vallées présentant des bas de pente argileux souvent sièges de glissements de terrain (formations l 6-5 sur l'illustration), surmontés de falaises composées du même calcaire que la falaise de Saffres (formation j1a). Le pied de la falaise est encombré d'un chaos de blocs calcaires éboulés qui masque les argiles."
+        },
+        {
+          "p": "Il arrive que des masses calcaires importantes glissent à la surface des argiles : c'est le cas de la Tour Carrée qui était à l'origine plaquée contre la falaise. C'est également le cas de la Tour Penchée, qui s'est partiellement couchée sur le côté lors de son glissement (rassurez-vous, ça prend du temps, vous n'allez pas la sentir bouger pendant que vous êtes en train de grimper !)."
+        },
+        {
+          "p": "Des circulations d'eau à travers la roche pendant des milliers d'années ont créé un réseau de fissures, cavités, tunnels… appelé réseau karstique, amenant à des formes typiques et observables facilement comme le tunnel naturel de la Tour Carrée (que vos enfants prendront grand plaisir à traverser). Elles peuvent également avoir provoqué le dépôt de concrétions (souvent des bonnes prises, mais parfois fragiles) ou de cristaux de calcite, comme ceux que l'on voit sur la voie 55 « Floconnerie ». L'érosion a parfois mis en relief les débris d'organismes marins qui constituent une grande partie de la roche, lui donnant une surface plus ou moins rugueuse et abrasive."
+        },
+        {
+          "p": "Une source, alimentant historiquement le village en eau potable, est captée en contrebas de la falaise. Les circulations d'eau dans les fissures du calcaire et entre les blocs de calcaire éboulés sont rapides et les terrains n'ont aucun pouvoir filtrant. <b>Évitez donc de faire pipi en amont de cette source, c'est-à-dire au pied de la falaise et sur le plateau sommital, par respect pour les habitants et leur santé.</b>"
+        },
+        {
+          "p": "Vous pourrez aussi observer des orchidées, typiques de ces sols calcaires."
+        },
+        {
+          "p": "<i>Rédigé par Anne-Laure Guillermin, géotechnicienne, et Emmanuel Soncourt, hydrogéologue.</i>"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "Wildlife & the peregrine falcon",
+      "pages": [
+        "p68"
+      ],
+      "blocks": [
+        {
+          "h": "Fauna and flora"
+        },
+        {
+          "p": "<b>At Saffres you'll meet forest species (fox, roe deer, badger…) as well as cliff-dwelling species (lizards, bats, owls…).</b>"
+        },
+        {
+          "p": "The cliff can be a home for some species (jackdaws' nests in the holes of the Tour Carrée, a natural beehive on the route “Le Pigeon à Odette”…), a breeding site for others (peregrine falcon nesting) and also a roost (tawny owl in the Grotte aux Filles)."
+        },
+        {
+          "p": "The cliff is a biotope in its own right. I won't list every species living here — there are so many."
+        },
+        {
+          "p": "The Saffres cliffs are listed as a ZNIEFF (Natural Area of Ecological, Faunal and Floral Interest), and regular surveys take place as part of this. ZNIEFF listing allows better management of the environment. Plant surveys are carried out by the Conservatoire des Espaces Naturels de Bourgogne."
+        },
+        {
+          "p": "Some species are protected (fauna and flora) — for example the viper, which you may come across at Saffres. It is forbidden to move them; if you see one, leave it alone."
+        },
+        {
+          "p": "The same goes for some birds of prey, notably the peregrine falcon, an emblematic species at Saffres: a pair of peregrines returns every year to nest."
+        },
+        {
+          "h": "The peregrine falcon (Falco peregrinus)"
+        },
+        {
+          "p": "<b>The peregrine falcon found on the cliffs of the Côte-d'Or belongs to the order Falconiformes and the genus Falco.</b>"
+        },
+        {
+          "p": "A species with a worldwide distribution, it is present on every continent except Antarctica. It has fascinated people since Antiquity for its speed and hunting skills. In the Middle Ages, falconry was often practised by the nobility."
+        },
+        {
+          "p": "The male can exceed 300 km/h during its spectacular courtship displays. The species is also very fast when catching prey, which are exclusively birds."
+        },
+        {
+          "p": "Given its worldwide distribution, it has between 18 and 25 subspecies. The European population belongs to the subspecies Falco peregrinus peregrinus."
+        },
+        {
+          "p": "In our regions it breeds mainly on cliffs. In the Côte-d'Or, the cliffs of the Auxois, the Arrière-côte, the Val Suzon and the Ouche valley offer very suitable nesting sites. In France it is not unusual for it to settle in towns to breed, using tall buildings such as churches, or factory chimneys and power-station cooling towers."
+        },
+        {
+          "p": "Very attached to its breeding site, the pair is back from February. On a newly occupied site the pair may arrive later. The breeding season starts with courtship displays, with calls from the female and the male."
+        },
+        {
+          "p": "Falcons don't build nests: the female just scrapes a hollow on a platform or ledge of the cliff, or settles in a cavity. Eggs are laid around mid-March, usually 3 or 4, sometimes 2 or 5."
+        },
+        {
+          "p": "Incubation, by the female, lasts about 30 days and hatching is around mid-April. The young stay in the nest for about a month and a half before fledging."
+        },
+        {
+          "p": "Throughout incubation the male hunts for the female and himself. After hatching, the male feeds the female and the young for 2 weeks while the female stays at the nest to watch over and warm them. Then the pair share the hunting."
+        },
+        {
+          "p": "The brood fledges at the end of May / early June, but the pair and the young stay on site for 3 to 4 weeks, during which the male and female teach the young to hunt. This phase is essential before they become independent."
+        },
+        {
+          "p": "<b>To protect this species, climbing is forbidden from 15 February to 15 June (APPB prefectoral biotope-protection order) on the “La Kir” sector (sector 5).</b>"
+        },
+        {
+          "p": "<i>Written by Christian Lanaud — LPO (Ligue de Protection des Oiseaux, the French bird-protection league).</i>"
+        }
+      ],
+      "title_fr": "Faune, flore et faucon pèlerin",
+      "blocks_fr": [
+        {
+          "h": "La faune et la flore"
+        },
+        {
+          "p": "<b>À Saffres, vous rencontrerez autant des espèces qui vivent en milieu forestier (renard, chevreuil, blaireau…) que des espèces rupestres (lézards, chauves-souris, chouette…).</b>"
+        },
+        {
+          "p": "Il faut savoir que la falaise peut être à la fois un lieu de vie pour certaines espèces (nid de choucas dans les trous de la tour carrée, ruche naturelle dans la voie « Le Pigeon à Odette »…) ou un lieu de reproduction pour d'autres (nidification du faucon pèlerin), elle peut aussi être un dortoir (chouette hulotte dans la grotte aux filles)."
+        },
+        {
+          "p": "La falaise est un biotope à part entière. Je n'énumérerai pas ici l'ensemble des espèces qui y vivent tant il y en a."
+        },
+        {
+          "p": "Le territoire des falaises de Saffres est inscrit en ZNIEFF (Zone naturelle d'intérêt écologique, faunistique et floristique) ; dans ce cadre des inventaires réguliers ont lieu. L'inscription en ZNIEFF permet une meilleure gestion de l'environnement. Concernant les inventaires floristiques, ils sont réalisés par le Conservatoire des Espaces Naturels de Bourgogne."
+        },
+        {
+          "p": "Certaines espèces sont protégées (faune et flore) ; c'est le cas de la vipère par exemple, que l'on peut croiser à Saffres. Il est interdit de les déplacer, si vous en apercevez laissez-les tranquilles."
+        },
+        {
+          "p": "Il en est de même pour certains rapaces, notamment le faucon pèlerin qui est une espèce emblématique à Saffres, car le couple de faucons pèlerins revient chaque année pour nicher."
+        },
+        {
+          "h": "Le faucon pèlerin (Falco peregrinus)"
+        },
+        {
+          "p": "<b>Le Faucon pèlerin présent sur les falaises de Côte-d'Or appartient à l'Ordre des falconiformes et au genre Falco.</b>"
+        },
+        {
+          "p": "Espèce à la distribution cosmopolite, elle est présente sur tous les continents à l'exception de l'Antarctique. Elle a fasciné les hommes depuis l'Antiquité par sa rapidité et ses qualités de chasse. Au Moyen Âge, la fauconnerie était souvent pratiquée par la noblesse."
+        },
+        {
+          "p": "Le mâle peut dépasser les 300 km/heure lors de ses spectaculaires parades nuptiales. L'espèce est également très rapide lors de ses captures de proies, exclusivement des oiseaux."
+        },
+        {
+          "p": "Compte tenu de sa distribution cosmopolite, elle compte entre 18 et 25 sous-espèces. La population présente en Europe appartient à la sous-espèce Falco peregrinus peregrinus."
+        },
+        {
+          "p": "Dans nos régions au sens large, l'espèce se reproduit essentiellement en milieu rupestre. En Côte-d'Or, les falaises présentes dans l'Auxois, dans l'Arrière-côte, le Val Suzon et dans la vallée de l'Ouche lui offrent des sites de nidification très adaptés. En France, il n'est pas rare qu'elle s'installe dans les villes pour s'y reproduire. Elle y occupe les bâtiments de grande taille tels que les églises. On la trouve également sur des cheminées d'usines ou des tours de refroidissement de centrales électriques par exemple."
+        },
+        {
+          "p": "Très attaché à son site de reproduction, le couple se retrouve dès le mois de février. Sur un site nouvellement occupé, l'arrivée d'un couple peut être plus tardive. Le début de la période de reproduction se traduit par des parades nuptiales avec cris de la femelle et du mâle."
+        },
+        {
+          "p": "Les oiseaux du genre Falco ne construisent pas de nid, la femelle se contentant de gratter une cuvette sur une plateforme ou une vire de la falaise, ou s'installant dans une cavité. La ponte a lieu vers la mi-mars, le plus souvent de 3 ou 4 œufs, parfois 2 ou 5."
+        },
+        {
+          "p": "La durée de l'incubation, assurée par la femelle, est d'environ 30 jours et l'éclosion a lieu vers la mi-avril. Le séjour au nid des jeunes est d'environ un mois et demi avant l'envol."
+        },
+        {
+          "p": "Pendant toute la période d'incubation, le mâle assure la chasse pour la femelle et lui-même. À l'éclosion des jeunes, le mâle nourrit la femelle et les jeunes pendant 2 semaines car la femelle reste au nid pour les surveiller et les chauffer. Ensuite le couple se partage les captures de proies."
+        },
+        {
+          "p": "L'envol de la nichée se situe fin mai / début juin mais le couple et les jeunes restent sur le site pendant 3 à 4 semaines au cours desquelles le mâle et la femelle forment les jeunes à l'apprentissage de la chasse. Cette phase est indispensable avant leur autonomie."
+        },
+        {
+          "p": "<b>Afin de respecter cette espèce, la grimpe est interdite du 15 février au 15 juin (APPB) sur le secteur de « La Kir » (secteur 5).</b>"
+        },
+        {
+          "p": "<i>Rédigé par Christian Lanaud — LPO (Ligue de Protection des Oiseaux).</i>"
+        }
+      ]
+    },
+    {
+      "id": "tourism",
+      "title": "Nearby crags & rainy days",
+      "pages": [
+        "p69"
+      ],
+      "blocks": [
+        {
+          "h": "Other climbing sites near Saffres"
+        },
+        {
+          "table": [
+            [
+              "Crag",
+              "Distance",
+              "Topo"
+            ],
+            [
+              "Géligny (near Sombernon)",
+              "15 km",
+              "No topo yet"
+            ],
+            [
+              "Hauteroche",
+              "20 km",
+              "FSGT topo available at Vieux Campeur"
+            ],
+            [
+              "Vieux Château (Roches Sainte Catherine)",
+              "45 km",
+              "CC Terres d'Auxois topo, at the Semur-en-Auxois tourist office"
+            ],
+            [
+              "Bouilland and Arcenant",
+              "45 km",
+              "Online topo on J.Y. Salin's blog “Escalade en Pays beaunois”"
+            ],
+            [
+              "Cormot / Le Bout du Monde",
+              "60 km",
+              "CAF Chalon-sur-Saône topo"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "h": "Where to climb when it rains?"
+        },
+        {
+          "ul": [
+            "Climbing gym “Climb'Up Dijon” — 14 impasse Boirac, 21000 Dijon",
+            "Climbing gym “Cime Altitude 245 Dijon” — 14 rue Marius Chanteur, 21000 Dijon"
+          ]
+        },
+        {
+          "h": "Welcome to Terres d'Auxois"
+        },
+        {
+          "p": "Plan your stay with the Terres d'Auxois Tourist Office: accommodation, restaurants and takeaway, leisure activities, events, local services. Ask for the climbers' welcome booklet (digital version)!"
+        },
+        {
+          "p": "On site, visit the tourist information office in <b>Vitteaux</b>, just 5 km from Saffres."
+        },
+        {
+          "p": "Office de Tourisme des Terres d'Auxois · <a href=\"tel:+33380970596\">03 80 97 05 96</a> · contact@terres-auxois.fr · <a href=\"https://www.terres-auxois.fr\">www.terres-auxois.fr</a>"
+        }
+      ],
+      "title_fr": "Infos touristiques",
+      "blocks_fr": [
+        {
+          "h": "Autres sites d'escalade proches de Saffres"
+        },
+        {
+          "table": [
+            [
+              "Site",
+              "Distance",
+              "Topo"
+            ],
+            [
+              "Géligny (proche Sombernon)",
+              "15 km",
+              "Pas de topo à ce jour"
+            ],
+            [
+              "Hauteroche",
+              "20 km",
+              "Topo FSGT disponible au Vieux Campeur"
+            ],
+            [
+              "Vieux Château (Roches Sainte Catherine)",
+              "45 km",
+              "Topo Communauté de Communes des Terres d'Auxois, disponible à l'Office de Tourisme de Semur-en-Auxois"
+            ],
+            [
+              "Bouilland et Arcenant",
+              "45 km",
+              "Topo en ligne sur le blog de J.Y. Salin « Escalade en Pays beaunois »"
+            ],
+            [
+              "Cormot / Le bout du monde",
+              "60 km",
+              "Topo CAF Chalon-sur-Saône"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "h": "Où grimper en cas de pluie ?"
+        },
+        {
+          "ul": [
+            "Salle d'escalade « Climb'Up Dijon » — 14 impasse Boirac, 21000 Dijon",
+            "Salle d'escalade « Cime Altitude 245 Dijon » — 14 rue Marius Chanteur, 21000 Dijon"
+          ]
+        },
+        {
+          "h": "Bienvenue en Terres d'Auxois"
+        },
+        {
+          "p": "Organisez votre séjour avec l'Office de Tourisme des Terres d'Auxois : hébergements, restauration sur place ou à emporter, activités de loisirs, évènements, services de proximité. Demandez votre livret d'accueil du grimpeur (version numérique) !"
+        },
+        {
+          "p": "Sur place, rendez-vous à <b>Vitteaux</b>, votre bureau d'information touristique, à seulement 5 km de Saffres !"
+        },
+        {
+          "p": "Office de Tourisme des Terres d'Auxois · <a href=\"tel:+33380970596\">03 80 97 05 96</a> · contact@terres-auxois.fr · <a href=\"https://www.terres-auxois.fr\">www.terres-auxois.fr</a>"
+        }
+      ]
+    },
+    {
+      "id": "thanks",
+      "title": "Acknowledgements",
+      "pages": [
+        "p03"
+      ],
+      "blocks": [
+        {
+          "ul": [
+            "A big thank-you to the first discoverers of some of the lines and other brave adventurers who, back in the day, were training here for big mountain routes.",
+            "A huge thank-you to the first CAF bolters, Guy Gerbet and his companions — visionaries who brought some incredible lines to life.",
+            "Thanks to the Communauté de Communes des Terres d'Auxois (CCTA), which supports the bolting and development of climbing in the area. In particular it funds the re-bolting of routes and the annual upkeep of the site. The whole climbing community is grateful.",
+            "Thanks to the CT FFME 21 for the material help of 180 bolts donated through an FFME bolting grant.",
+            "Thanks to the commune of Saffres for letting us climb in this magical place and for its support of climbers.",
+            "Thanks to everyone who took part, near or far, in creating this topo for their advice and expertise — Matthias, Anne-Laure, Emmanuel, Christian — and to all my climbing mates for the belays and other debates at the foot of the cliff. A big thank-you to you all…"
+          ]
+        },
+        {
+          "p": "Graphic design, layout, cartography: Rochana HM. Printing: ADN Imprimerie, printed May 2021. Photo credits: © Matthias Paré."
+        }
+      ],
+      "title_fr": "Remerciements",
+      "blocks_fr": [
+        {
+          "ul": [
+            "Un grand merci aux premiers dénicheurs de certaines lignes et autres aventuriers vaillants qui se préparaient à l'époque aux grandes courses en montagne.",
+            "Un immense merci aux premiers équipeurs du CAF que sont Guy Gerbet et ses camarades, visionnaires qui ont donné vie à certaines lignes incroyables.",
+            "Merci à la Communauté de communes des Terres d'Auxois (CCTA) qui soutient l'équipement et le développement de l'activité escalade sur le territoire. Elle finance notamment le rééquipement des voies et l'entretien annuel du site. Toute la communauté grimpante en est reconnaissante.",
+            "Merci au CT FFME 21 pour l'aide matérielle de 180 broches données dans le cadre d'une bourse à l'équipement de la FFME.",
+            "Merci à la commune de Saffres pour nous permettre de pratiquer dans ce lieu magique et pour son soutien auprès des grimpeurs.",
+            "Merci à tous ceux qui ont participé de près ou de loin à la création de ce topo pour leurs conseils et leur expertise, Matthias, Anne-Laure, Emmanuel, Christian, et merci aussi à tous mes potes grimpeurs pour les assurages et autres débats au pied de la falaise, un grand merci à vous…"
+          ]
+        },
+        {
+          "p": "Création graphique, mise en page, cartographie : Rochana HM. Impression : ADN Imprimerie / imprimé en mai 2021. Crédits photographiques : © Matthias Paré."
+        }
+      ]
+    }
+  ],
+  "credits_fr": "Adaptation non officielle du topo <i>Escalade Saffres en Terres d'Auxois</i> (6e édition, 2021) de Yannick Dupin, édité avec la Communauté de Communes des Terres d'Auxois (CCTA). Création graphique, mise en page, cartographie : Rochana HM. Photos : © Matthias Paré. En achetant le topo (19 €, par ex. à l'Office de Tourisme de Vitteaux), vous participez à l'équipement et à l'entretien du site."
 }

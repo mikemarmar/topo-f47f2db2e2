@@ -1,6 +1,16 @@
 {
-  "id": 4, "name": "Les Auxerrois", "gloss": "The People of Auxerre", "color": "#e98d6f",
-  "stats": {"routes": 29, "grades": "4b – 7a+", "aspect": "South-facing", "height": "15 m to 25 m"},
+  "id": 4,
+  "name": "Les Auxerrois",
+  "gloss": "The People of Auxerre",
+  "color": "#e98d6f",
+  "stats": {
+    "routes": 29,
+    "grades": "4b – 7a+",
+    "aspect": "South-facing",
+    "height": "15 m to 25 m",
+    "aspect_fr": "Orienté Sud",
+    "height_fr": "De 15 m à 25 m"
+  },
   "intro": "p15",
   "notes": [
     "Sector to the right of the Grotte aux Filles ('Girls' Cave', route 93).",
@@ -8,39 +18,314 @@
     "Still, stay alert to the rock quality, which can sometimes be poor, even if it is fairly compact overall."
   ],
   "topos": [
-    {"page": "p16", "routes": "71–79"},
-    {"page": "p17", "routes": "80–90"},
-    {"page": "p18", "routes": "91–99"}
+    {
+      "page": "p16",
+      "routes": "71–79"
+    },
+    {
+      "page": "p17",
+      "routes": "80–90"
+    },
+    {
+      "page": "p18",
+      "routes": "91–99"
+    }
   ],
   "routes": [
-    ["71", "Coquille's club", "", "6a", "25 m", "Nice route at the grade.", "p16"],
-    ["72", "Les guidochons", "", "5c", "25 m", "Consistent and athletic. Very vertical corner with some quite surprising Buoux-style pockets. A classic at the grade.", "p16"],
-    ["73", "Vue de profil", "Profile View", "6c", "25 m", "Start up 72, then follow the pillar. Technical climbing on an arête. Surprising.", "p16"],
-    ["74", "Les Auxerrois", "The People of Auxerre", "5c+", "25 m", "Nicely continuous. Rising traverse; finish either in the corner of Le Singe (route 70) or in Coquille's Club (route 71). Traverses were in fashion in the '80s.", "p16"],
-    ["75", "Zest de fissure", "A Zest of Crack", "7a+", "25 m", "Bouldery. The rock on the slab is very compact. Technical and demanding on the feet.", "p16"],
-    ["76", "Banane Blues", "Banana Blues", "7a", "25 m", "Consistent. Very nice route on decent holds that needs speed and determination. Quite pumpy overall.", "p16"],
-    ["77", "La fissure rosse", "The Nasty Crack", "5c+", "22 m", "A nice journey up a crack. Big moves on good holds. Classy at the grade.", "p16"],
-    ["78", "Clones aux mains nues", "Bare-Handed Clones", "6b+", "22 m", "Complex — make sure to plan the line ahead. Very fun.", "p16"],
-    ["79", "Voyage au bout du surbac", "Journey to the End of the Surbac", "7a", "22 m", "Quite bouldery. Start on rock sculpted by water droplets; fun roof and mantel. Takes determination for the mantel.", "p16"],
-    ["80", "Le surplomb du siamois", "The Siamese Overhang", "6a", "22 m", "Surprising but very cool route at the grade.", "p17"],
-    ["81", "Atout cortex", "Cortex Trump Card", "6b", "22 m", "Variant of route 80, less physical but more technical and on slab. Plenty of smearing. Pretty, fun route.", "p17"],
-    ["82", "Le siamois de gauche", "The Left Siamese", "5c+", "22 m", "Inconsistent. Getting into the corner is the crux. Fun finish.", "p17"],
-    ["83", "Pets et vesses", "Farts and Silent Farts", "5a", "22 m", "Cracked slabs broken up by small ledges. Fun at the grade.", "p17"],
-    ["84", "L'ondulée", "The Wavy One", "4b", "22 m", "Pleasant climbing in a corner.", "p17"],
-    ["85", "Variante", "Variant", "5b+", "22 m", "Start up L'Ondulée to reach a wide crack on the left. Original.", "p17"],
-    ["86", "La fluette", "The Slender One", "5c+", "22 m", "Very nice route with varied styles. A must-do.", "p17"],
-    ["87", "Poussière d'étoile", "Stardust", "6b", "22 m", "Jamming technique to the fore… the art of the lock.", "p17"],
-    ["88", "La fissure des buis", "The Boxwood Crack", "5c", "20 m", "One slightly bouldery move. Route often overgrown with vegetation.", "p17"],
-    ["89", "Ménétrier", "Fiddler", "6c", "20 m", "Nice slab route. Unstable flake at the top — don't yank on it like an ox; go round it on the left.", "p17"],
-    ["90", "Dièdre jaune", "Yellow Corner", "4c", "20 m", "Corner climbing with bridging/opposition moves.", "p17"],
-    ["91", "Pour l'amour du rire", "For the Love of Laughter", "6b", "15 m", "Short, intense route on slightly dubious rock.", "p18"],
-    ["92", "La fleur", "The Flower", "6b+", "15 m", "Short, punchy route that needs real determination.", "p18"],
-    ["93", "Un seul ennui : bras et zézettes ramollissent", "Only One Problem: Arms and Willies Go Soft", "6c", "22 m", "Original line, big jugs and a traverse under a roof. Holds a bit dirty. Disconcerting route overall.", "p18"],
-    ["94", "Fissure des filles", "The Girls' Crack", "5b+", "22 m", "Route on surprising rock. Technical climbing.", "p18"],
-    ["95", "Trapco, mate pas trop les filles", "Trapco, Don't Ogle the Girls Too Much", "5c+", "22 m", "Technical slab.", "p18"],
-    ["96", "Nez de bœuf", "Ox Nose", "5c+", "22 m", "Starting variant of 99.", "p18"],
-    ["97", "Béret du guide", "The Guide's Beret", "5c+", "22 m", "Starting variant of 99.", "p18"],
-    ["98", "Boys zone", "", "5c+", "25 m", "Starting variant of 99.", "p18"],
-    ["99", "Spirale", "Spiral", "5c", "25 m", "Big traverse with an original line. Rope drag possible. Climbing it as a second is recommended to retrieve the quickdraws.", "p18"]
+    [
+      "71",
+      "Coquille's club",
+      "",
+      "6a",
+      "25 m",
+      "Nice route at the grade.",
+      "p16",
+      "Belle voie dans ce niveau."
+    ],
+    [
+      "72",
+      "Les guidochons",
+      "",
+      "5c",
+      "25 m",
+      "Consistent and athletic. Very vertical corner with some quite surprising Buoux-style pockets. A classic at the grade.",
+      "p16",
+      "Homogène et athlétique. Dièdre bien vertical avec quelques trous buouxiens assez surprenants. Une classique dans ce niveau."
+    ],
+    [
+      "73",
+      "Vue de profil",
+      "Profile View",
+      "6c",
+      "25 m",
+      "Start up 72, then follow the pillar. Technical climbing on an arête. Surprising.",
+      "p16",
+      "Départ dans 72 puis suivre le pilier. Escalade technique sur une arrête. Surprenant."
+    ],
+    [
+      "74",
+      "Les Auxerrois",
+      "The People of Auxerre",
+      "5c+",
+      "25 m",
+      "Nicely continuous. Rising traverse; finish either in the corner of Le Singe (route 70) or in Coquille's Club (route 71). Traverses were in fashion in the '80s.",
+      "p16",
+      "Belle continuité. Traversée ascendante, sortir soit dans le dièdre du singe (voie 70), soit dans Coquille's club (voie 71). Traversée à la mode dans les années 80."
+    ],
+    [
+      "75",
+      "Zest de fissure",
+      "A Zest of Crack",
+      "7a+",
+      "25 m",
+      "Bouldery. The rock on the slab is very compact. Technical and demanding on the feet.",
+      "p16",
+      "Typée bloc. Le caillou est très compact dans la dalle. Technique et exigeante en pieds."
+    ],
+    [
+      "76",
+      "Banane Blues",
+      "Banana Blues",
+      "7a",
+      "25 m",
+      "Consistent. Very nice route on decent holds that needs speed and determination. Quite pumpy overall.",
+      "p16",
+      "Homogène. Très belle voie sur prises correctes, qui demande vitesse et détermination. Assez rési dans l'ensemble."
+    ],
+    [
+      "77",
+      "La fissure rosse",
+      "The Nasty Crack",
+      "5c+",
+      "22 m",
+      "A nice journey up a crack. Big moves on good holds. Classy at the grade.",
+      "p16",
+      "Beau voyage en fissure. De grands mouvs sur de bonnes prises. Classe dans ce niveau."
+    ],
+    [
+      "78",
+      "Clones aux mains nues",
+      "Bare-Handed Clones",
+      "6b+",
+      "22 m",
+      "Complex — make sure to plan the line ahead. Very fun.",
+      "p16",
+      "Complexe, pensez à bien anticiper l'itinéraire. Très sympa."
+    ],
+    [
+      "79",
+      "Voyage au bout du surbac",
+      "Journey to the End of the Surbac",
+      "7a",
+      "22 m",
+      "Quite bouldery. Start on rock sculpted by water droplets; fun roof and mantel. Takes determination for the mantel.",
+      "p16",
+      "Assez bloc. Départ sur rocher sculpté à gouttes d'eau, toit et réta sympa. De la détermination pour le réta."
+    ],
+    [
+      "80",
+      "Le surplomb du siamois",
+      "The Siamese Overhang",
+      "6a",
+      "22 m",
+      "Surprising but very cool route at the grade.",
+      "p17",
+      "Voie surprenante mais très cool dans ce niveau."
+    ],
+    [
+      "81",
+      "Atout cortex",
+      "Cortex Trump Card",
+      "6b",
+      "22 m",
+      "Variant of route 80, less physical but more technical and on slab. Plenty of smearing. Pretty, fun route.",
+      "p17",
+      "Variante de la voie 80, moins physique mais plus technique et en dalle. Pas mal d'adhérences. Jolie voie sympa."
+    ],
+    [
+      "82",
+      "Le siamois de gauche",
+      "The Left Siamese",
+      "5c+",
+      "22 m",
+      "Inconsistent. Getting into the corner is the crux. Fun finish.",
+      "p17",
+      "Peu homogène. L'entrée dans le dièdre constitue le crux. Fin rigolote."
+    ],
+    [
+      "83",
+      "Pets et vesses",
+      "Farts and Silent Farts",
+      "5a",
+      "22 m",
+      "Cracked slabs broken up by small ledges. Fun at the grade.",
+      "p17",
+      "Dalles fissurées entrecoupées de petites vires. Sympa dans ce niveau."
+    ],
+    [
+      "84",
+      "L'ondulée",
+      "The Wavy One",
+      "4b",
+      "22 m",
+      "Pleasant climbing in a corner.",
+      "p17",
+      "Escalade plaisante en dièdre."
+    ],
+    [
+      "85",
+      "Variante",
+      "Variant",
+      "5b+",
+      "22 m",
+      "Start up L'Ondulée to reach a wide crack on the left. Original.",
+      "p17",
+      "Départ dans l'Ondulée pour rejoindre une large fissure à gauche. Originale."
+    ],
+    [
+      "86",
+      "La fluette",
+      "The Slender One",
+      "5c+",
+      "22 m",
+      "Very nice route with varied styles. A must-do.",
+      "p17",
+      "Voie très belle et variée dans les styles. À faire."
+    ],
+    [
+      "87",
+      "Poussière d'étoile",
+      "Stardust",
+      "6b",
+      "22 m",
+      "Jamming technique to the fore… the art of the lock.",
+      "p17",
+      "Technique de coincement à l'honneur… L'Art du verrou."
+    ],
+    [
+      "88",
+      "La fissure des buis",
+      "The Boxwood Crack",
+      "5c",
+      "20 m",
+      "One slightly bouldery move. Route often overgrown with vegetation.",
+      "p17",
+      "Un passage un peu bloc. Voie souvent encombrée de végétation."
+    ],
+    [
+      "89",
+      "Ménétrier",
+      "Fiddler",
+      "6c",
+      "20 m",
+      "Nice slab route. Unstable flake at the top — don't yank on it like an ox; go round it on the left.",
+      "p17",
+      "Voie en dalle sympathique. Écaille instable en haut, ne pas tirer dessus comme un bœuf, passer à gauche."
+    ],
+    [
+      "90",
+      "Dièdre jaune",
+      "Yellow Corner",
+      "4c",
+      "20 m",
+      "Corner climbing with bridging/opposition moves.",
+      "p17",
+      "Escalade en dièdre avec des mouvements en opposition."
+    ],
+    [
+      "91",
+      "Pour l'amour du rire",
+      "For the Love of Laughter",
+      "6b",
+      "15 m",
+      "Short, intense route on slightly dubious rock.",
+      "p18",
+      "Voie courte et intense sur du rocher un peu douteux."
+    ],
+    [
+      "92",
+      "La fleur",
+      "The Flower",
+      "6b+",
+      "15 m",
+      "Short, punchy route that needs real determination.",
+      "p18",
+      "Voie courte et pêchue demandant une bonne détermination."
+    ],
+    [
+      "93",
+      "Un seul ennui : bras et zézettes ramollissent",
+      "Only One Problem: Arms and Willies Go Soft",
+      "6c",
+      "22 m",
+      "Original line, big jugs and a traverse under a roof. Holds a bit dirty. Disconcerting route overall.",
+      "p18",
+      "Tracé original, gros bacs et traversée en toit. Prises un peu sales. Voie déconcertante dans l'ensemble."
+    ],
+    [
+      "94",
+      "Fissure des filles",
+      "The Girls' Crack",
+      "5b+",
+      "22 m",
+      "Route on surprising rock. Technical climbing.",
+      "p18",
+      "Voie au caillou surprenant. Escalade technique."
+    ],
+    [
+      "95",
+      "Trapco, mate pas trop les filles",
+      "Trapco, Don't Ogle the Girls Too Much",
+      "5c+",
+      "22 m",
+      "Technical slab.",
+      "p18",
+      "Dalle technique."
+    ],
+    [
+      "96",
+      "Nez de bœuf",
+      "Ox Nose",
+      "5c+",
+      "22 m",
+      "Starting variant of 99.",
+      "p18",
+      "Variante de départ de 99."
+    ],
+    [
+      "97",
+      "Béret du guide",
+      "The Guide's Beret",
+      "5c+",
+      "22 m",
+      "Starting variant of 99.",
+      "p18",
+      "Variante de départ de 99."
+    ],
+    [
+      "98",
+      "Boys zone",
+      "",
+      "5c+",
+      "25 m",
+      "Starting variant of 99.",
+      "p18",
+      "Variante de départ de 99."
+    ],
+    [
+      "99",
+      "Spirale",
+      "Spiral",
+      "5c",
+      "25 m",
+      "Big traverse with an original line. Rope drag possible. Climbing it as a second is recommended to retrieve the quickdraws.",
+      "p18",
+      "Grande traversée au tracé original. Tirage possible. Escalade en second recommandée pour récupérer les dégaines."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur à droite de la grotte aux filles (voie 93).",
+    "Ce secteur est assez ombragé avec des voies de niveau abordable et assez courtes dans l'ensemble.",
+    "Restez tout de même attentifs à la qualité du rocher qui peut parfois être médiocre, même si l'ensemble reste assez compact."
   ]
 }

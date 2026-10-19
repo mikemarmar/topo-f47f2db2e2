@@ -1,6 +1,16 @@
 {
-  "id": 12, "name": "Damoclès", "gloss": "Damocles", "color": "#8f8478",
-  "stats": {"routes": 21, "grades": "5a – 8b", "aspect": "South-facing", "height": "25 m to 32 m"},
+  "id": 12,
+  "name": "Damoclès",
+  "gloss": "Damocles",
+  "color": "#8f8478",
+  "stats": {
+    "routes": 21,
+    "grades": "5a – 8b",
+    "aspect": "South-facing",
+    "height": "25 m to 32 m",
+    "aspect_fr": "Orienté Sud",
+    "height_fr": "De 25 m à 32 m"
+  },
   "intro": "p44",
   "notes": [
     "Sector with very compact rock.",
@@ -10,30 +20,232 @@
     "Shady at the base."
   ],
   "topos": [
-    {"page": "p45", "routes": "241–252"},
-    {"page": "p46", "routes": "253–260"}
+    {
+      "page": "p45",
+      "routes": "241–252"
+    },
+    {
+      "page": "p46",
+      "routes": "253–260"
+    }
   ],
   "routes": [
-    ["241", "Les pantoufles de l'aventure", "The Slippers of Adventure", "6a", "30 m", "Sustained and varied. The route starts by traversing left, with lots of pinches. The exit pillar is really airy.", "p45"],
-    ["242", "La dalle ocrée", "The Ochre Slab", "5b", "30 m", "Slab with big holds at the start and a traverse right (crosses route 241). Then follows the line of the pillar. Very fun route.", "p45"],
-    ["243", "La lupa", "", "5c", "30 m", "Continuous route in an overhanging yellow corner. Athletic climbing on jugs. After the ledge, take the back of the corner.", "p45"],
-    ["244", "Lupanard", "", "5c", "30 m", "Same start as the previous route, with a finish where you must stay on the arête of the slab.", "p45"],
-    ["245", "La gifle", "The Slap", "6b+/c", "28 m", "Inconsistent climbing. The 1st part is very easy on big holds; then a bouldery section on a grey slab with small crimps needs flexibility, grip and determination.", "p45"],
-    ["246", "Le flambeau direct", "The Torch Direct", "6a+", "28 m", "Varied route. Slab start on edges, then a demanding corner and an easier finish. Fairly sustained overall.", "p45"],
-    ["247", "Ultimatum uranium", "", "6c", "28 m", "A natural hive regularly occupied (bees!) on the upper slab. Magnificent route on beautiful rock. Physical, technical and slightly committing climbing in the 2nd part. A must-do.", "p45"],
-    ["248", "Le Flambeau", "The Torch", "5c+", "32 m", "Traversing line, as was fashionable in the '80s. Climbing on good holds broken up by ledges.", "p45"],
-    ["249", "Terminator", "", "6c+", "25 m", "Sustained, fairly physical climbing on steep ground. A classic at the grade. Very nice, really pumpy route.", "p45"],
-    ["250", "Le petit déjeuner", "Breakfast", "7b", "27 m", "One of the most beautiful routes on the crag. An absolute must-do. It has everything: steep ground, good holds, plenty of technical moves, demanding to read — in short, a staple!", "p45"],
-    ["251", "Damoclès", "Damocles", "7a", "27 m", "Steep climbing following a sometimes blocked crack. Demanding to read. Varied, very pleasant climbing. A must-do, one of the most beautiful at the grade.", "p45"],
-    ["252", "Le balayeur de mots", "The Word Sweeper", "6b+", "27 m", "Technical climbing on a pillar. Awkward start on a slightly overhanging pillar, then a slab with deceptive holds, easier finish. Nice route.", "p45"],
-    ["253", "Le beau vélo de Ravel", "Ravel's Nice Bike", "5c", "27 m", "Inconsistent climbing. Very rough rock, cracks that need good control. Some ledges break the rhythm.", "p46"],
-    ["254", "Les dégonflés", "The Chickens (lit. 'the deflated')", "5b+", "27 m", "Starting variant of route 253. Slabs with good holds. Fun overall.", "p46"],
-    ["255", "La montagne Directe", "The Mountain Direct", "5a", "27 m", "Starting variant of 256.", "p46"],
-    ["256", "La montagne", "The Mountain", "5a", "27 m", "A great classic of the crag. Polished route that still needs care to avoid a slip. Historic route, as it was one of the first climbed free.", "p46"],
-    ["257", "Sitiger", "", "6a+/b", "27 m", "Sustained and varied climbing. Corner slightly polished because it is sheltered from rain; technical, complex climbing on very demanding crimps. Committing at the overhang. A benchmark route at Saffres — a good test of your level.", "p46"],
-    ["258", "Issue de secours", "Emergency Exit", "6a+", "25 m", "Finishing variant of route 257. Traverse right after the leaning slab to reach a small, slightly physical overhang. Fun route.", "p46"],
-    ["259", "La Montreuil", "", "8b", "30 m", "Overhanging slab with a saving sloper. A big dynamic move towards the top. 'Old-school' technical climbing.", "p46"],
-    ["259-1", "No passaran", "", "7c+", "30 m", "Same line as route 259 lower down, then avoids the hard move on the left. Same finish. Very classy overall. A must-do.", "p46"],
-    ["260", "Calamity bedi", "", "6c", "30 m", "Sustained overhanging route with a good rest. Finishes along the arête with a nice flight up jugs.", "p46"]
+    [
+      "241",
+      "Les pantoufles de l'aventure",
+      "The Slippers of Adventure",
+      "6a",
+      "30 m",
+      "Sustained and varied. The route starts by traversing left, with lots of pinches. The exit pillar is really airy.",
+      "p45",
+      "Soutenue et variée. Voie qui part en traversée à gauche avec beaucoup de pinces. Le pilier de sortie est bien gazeux."
+    ],
+    [
+      "242",
+      "La dalle ocrée",
+      "The Ochre Slab",
+      "5b",
+      "30 m",
+      "Slab with big holds at the start and a traverse right (crosses route 241). Then follows the line of the pillar. Very fun route.",
+      "p45",
+      "Dalle à grosses prises au départ avec une traversée sur la droite (croise la voie 241). Suit le fil du pilier par la suite. Voie très sympa."
+    ],
+    [
+      "243",
+      "La lupa",
+      "",
+      "5c",
+      "30 m",
+      "Continuous route in an overhanging yellow corner. Athletic climbing on jugs. After the ledge, take the back of the corner.",
+      "p45",
+      "Voie continue dans un dièdre jaune déversant. Escalade athlétique sur des bacs. Après la vire, emprunter le fond du dièdre."
+    ],
+    [
+      "244",
+      "Lupanard",
+      "",
+      "5c",
+      "30 m",
+      "Same start as the previous route, with a finish where you must stay on the arête of the slab.",
+      "p45",
+      "Départ identique à la précédente avec une sortie où il faut rester sur l'arrête de la dalle."
+    ],
+    [
+      "245",
+      "La gifle",
+      "The Slap",
+      "6b+/c",
+      "28 m",
+      "Inconsistent climbing. The 1st part is very easy on big holds; then a bouldery section on a grey slab with small crimps needs flexibility, grip and determination.",
+      "p45",
+      "Escalade peu homogène. La 1re partie est très cool sur grosses prises, puis un passage typé bloc dans une dalle grise sur petites réglettes demande souplesse, tenue de prise et détermination."
+    ],
+    [
+      "246",
+      "Le flambeau direct",
+      "The Torch Direct",
+      "6a+",
+      "28 m",
+      "Varied route. Slab start on edges, then a demanding corner and an easier finish. Fairly sustained overall.",
+      "p45",
+      "Voie variée. Départ en dalle sur règles, puis dièdre exigeant et une sortie plus cool. Ensemble assez soutenu."
+    ],
+    [
+      "247",
+      "Ultimatum uranium",
+      "",
+      "6c",
+      "28 m",
+      "A natural hive regularly occupied (bees!) on the upper slab. Magnificent route on beautiful rock. Physical, technical and slightly committing climbing in the 2nd part. A must-do.",
+      "p45",
+      "Une ruche naturelle régulièrement occupée (abeilles !) dans la dalle du haut. Voie magnifique sur du beau caillou. Escalade physique, technique et un peu engagée en 2e partie. À faire."
+    ],
+    [
+      "248",
+      "Le Flambeau",
+      "The Torch",
+      "5c+",
+      "32 m",
+      "Traversing line, as was fashionable in the '80s. Climbing on good holds broken up by ledges.",
+      "p45",
+      "Itinéraire qui traverse, à la mode dans les années 80. Escalade sur bonnes prises entrecoupée de vires."
+    ],
+    [
+      "249",
+      "Terminator",
+      "",
+      "6c+",
+      "25 m",
+      "Sustained, fairly physical climbing on steep ground. A classic at the grade. Very nice, really pumpy route.",
+      "p45",
+      "Escalade soutenue assez physique en dévers. Une classique dans ce niveau. Très belle voie bien rési."
+    ],
+    [
+      "250",
+      "Le petit déjeuner",
+      "Breakfast",
+      "7b",
+      "27 m",
+      "One of the most beautiful routes on the crag. An absolute must-do. It has everything: steep ground, good holds, plenty of technical moves, demanding to read — in short, a staple!",
+      "p45",
+      "Une des plus belles voies de la falaise. À faire absolument. Tout y est, du dévers, des bonnes prises, pas mal de mouvements techniques, exigeants en lecture, bref une base !"
+    ],
+    [
+      "251",
+      "Damoclès",
+      "Damocles",
+      "7a",
+      "27 m",
+      "Steep climbing following a sometimes blocked crack. Demanding to read. Varied, very pleasant climbing. A must-do, one of the most beautiful at the grade.",
+      "p45",
+      "Escalade en dévers qui suit une fissure parfois bouchée. Exigeant en lecture. Escalade variée et très agréable. Voie à faire, une des plus belles dans ce niveau."
+    ],
+    [
+      "252",
+      "Le balayeur de mots",
+      "The Word Sweeper",
+      "6b+",
+      "27 m",
+      "Technical climbing on a pillar. Awkward start on a slightly overhanging pillar, then a slab with deceptive holds, easier finish. Nice route.",
+      "p45",
+      "Escalade technique sur pilier. Départ inconfortable sur un pilier légèrement déversant puis dalle aux prises trompeuses, fin plus facile. Belle voie."
+    ],
+    [
+      "253",
+      "Le beau vélo de Ravel",
+      "Ravel's Nice Bike",
+      "5c",
+      "27 m",
+      "Inconsistent climbing. Very rough rock, cracks that need good control. Some ledges break the rhythm.",
+      "p46",
+      "Escalade peu homogène. Rocher très rugueux, des fissures qui demandent une bonne maîtrise. Quelques vires viennent casser le rythme."
+    ],
+    [
+      "254",
+      "Les dégonflés",
+      "The Chickens (lit. 'the deflated')",
+      "5b+",
+      "27 m",
+      "Starting variant of route 253. Slabs with good holds. Fun overall.",
+      "p46",
+      "Variante de départ de la voie 253. Dalles à bonnes prises. Ensemble sympa."
+    ],
+    [
+      "255",
+      "La montagne Directe",
+      "The Mountain Direct",
+      "5a",
+      "27 m",
+      "Starting variant of 256.",
+      "p46",
+      "Variante de départ de 256."
+    ],
+    [
+      "256",
+      "La montagne",
+      "The Mountain",
+      "5a",
+      "27 m",
+      "A great classic of the crag. Polished route that still needs care to avoid a slip. Historic route, as it was one of the first climbed free.",
+      "p46",
+      "Grande classique de la falaise. Voie patinée, qui demande tout de même de l'attention pour éviter la zipette. Voie historique car une des premières réalisées en libre."
+    ],
+    [
+      "257",
+      "Sitiger",
+      "",
+      "6a+/b",
+      "27 m",
+      "Sustained and varied climbing. Corner slightly polished because it is sheltered from rain; technical, complex climbing on very demanding crimps. Committing at the overhang. A benchmark route at Saffres — a good test of your level.",
+      "p46",
+      "Escalade soutenue et variée. Dièdre un peu patiné car abrité de la pluie, escalade technique et complexe sur réglettes très exigeantes. Engagée au niveau du dévers. Une voie de référence à Saffres. Un bon test de niveau."
+    ],
+    [
+      "258",
+      "Issue de secours",
+      "Emergency Exit",
+      "6a+",
+      "25 m",
+      "Finishing variant of route 257. Traverse right after the leaning slab to reach a small, slightly physical overhang. Fun route.",
+      "p46",
+      "Variante de sortie de la voie 257. Traversée sur la droite après la dalle inclinée pour rejoindre un petit dévers un peu physique. Voie sympa."
+    ],
+    [
+      "259",
+      "La Montreuil",
+      "",
+      "8b",
+      "30 m",
+      "Overhanging slab with a saving sloper. A big dynamic move towards the top. 'Old-school' technical climbing.",
+      "p46",
+      "Dalle déversante avec un plat salvateur. Un gros mouv dynamique vers le haut. Escalade technique « old school »."
+    ],
+    [
+      "259-1",
+      "No passaran",
+      "",
+      "7c+",
+      "30 m",
+      "Same line as route 259 lower down, then avoids the hard move on the left. Same finish. Very classy overall. A must-do.",
+      "p46",
+      "Même tracé que la voie 259 en bas, puis évite le pas dur par la gauche. Sortie identique. Ensemble très classe. À faire."
+    ],
+    [
+      "260",
+      "Calamity bedi",
+      "",
+      "6c",
+      "30 m",
+      "Sustained overhanging route with a good rest. Finishes along the arête with a nice flight up jugs.",
+      "p46",
+      "Voie en dévers soutenue avec un bon repos. Fin le long de l'arrête avec une belle envolée sur bacs."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur au rocher très compact.",
+    "Alternance de petits dièdres et piliers.",
+    "La couleur du rocher varie du jaune au bleu en passant par le gris.",
+    "Escalade souvent physique avec des profils verticaux voire légèrement déversants.",
+    "Ombragé au pied."
   ]
 }

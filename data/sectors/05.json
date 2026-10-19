@@ -1,6 +1,16 @@
 {
-  "id": 5, "name": "La Kir", "gloss": "", "color": "#139488",
-  "stats": {"routes": 42, "grades": "5b – 7c", "aspect": "South & East-facing", "height": "25 m to 30 m"},
+  "id": 5,
+  "name": "La Kir",
+  "gloss": "",
+  "color": "#139488",
+  "stats": {
+    "routes": 42,
+    "grades": "5b – 7c",
+    "aspect": "South & East-facing",
+    "height": "25 m to 30 m",
+    "aspect_fr": "Orienté Sud et Est",
+    "height_fr": "De 25 m à 30 m"
+  },
   "intro": "p19",
   "warning": "SECTOR CLOSED from 15 February to 15 June — prefectoral biotope-protection order, because peregrine falcons nest here.",
   "notes": [
@@ -8,53 +18,448 @@
     "Varied grades and climbing styles."
   ],
   "topos": [
-    {"page": "p20", "routes": "100–106"},
-    {"page": "p21", "routes": "107–115"},
-    {"page": "p22", "routes": "116–127"},
-    {"page": "p23", "routes": "128–136"}
+    {
+      "page": "p20",
+      "routes": "100–106"
+    },
+    {
+      "page": "p21",
+      "routes": "107–115"
+    },
+    {
+      "page": "p22",
+      "routes": "116–127"
+    },
+    {
+      "page": "p23",
+      "routes": "128–136"
+    }
   ],
   "routes": [
-    ["100", "Les mains pleines de bérézina", "Hands Full of Disaster", "6b+", "28 m", "Sustained and consistent. Small roof with hidden holds. Athletic climbing that needs a bit of flexibility. One move where you'll have to commit.", "p20"],
-    ["101", "Bobologie", "", "7a+", "28 m", "Bouldery. One move where you'll need to have the sequence dialled. Demanding to read. Fairly pumpy overall.", "p20"],
-    ["102", "Kir", "", "7a", "28 m", "Sustained. A very good stamina test at the grade. Demanding, technical climbing. A must-do.", "p20"],
-    ["103", "L'ange choit", "The Angel Falls", "7b+", "28 m", "Sustained climbing. Very intense bouldery section, slightly reach-dependent.", "p20"],
-    ["104", "Top lisa", "", "7b", "28 m", "Physical, complex climbing. Very beautiful. Needs a good climbing rhythm and plenty of power.", "p20"],
-    ["105", "Deuxième inconnue", "Second Unknown", "6b", "30 m", "Start on the right and finish on the right. Follows the line of weakness; nice route with an original line.", "p20"],
-    ["105-1", "Fifi brin d'acier", "Pippi Steel-Strand (pun on Pippi Longstocking)", "6b+", "30 m", "Same start as 'Deuxième inconnue' but finish straight up. Nice technical slab at the top. Keep something in reserve for the finish.", "p20"],
-    ["106", "Jojo mets ta laine", "Jojo, Put Your Sweater On", "6b", "30 m", "Slightly disconcerting direct start. Finish in the crack of 'Deuxième inconnue'.", "p20"],
-    ["107", "Illusions trouvées", "Found Illusions", "6c+ / 7a", "30 m", "Consistent. Beautiful technical route on a gassy (exposed) pillar. Relaxing at the rests is the key to the redpoint. Atmospheric finish. Very classy — a must-do.", "p21"],
-    ["108", "Le fil à couper le beurre", "The Butter-Cutting Wire", "6a+ / 6b", "30 m", "Very sculpted rock. A route with character that demands commitment and determination.", "p21"],
-    ["109", "Le fil à plomb", "The Plumb Line", "6b", "30 m", "Starting variant of 'Le fil à couper le beurre'. Start up route 107, then traverse left.", "p21"],
-    ["110", "Réconciliation sur l'oreiller", "Making Up on the Pillow", "7a+", "30 m", "Fairly consistent. Beautiful moves; technical, slightly run-out climbing on the overhanging slab at the top.", "p21"],
-    ["111", "La rixe", "The Brawl", "6c+", "30 m", "Demanding climbing at the start, easier finish in the crack.", "p21"],
-    ["112", "Chang de la", "", "6c+", "30 m", "Mixed climbing, with a start that needs good route-reading. Middle section shared with 111. Finish by traversing right onto a slab. Original line.", "p21"],
-    ["113", "Le retour du phoque", "Return of the Seal", "6a", "28 m", "Consistent and very varied. Keep something in reserve for the finish. A beautiful route at the grade (careful not to bully the wedged block at the top).", "p21"],
-    ["113-1", "Le retour vers le futur", "Back to the Future", "6c", "28 m", "Not consistent; the scoop at the top is very sculpted. Belay attentively.", "p21"],
-    ["113-2", "L'eau tarie", "Dried-Up Water", "6b", "28 m", "Finish straight up via a sculpted crack. Committing finish.", "p21"],
-    ["114", "Le Pigeon à Odette", "Odette's Pigeon", "P1 5b / P2 5c", "18 m / 30 m", "Nice route but broken up by ledges. Possible anchor halfway. There is a bees' nest on the 2nd pitch: be careful.", "p21"],
-    ["115", "La guerre des buvettes", "The Snack-Bar War", "5c", "30 m", "Hard start on a pillar; joins the anchor of 114, or can also finish up 113-1 for more consistency.", "p21"],
-    ["116", "Un passager pour le futur", "A Passenger for the Future", "6b", "30 m", "Technical, Cormot-style slab that takes a bit of intuition…", "p22"],
-    ["117-1", "Tata Lulu", "Auntie Lulu", "5c", "30 m", "Fun route, finish up 117.", "p22"],
-    ["117", "Le facteur", "The Postman", "5b+", "30 m", "Historic route, varied styles. The summit chimney is surprising.", "p22"],
-    ["118", "La JP", "", "5c", "28 m", "Physical and consistent. Bridging/opposition in a flake. Mantels and corners that aren't easy to negotiate.", "p22"],
-    ["119", "Scènes de chaste", "Chaste Scenes (pun on 'hunting scenes')", "6b+", "28 m", "Finishing variant of 118. Sustained climbing on spaced flat edges at the top of the route.", "p22"],
-    ["120", "La JP directe", "JP Direct", "5c", "30 m", "Starts left of La JP. Awkward mantel onto the ledge.", "p22"],
-    ["121", "Jour blanc", "Whiteout", "5c+", "30 m", "Finishing variant of 120. Follow the line of the pillar, with a mantel that needs flexibility.", "p22"],
-    ["122", "Le Rambo des bacs à sable", "The Sandpit Rambo", "6c+", "30 m", "Pillar with varied climbing and holds. Nice crimpy slab at the top.", "p22"],
-    ["123", "Le villebrequin", "The Brace Drill", "5b+", "30 m", "Varied, unusual climbing. Surprising tufa column low down; the rest is really physical. Very nice route.", "p22"],
-    ["124", "Nuits secrètes", "Secret Nights", "6b", "30 m", "Complex to read. Technical route overall that needs good anticipation.", "p22"],
-    ["125", "Miracles ordinaires", "Ordinary Miracles", "7b", "30 m", "Bouldery route with a serious slab problem. Feet often on nothing much, but the route is no less interesting for it.", "p22"],
-    ["126", "La coupe", "The Cup", "7b+", "30 m", "Slab lovers will enjoy it. Bouldery route with big moves on sloping holds.", "p22"],
-    ["127", "Cholesterock'n roll", "", "7c", "30 m", "Inconsistent and very intense on the hard moves. A 'key' move on a concave slab on micro-holds.", "p22"],
-    ["128", "La chatière", "The Cat Flap", "6b", "30 m", "Curious slab start, then traverse right to reach a wide crack. Interesting climbing.", "p23"],
-    ["129", "Chatte en folie", "Crazy Cat", "6b+", "30 m", "Same start as 128, then finish in the small vertical crack. Finger climbing.", "p23"],
-    ["130", "Capitaine cradock", "Captain Haddock (pun)", "7a", "30 m", "Sustained climbing on flat crimps, sometimes a little spaced.", "p23"],
-    ["131", "Chic fissure", "Chic Crack", "5b+", "30 m", "Layback (Dülfer) climbing, a little physical on the hard move, where the polish starts to show. Rising traverse left to reach the big crack.", "p23"],
-    ["132", "Ric", "", "5c+", "30 m", "Not consistent, with many rests on the route. Bridging and crack climbing to the fore. A section of loose rock in the second half of the route.", "p23"],
-    ["133", "Les jeux des nuages et de la pluie", "The Games of Clouds and Rain", "6a+/b", "30 m", "Selective start, then a vertical crack and big flakes. Varied climbing.", "p23"],
-    ["134", "Aranéides", "Spiders", "6b", "30 m", "Direct start to route 132. Lacks consistency.", "p23"],
-    ["134-1", "L'année des pianos à queue", "The Year of the Grand Pianos", "7a", "30 m", "Sustained, varied and technical climbing.", "p23"],
-    ["135", "La partouze", "The Orgy", "6b+", "30 m", "Intense moves broken up by good rests; keep a bit in reserve for the finish.", "p23"],
-    ["136", "Le pilier de la burn's", "", "6c", "30 m", "Sustained and consistent. Overhanging slab on small holds and a pillar climbed with finesse.", "p23"]
-  ]
+    [
+      "100",
+      "Les mains pleines de bérézina",
+      "Hands Full of Disaster",
+      "6b+",
+      "28 m",
+      "Sustained and consistent. Small roof with hidden holds. Athletic climbing that needs a bit of flexibility. One move where you'll have to commit.",
+      "p20",
+      "Continue et homogène. Petit toit avec des prises cachées. Escalade athlétique qui demande un peu de souplesse. Un pas où il va falloir avancer."
+    ],
+    [
+      "101",
+      "Bobologie",
+      "",
+      "7a+",
+      "28 m",
+      "Bouldery. One move where you'll need to have the sequence dialled. Demanding to read. Fairly pumpy overall.",
+      "p20",
+      "Bloc. Un pas où il va falloir être dans la méthode. Exigeant dans la lecture. L'ensemble est assez rési."
+    ],
+    [
+      "102",
+      "Kir",
+      "",
+      "7a",
+      "28 m",
+      "Sustained. A very good stamina test at the grade. Demanding, technical climbing. A must-do.",
+      "p20",
+      "Continue. Très bon test de rési dans ce niveau. Escalade exigeante et technique. À faire."
+    ],
+    [
+      "103",
+      "L'ange choit",
+      "The Angel Falls",
+      "7b+",
+      "28 m",
+      "Sustained climbing. Very intense bouldery section, slightly reach-dependent.",
+      "p20",
+      "Escalade soutenue. Passage typé bloc très intense, un peu morpho."
+    ],
+    [
+      "104",
+      "Top lisa",
+      "",
+      "7b",
+      "28 m",
+      "Physical, complex climbing. Very beautiful. Needs a good climbing rhythm and plenty of power.",
+      "p20",
+      "Escalade physique et complexe. Très beau. Demande un bon rythme d'escalade et pas mal de tonicité."
+    ],
+    [
+      "105",
+      "Deuxième inconnue",
+      "Second Unknown",
+      "6b",
+      "30 m",
+      "Start on the right and finish on the right. Follows the line of weakness; nice route with an original line.",
+      "p20",
+      "Départ à droite et sortie à droite. Emprunte la ligne de faiblesse, belle voie au tracé original."
+    ],
+    [
+      "105-1",
+      "Fifi brin d'acier",
+      "Pippi Steel-Strand (pun on Pippi Longstocking)",
+      "6b+",
+      "30 m",
+      "Same start as 'Deuxième inconnue' but finish straight up. Nice technical slab at the top. Keep something in reserve for the finish.",
+      "p20",
+      "Même départ que « Deuxième inconnue » mais sortir tout droit. Belle dalle technique en haut. Garder de la réserve pour la sortie."
+    ],
+    [
+      "106",
+      "Jojo mets ta laine",
+      "Jojo, Put Your Sweater On",
+      "6b",
+      "30 m",
+      "Slightly disconcerting direct start. Finish in the crack of 'Deuxième inconnue'.",
+      "p20",
+      "Départ dans l'axe un peu déroutant. Sortir dans la fissure de « Deuxième inconnue »."
+    ],
+    [
+      "107",
+      "Illusions trouvées",
+      "Found Illusions",
+      "6c+ / 7a",
+      "30 m",
+      "Consistent. Beautiful technical route on a gassy (exposed) pillar. Relaxing at the rests is the key to the redpoint. Atmospheric finish. Very classy — a must-do.",
+      "p21",
+      "Homogène. Belle voie technique sur un pilier gazeux. Le relâchement dans les repos est la clef de l'enchaînement. Ambiance en sortie. Grande classe, à faire."
+    ],
+    [
+      "108",
+      "Le fil à couper le beurre",
+      "The Butter-Cutting Wire",
+      "6a+ / 6b",
+      "30 m",
+      "Very sculpted rock. A route with character that demands commitment and determination.",
+      "p21",
+      "Rocher très sculpté. Voie de caractère qui demande de l'implication et de la détermination."
+    ],
+    [
+      "109",
+      "Le fil à plomb",
+      "The Plumb Line",
+      "6b",
+      "30 m",
+      "Starting variant of 'Le fil à couper le beurre'. Start up route 107, then traverse left.",
+      "p21",
+      "Variante de départ du « Fil à couper le beurre ». Partir dans la voie 107 puis traversée à gauche."
+    ],
+    [
+      "110",
+      "Réconciliation sur l'oreiller",
+      "Making Up on the Pillow",
+      "7a+",
+      "30 m",
+      "Fairly consistent. Beautiful moves; technical, slightly run-out climbing on the overhanging slab at the top.",
+      "p21",
+      "Relativement homogène. De beaux mouvements, escalade technique un peu engagée dans la dalle déversante du haut."
+    ],
+    [
+      "111",
+      "La rixe",
+      "The Brawl",
+      "6c+",
+      "30 m",
+      "Demanding climbing at the start, easier finish in the crack.",
+      "p21",
+      "Escalade exigeante au départ, sortie plus cool dans la fissure."
+    ],
+    [
+      "112",
+      "Chang de la",
+      "",
+      "6c+",
+      "30 m",
+      "Mixed climbing, with a start that needs good route-reading. Middle section shared with 111. Finish by traversing right onto a slab. Original line.",
+      "p21",
+      "Escalade hétérogène, avec un départ qui demande une bonne lecture. Milieu de voie commun à 111. Sortir en traversée à droite sur une dalle. Tracé original."
+    ],
+    [
+      "113",
+      "Le retour du phoque",
+      "Return of the Seal",
+      "6a",
+      "28 m",
+      "Consistent and very varied. Keep something in reserve for the finish. A beautiful route at the grade (careful not to bully the wedged block at the top).",
+      "p21",
+      "Homogène et très varié. Gardez de la réserve pour la sortie. Une belle voie dans ce niveau (attention à ne pas trop bourriner sur le bloc coincé en haut)."
+    ],
+    [
+      "113-1",
+      "Le retour vers le futur",
+      "Back to the Future",
+      "6c",
+      "28 m",
+      "Not consistent; the scoop at the top is very sculpted. Belay attentively.",
+      "p21",
+      "Peu homogène, la conque du haut est très sculptée. Vigilance à l'assurage."
+    ],
+    [
+      "113-2",
+      "L'eau tarie",
+      "Dried-Up Water",
+      "6b",
+      "28 m",
+      "Finish straight up via a sculpted crack. Committing finish.",
+      "p21",
+      "Sortie dans l'axe par une fissure sculptée. Sortie engagée."
+    ],
+    [
+      "114",
+      "Le Pigeon à Odette",
+      "Odette's Pigeon",
+      "P1 5b / P2 5c",
+      "18 m / 30 m",
+      "Nice route but broken up by ledges. Possible anchor halfway. There is a bees' nest on the 2nd pitch: be careful.",
+      "p21",
+      "Belle voie mais entrecoupée de vires. Relais possible à mi-voie. Présence d'un nid d'abeilles en 2e longueur : soyez vigilants."
+    ],
+    [
+      "115",
+      "La guerre des buvettes",
+      "The Snack-Bar War",
+      "5c",
+      "30 m",
+      "Hard start on a pillar; joins the anchor of 114, or can also finish up 113-1 for more consistency.",
+      "p21",
+      "Départ difficile sur un pilier, rejoint le relais de 114, ou peut finir aussi dans 113-1 pour plus d'homogénéité."
+    ],
+    [
+      "116",
+      "Un passager pour le futur",
+      "A Passenger for the Future",
+      "6b",
+      "30 m",
+      "Technical, Cormot-style slab that takes a bit of intuition…",
+      "p22",
+      "Dalle technique style « Cormot » demandant un peu d'intuition…"
+    ],
+    [
+      "117-1",
+      "Tata Lulu",
+      "Auntie Lulu",
+      "5c",
+      "30 m",
+      "Fun route, finish up 117.",
+      "p22",
+      "Voie sympa, sortir dans 117."
+    ],
+    [
+      "117",
+      "Le facteur",
+      "The Postman",
+      "5b+",
+      "30 m",
+      "Historic route, varied styles. The summit chimney is surprising.",
+      "p22",
+      "Voie historique, styles variés. La cheminée sommitale est surprenante."
+    ],
+    [
+      "118",
+      "La JP",
+      "",
+      "5c",
+      "28 m",
+      "Physical and consistent. Bridging/opposition in a flake. Mantels and corners that aren't easy to negotiate.",
+      "p22",
+      "Physique et homogène. Opposition dans une écaille. Des rétas et des dièdres pas faciles à négocier."
+    ],
+    [
+      "119",
+      "Scènes de chaste",
+      "Chaste Scenes (pun on 'hunting scenes')",
+      "6b+",
+      "28 m",
+      "Finishing variant of 118. Sustained climbing on spaced flat edges at the top of the route.",
+      "p22",
+      "Variante de sortie de 118. Escalade soutenue sur règles plates éloignées dans le haut de la voie."
+    ],
+    [
+      "120",
+      "La JP directe",
+      "JP Direct",
+      "5c",
+      "30 m",
+      "Starts left of La JP. Awkward mantel onto the ledge.",
+      "p22",
+      "Départ à gauche de la JP. Réta sur la vire pas évident."
+    ],
+    [
+      "121",
+      "Jour blanc",
+      "Whiteout",
+      "5c+",
+      "30 m",
+      "Finishing variant of 120. Follow the line of the pillar, with a mantel that needs flexibility.",
+      "p22",
+      "Variante de sortie de 120. Suivre le fil du pilier avec un rétablissement qui requiert de la souplesse."
+    ],
+    [
+      "122",
+      "Le Rambo des bacs à sable",
+      "The Sandpit Rambo",
+      "6c+",
+      "30 m",
+      "Pillar with varied climbing and holds. Nice crimpy slab at the top.",
+      "p22",
+      "Pilier varié par le type d'escalade et les prises qu'on y rencontre. Belle dalle à réglettes en haut."
+    ],
+    [
+      "123",
+      "Le villebrequin",
+      "The Brace Drill",
+      "5b+",
+      "30 m",
+      "Varied, unusual climbing. Surprising tufa column low down; the rest is really physical. Very nice route.",
+      "p22",
+      "Escalade variée et atypique. Colonne de tuf surprenante dans le bas, la suite est bien physique. Très belle voie."
+    ],
+    [
+      "124",
+      "Nuits secrètes",
+      "Secret Nights",
+      "6b",
+      "30 m",
+      "Complex to read. Technical route overall that needs good anticipation.",
+      "p22",
+      "Lecture complexe. Voie technique dans l'ensemble, qui demande une bonne anticipation."
+    ],
+    [
+      "125",
+      "Miracles ordinaires",
+      "Ordinary Miracles",
+      "7b",
+      "30 m",
+      "Bouldery route with a serious slab problem. Feet often on nothing much, but the route is no less interesting for it.",
+      "p22",
+      "Voie typée bloc, avec un problème de dalle sérieux. Pieds souvent dans la semoule, mais la voie n'en demeure pas moins intéressante."
+    ],
+    [
+      "126",
+      "La coupe",
+      "The Cup",
+      "7b+",
+      "30 m",
+      "Slab lovers will enjoy it. Bouldery route with big moves on sloping holds.",
+      "p22",
+      "Les amateurs de dalle apprécieront. Voie typée bloc, avec de grands mouvements sur prises fuyantes."
+    ],
+    [
+      "127",
+      "Cholesterock'n roll",
+      "",
+      "7c",
+      "30 m",
+      "Inconsistent and very intense on the hard moves. A 'key' move on a concave slab on micro-holds.",
+      "p22",
+      "Peu homogène et très intense dans les pas durs. Un pas « clé » dans une dalle concave sur des micro-prises."
+    ],
+    [
+      "128",
+      "La chatière",
+      "The Cat Flap",
+      "6b",
+      "30 m",
+      "Curious slab start, then traverse right to reach a wide crack. Interesting climbing.",
+      "p23",
+      "Départ curieux en dalle puis traversée à droite pour rejoindre une large fissure. Escalade intéressante."
+    ],
+    [
+      "129",
+      "Chatte en folie",
+      "Crazy Cat",
+      "6b+",
+      "30 m",
+      "Same start as 128, then finish in the small vertical crack. Finger climbing.",
+      "p23",
+      "Départ identique à 128, puis finir dans la petite fissure verticale. Escalade à doigts."
+    ],
+    [
+      "130",
+      "Capitaine cradock",
+      "Captain Haddock (pun)",
+      "7a",
+      "30 m",
+      "Sustained climbing on flat crimps, sometimes a little spaced.",
+      "p23",
+      "Escalade soutenue sur des réglettes plates, parfois un peu éloignées."
+    ],
+    [
+      "131",
+      "Chic fissure",
+      "Chic Crack",
+      "5b+",
+      "30 m",
+      "Layback (Dülfer) climbing, a little physical on the hard move, where the polish starts to show. Rising traverse left to reach the big crack.",
+      "p23",
+      "Escalade en Dulfer, un tantinet physique dans le pas dur où la patine commence à se faire sentir. Traversée ascendante sur la gauche pour rejoindre la grosse fissure."
+    ],
+    [
+      "132",
+      "Ric",
+      "",
+      "5c+",
+      "30 m",
+      "Not consistent, with many rests on the route. Bridging and crack climbing to the fore. A section of loose rock in the second half of the route.",
+      "p23",
+      "Peu homogène, avec de nombreux repos dans la voie. Oppo et fissure à l'honneur. Une zone de rocher délité en deuxième partie de voie."
+    ],
+    [
+      "133",
+      "Les jeux des nuages et de la pluie",
+      "The Games of Clouds and Rain",
+      "6a+/b",
+      "30 m",
+      "Selective start, then a vertical crack and big flakes. Varied climbing.",
+      "p23",
+      "Départ sélectif puis fissure verticale et grosses écailles. Escalade variée."
+    ],
+    [
+      "134",
+      "Aranéides",
+      "Spiders",
+      "6b",
+      "30 m",
+      "Direct start to route 132. Lacks consistency.",
+      "p23",
+      "Départ direct de la voie 132. Manque d'homogénéité."
+    ],
+    [
+      "134-1",
+      "L'année des pianos à queue",
+      "The Year of the Grand Pianos",
+      "7a",
+      "30 m",
+      "Sustained, varied and technical climbing.",
+      "p23",
+      "Escalade soutenue, variée et technique."
+    ],
+    [
+      "135",
+      "La partouze",
+      "The Orgy",
+      "6b+",
+      "30 m",
+      "Intense moves broken up by good rests; keep a bit in reserve for the finish.",
+      "p23",
+      "Des mouvs intenses entrecoupés de bons repos, gardez un peu de réserve pour la sortie."
+    ],
+    [
+      "136",
+      "Le pilier de la burn's",
+      "",
+      "6c",
+      "30 m",
+      "Sustained and consistent. Overhanging slab on small holds and a pillar climbed with finesse.",
+      "p23",
+      "Continue et homogène. Dalle déversante à petites prises et pilier tout en finesse."
+    ]
+  ],
+  "notes_fr": [
+    "Les voies sont d'une qualité exceptionnelle sur ce secteur.",
+    "Niveaux et styles d'escalade variés."
+  ],
+  "warning_fr": "SECTEUR INTERDIT du 15 février au 15 juin — arrêté préfectoral de protection biotope pour cause de nidification du faucon pèlerin."
 }

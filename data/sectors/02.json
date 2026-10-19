@@ -1,6 +1,16 @@
 {
-  "id": 2, "name": "Pimprenelle", "gloss": "Burnet (a wildflower)", "color": "#5f8f96",
-  "stats": {"routes": 25, "grades": "4a – 6b", "aspect": "South & East-facing", "height": "18 m to 25 m"},
+  "id": 2,
+  "name": "Pimprenelle",
+  "gloss": "Burnet (a wildflower)",
+  "color": "#5f8f96",
+  "stats": {
+    "routes": 25,
+    "grades": "4a – 6b",
+    "aspect": "South & East-facing",
+    "height": "18 m to 25 m",
+    "aspect_fr": "Orienté Sud et Est",
+    "height_fr": "De 18 m à 25 m"
+  },
   "intro": "p09",
   "notes": [
     "Sector with fairly closely spaced bolts.",
@@ -9,34 +19,271 @@
     "Route grades suited to a first introduction to outdoor climbing."
   ],
   "topos": [
-    {"page": "p10", "routes": "24–37"},
-    {"page": "p11", "routes": "38–48"}
+    {
+      "page": "p10",
+      "routes": "24–37"
+    },
+    {
+      "page": "p11",
+      "routes": "38–48"
+    }
   ],
   "routes": [
-    ["24", "Baston la baffe", "Fight, the Slap", "4c", "18 m", "Vague crack and slab arête.", "p10"],
-    ["25", "Exogénose aigüe", "Acute Exogenosis", "4b", "20 m", "Pillar, crack.", "p10"],
-    ["26", "Les gars de la narine", "The Nostril Guys", "4a", "20 m", "Slab and vague corner.", "p10"],
-    ["27", "Adèle s'en mêle", "Adèle Gets Involved", "4a", "20 m", "Corner broken up by ledges.", "p10"],
-    ["28", "Yeti y es-tu", "Yeti, Are You There?", "4b", "20 m", "Slab and slab arête.", "p10"],
-    ["29", "L'émotion des artistes", "The Artists' Emotion", "5a", "22 m", "Overhang, ledge and corner.", "p10"],
-    ["30", "Période mystique", "Mystic Period", "4b", "22 m", "Slab, irregular corner and overhang.", "p10"],
-    ["31", "Zébu", "Zebu", "5c+", "22 m", "Slab, pillar and crack.", "p10"],
-    ["32", "Bullons", "Let's Laze Around", "5a", "22 m", "Corner, steep section, corner.", "p10"],
-    ["33", "Mère michu", "Mother Michu (French nursery rhyme)", "5c", "22 m", "Crack, corner and slab.", "p10"],
-    ["34", "Pimprenelle", "Burnet", "5b", "20 m", "Corner, flake and slab.", "p10"],
-    ["35", "La valse des minous", "The Kitties' Waltz", "5a+", "20 m", "Overhang and low-angled slab. A boulder-problem move at the start.", "p10"],
-    ["36", "Bordel de randonnée", "Hiking Mess", "4c", "22 m", "Slab, ledge and corner.", "p10"],
-    ["37", "Viandax", "", "5a", "22 m", "Corner, ledge and big crack. Very sculpted rock. 2 possible finishes of the same grade.", "p10"],
-    ["38", "Tampox", "", "6a", "22 m", "Slab with big steps, then a crack.", "p11"],
-    ["39", "Vie et mœurs", "Life and Customs", "5c+", "25 m", "Crimpy slab and crack.", "p11"],
-    ["40", "Enfermé dans les cabinets", "Locked in the Toilet", "6b", "25 m", "Crimpy slab.", "p11"],
-    ["41", "Dessine-moi une escalade", "Draw Me a Climb", "6a+", "25 m", "Overhanging slab.", "p11"],
-    ["42", "Parlez-moi d'humour", "Talk to Me About Humour", "5b / 5c", "25 m", "Corner and cracked slab. Left variant: 5b | right variant: 5c.", "p11"],
-    ["43", "La promesse de l'ange", "The Angel's Promise", "6a", "25 m", "Crimpy slab.", "p11"],
-    ["44", "Les saisons du plaisir", "The Seasons of Pleasure", "6a", "25 m", "Overhanging crack, ledge and compact slab.", "p11"],
-    ["45", "Rêve de prises", "Dream of Holds", "5b", "25 m", "Vague pillar, corner.", "p11"],
-    ["46", "Liberté tous risques", "Freedom, All Risks", "5c", "25 m", "Overhanging pillar, crack and slab. Finish in the corner of route 47.", "p11"],
-    ["47", "Trace d'éternité", "Trace of Eternity", "4c", "25 m", "Corner, often overgrown with vegetation.", "p11"],
-    ["48", "Ruissellement d'émotion", "Streaming Emotion", "5c+", "18 m", "Vertical, cracked slab.", "p11"]
+    [
+      "24",
+      "Baston la baffe",
+      "Fight, the Slap",
+      "4c",
+      "18 m",
+      "Vague crack and slab arête.",
+      "p10",
+      "Vague fissure et arrête de dalle."
+    ],
+    [
+      "25",
+      "Exogénose aigüe",
+      "Acute Exogenosis",
+      "4b",
+      "20 m",
+      "Pillar, crack.",
+      "p10",
+      "Pilier, fissure."
+    ],
+    [
+      "26",
+      "Les gars de la narine",
+      "The Nostril Guys",
+      "4a",
+      "20 m",
+      "Slab and vague corner.",
+      "p10",
+      "Dalle et vague dièdre."
+    ],
+    [
+      "27",
+      "Adèle s'en mêle",
+      "Adèle Gets Involved",
+      "4a",
+      "20 m",
+      "Corner broken up by ledges.",
+      "p10",
+      "Dièdre entrecoupé de vires."
+    ],
+    [
+      "28",
+      "Yeti y es-tu",
+      "Yeti, Are You There?",
+      "4b",
+      "20 m",
+      "Slab and slab arête.",
+      "p10",
+      "Dalle et arrête de dalle."
+    ],
+    [
+      "29",
+      "L'émotion des artistes",
+      "The Artists' Emotion",
+      "5a",
+      "22 m",
+      "Overhang, ledge and corner.",
+      "p10",
+      "Surplomb, vire et dièdre."
+    ],
+    [
+      "30",
+      "Période mystique",
+      "Mystic Period",
+      "4b",
+      "22 m",
+      "Slab, irregular corner and overhang.",
+      "p10",
+      "Dalle, dièdre irrégulier et surplomb."
+    ],
+    [
+      "31",
+      "Zébu",
+      "Zebu",
+      "5c+",
+      "22 m",
+      "Slab, pillar and crack.",
+      "p10",
+      "Dalle, pilier et fissure."
+    ],
+    [
+      "32",
+      "Bullons",
+      "Let's Laze Around",
+      "5a",
+      "22 m",
+      "Corner, steep section, corner.",
+      "p10",
+      "Dièdre, dévers, dièdre."
+    ],
+    [
+      "33",
+      "Mère michu",
+      "Mother Michu (French nursery rhyme)",
+      "5c",
+      "22 m",
+      "Crack, corner and slab.",
+      "p10",
+      "Fissure, dièdre et dalle."
+    ],
+    [
+      "34",
+      "Pimprenelle",
+      "Burnet",
+      "5b",
+      "20 m",
+      "Corner, flake and slab.",
+      "p10",
+      "Dièdre, écaille et dalle."
+    ],
+    [
+      "35",
+      "La valse des minous",
+      "The Kitties' Waltz",
+      "5a+",
+      "20 m",
+      "Overhang and low-angled slab. A boulder-problem move at the start.",
+      "p10",
+      "Surplomb et dalle inclinée. Un pas de bloc au départ."
+    ],
+    [
+      "36",
+      "Bordel de randonnée",
+      "Hiking Mess",
+      "4c",
+      "22 m",
+      "Slab, ledge and corner.",
+      "p10",
+      "Dalle, vire et dièdre."
+    ],
+    [
+      "37",
+      "Viandax",
+      "",
+      "5a",
+      "22 m",
+      "Corner, ledge and big crack. Very sculpted rock. 2 possible finishes of the same grade.",
+      "p10",
+      "Dièdre, vire et grosse fissure. Rocher très sculpté. 2 sorties possibles avec niveau équivalent."
+    ],
+    [
+      "38",
+      "Tampox",
+      "",
+      "6a",
+      "22 m",
+      "Slab with big steps, then a crack.",
+      "p11",
+      "Dalle à grosses marches puis fissure."
+    ],
+    [
+      "39",
+      "Vie et mœurs",
+      "Life and Customs",
+      "5c+",
+      "25 m",
+      "Crimpy slab and crack.",
+      "p11",
+      "Dalle à réglettes et fissure."
+    ],
+    [
+      "40",
+      "Enfermé dans les cabinets",
+      "Locked in the Toilet",
+      "6b",
+      "25 m",
+      "Crimpy slab.",
+      "p11",
+      "Dalle à réglettes."
+    ],
+    [
+      "41",
+      "Dessine-moi une escalade",
+      "Draw Me a Climb",
+      "6a+",
+      "25 m",
+      "Overhanging slab.",
+      "p11",
+      "Dalle déversante."
+    ],
+    [
+      "42",
+      "Parlez-moi d'humour",
+      "Talk to Me About Humour",
+      "5b / 5c",
+      "25 m",
+      "Corner and cracked slab. Left variant: 5b | right variant: 5c.",
+      "p11",
+      "Dièdre et dalle fissurée. Variante de gauche : 5b | Variante de droite : 5c."
+    ],
+    [
+      "43",
+      "La promesse de l'ange",
+      "The Angel's Promise",
+      "6a",
+      "25 m",
+      "Crimpy slab.",
+      "p11",
+      "Dalle à réglettes."
+    ],
+    [
+      "44",
+      "Les saisons du plaisir",
+      "The Seasons of Pleasure",
+      "6a",
+      "25 m",
+      "Overhanging crack, ledge and compact slab.",
+      "p11",
+      "Fissure surplombante, vire et dalle compacte."
+    ],
+    [
+      "45",
+      "Rêve de prises",
+      "Dream of Holds",
+      "5b",
+      "25 m",
+      "Vague pillar, corner.",
+      "p11",
+      "Vague pilier, dièdre."
+    ],
+    [
+      "46",
+      "Liberté tous risques",
+      "Freedom, All Risks",
+      "5c",
+      "25 m",
+      "Overhanging pillar, crack and slab. Finish in the corner of route 47.",
+      "p11",
+      "Pilier déversant, fissure et dalle. Sortir dans le dièdre de la voie 47."
+    ],
+    [
+      "47",
+      "Trace d'éternité",
+      "Trace of Eternity",
+      "4c",
+      "25 m",
+      "Corner, often overgrown with vegetation.",
+      "p11",
+      "Dièdre souvent encombré de végétation."
+    ],
+    [
+      "48",
+      "Ruissellement d'émotion",
+      "Streaming Emotion",
+      "5c+",
+      "18 m",
+      "Vertical, cracked slab.",
+      "p11",
+      "Dalle verticale et fissurée."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur avec un équipement assez rapproché.",
+    "Beaucoup de vires dans ce secteur (anciennes carrières de Saffres).",
+    "Soyez attentif à l'assurage ainsi qu'à la qualité de certaines prises (rocher parfois délité).",
+    "Niveau des voies adapté pour l'initiation en falaise."
   ]
 }

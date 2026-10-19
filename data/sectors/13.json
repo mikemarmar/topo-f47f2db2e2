@@ -1,6 +1,16 @@
 {
-  "id": 13, "name": "Sans nom", "gloss": "Nameless", "color": "#6b2f7d",
-  "stats": {"routes": 39, "grades": "4a – 6c", "aspect": "South & East-facing", "height": "5 m to 25 m"},
+  "id": 13,
+  "name": "Sans nom",
+  "gloss": "Nameless",
+  "color": "#6b2f7d",
+  "stats": {
+    "routes": 39,
+    "grades": "4a – 6c",
+    "aspect": "South & East-facing",
+    "height": "5 m to 25 m",
+    "aspect_fr": "Orienté Sud et Est",
+    "height_fr": "De 5 m à 25 m"
+  },
   "intro": "p47",
   "notes": [
     "Small, shady sector with some slightly polished routes.",
@@ -8,52 +18,432 @@
     "The base of the routes is not always very comfortable."
   ],
   "topos": [
-    {"page": "p48", "routes": "261–268"},
-    {"page": "p49", "routes": "269–277"},
-    {"page": "p50", "routes": "278–285-1"},
-    {"page": "p51", "routes": "286–292"},
-    {"page": "p52", "routes": "293–299"}
+    {
+      "page": "p48",
+      "routes": "261–268"
+    },
+    {
+      "page": "p49",
+      "routes": "269–277"
+    },
+    {
+      "page": "p50",
+      "routes": "278–285-1"
+    },
+    {
+      "page": "p51",
+      "routes": "286–292"
+    },
+    {
+      "page": "p52",
+      "routes": "293–299"
+    }
   ],
   "routes": [
-    ["261", "La marguerite directe", "The Daisy Direct", "6a+", "25 m", "Cracked pillar followed by a slab climbed with finesse.", "p48"],
-    ["262", "Rock zoulou", "Rock Zulu", "6a", "25 m", "Rhythmic climbing where you'll need to find the right tempo.", "p48"],
-    ["263", "La mort subite", "Sudden Death", "6a", "20 m", "Technical slab climbing.", "p48"],
-    ["264", "La marguerite", "The Daisy", "5b/c", "30 m", "Historic route first climbed between 1930 and 1940. Traversing line; can be done in 2 pitches to limit rope drag.", "p48"],
-    ["265", "L'examen", "The Exam", "6a+", "23 m", "Short, technical slab.", "p48"],
-    ["266", "La sorcière", "The Witch", "5c+", "25 m", "Physical start in a crack, then a slight traverse left. Careful not to fall into the tree.", "p48"],
-    ["267", "Coco bel œil", "Coco Pretty-Eye", "5b", "10 m", "Easy, fairly short route.", "p48"],
-    ["268", "Coco", "", "4c", "20 m", "Easy.", "p48"],
-    ["269", "L'endormi", "The Sleepy One", "5b+", "20 m", "Delicate starting move. Fun finish.", "p49"],
-    ["270", "La vedette", "The Star", "5c", "20 m", "Good cracks.", "p49"],
-    ["271", "Cathy", "", "5c", "20 m", "Delicate slab. The hard move is polished.", "p49"],
-    ["272", "Fanny", "", "5c", "20 m", "Technical slab move. Polished.", "p49"],
-    ["273", "La sans nom", "The Nameless One", "5b", "18 m", "Intense overhanging corner at the start, then easier. Tends to be polished.", "p49"],
-    ["274", "Sketchup", "", "4c", "18 m", "Finishing variant of 275.", "p49"],
-    ["275", "La pseudo", "The Pseudo", "4c", "18 m", "Slab then polished corner. Loose rock at the top.", "p49"],
-    ["276", "Le Graphos", "", "5a", "18 m", "Delicate corner.", "p49"],
-    ["277", "La Crunch", "", "5c", "18 m", "Corner then slab.", "p49"],
-    ["278", "Le bloc", "The Block", "4c", "18 m", "Slab on the side of a leaning block — fun.", "p50"],
-    ["279", "Nid de bœufs", "Oxen's Nest", "5a", "18 m", "Chimney crack.", "p50"],
-    ["280", "Histoire de conque", "A Tale of a Scoop", "6c", "15 m", "Beautiful concave scoop in compact rock; bouldery.", "p50"],
-    ["281", "La cathyverno", "", "6b", "15 m", "Small corner, then an overhanging pillar.", "p50"],
-    ["282", "Le censeur", "The Censor", "4c", "15 m", "Easy, interesting corner.", "p50"],
-    ["283", "L'écaille", "The Flake", "4c", "15 m", "Big flake and corner.", "p50"],
-    ["284", "La fée des doigts", "The Finger Fairy", "5b+", "12 m", "Slab move.", "p50"],
-    ["285", "Les nouilles à Jacquot", "Jacquot's Noodles", "4b", "12 m", "Staircase.", "p50"],
-    ["285-1", "Scoobi-doo", "Scooby-Doo", "5c", "12 m", "Technical slab climbing.", "p50"],
-    ["286", "Le dévissage", "The Unscrewing (climber's slang for a fall)", "4b", "12 m", "Chimney-corner, often dirty.", "p51"],
-    ["287", "La valse des pantins", "The Puppets' Waltz", "6c", "12 m", "Slab with small holds.", "p51"],
-    ["288", "La miaou", "The Meow", "6a", "12 m", "Slightly overhanging slab with pockets.", "p51"],
-    ["289", "Gipsy", "", "4c", "10 m", "Jugs.", "p51"],
-    ["290", "Tuyau de poêle", "Stovepipe", "4a", "8 m", "Chimney.", "p51"],
-    ["291", "Graine de bison", "Bison Seed", "4b", "8 m", "Cracked slab.", "p51"],
-    ["292", "Petzl", "", "4b", "8 m", "Arête.", "p51"],
-    ["293", "Rétro laser", "", "4b", "8 m", "Slab with a ledge.", "p52"],
-    ["294", "Sur les pieds", "On Your Feet", "4a", "8 m", "Staircase corner.", "p52"],
-    ["295", "Petit tonnerre", "Little Thunder", "5b", "8 m", "Vertical corner.", "p52"],
-    ["296", "Rantanplan", "", "4c", "5 m", "Staircase arête.", "p52"],
-    ["297", "Bulle et burille", "", "4a", "5 m", "Slab with big steps.", "p52"],
-    ["298", "Trompette", "Trumpet", "5b", "5 m", "Overhanging scoop and corner.", "p52"],
-    ["299", "Pic nic", "Picnic", "4c", "5 m", "Overhanging corner.", "p52"]
+    [
+      "261",
+      "La marguerite directe",
+      "The Daisy Direct",
+      "6a+",
+      "25 m",
+      "Cracked pillar followed by a slab climbed with finesse.",
+      "p48",
+      "Pilier fissuré suivi d'une dalle toute en finesse."
+    ],
+    [
+      "262",
+      "Rock zoulou",
+      "Rock Zulu",
+      "6a",
+      "25 m",
+      "Rhythmic climbing where you'll need to find the right tempo.",
+      "p48",
+      "Escalade rythmée où il va falloir trouver le bon tempo."
+    ],
+    [
+      "263",
+      "La mort subite",
+      "Sudden Death",
+      "6a",
+      "20 m",
+      "Technical slab climbing.",
+      "p48",
+      "Escalade en dalle technique."
+    ],
+    [
+      "264",
+      "La marguerite",
+      "The Daisy",
+      "5b/c",
+      "30 m",
+      "Historic route first climbed between 1930 and 1940. Traversing line; can be done in 2 pitches to limit rope drag.",
+      "p48",
+      "Voie historique gravie entre 1930 et 1940. Itinéraire qui traverse, peut se faire en 2 longueurs pour limiter le tirage."
+    ],
+    [
+      "265",
+      "L'examen",
+      "The Exam",
+      "6a+",
+      "23 m",
+      "Short, technical slab.",
+      "p48",
+      "Dalle technique et courte."
+    ],
+    [
+      "266",
+      "La sorcière",
+      "The Witch",
+      "5c+",
+      "25 m",
+      "Physical start in a crack, then a slight traverse left. Careful not to fall into the tree.",
+      "p48",
+      "Départ physique en fissure, puis légère traversée sur la gauche. Attention à ne pas tomber dans l'arbre."
+    ],
+    [
+      "267",
+      "Coco bel œil",
+      "Coco Pretty-Eye",
+      "5b",
+      "10 m",
+      "Easy, fairly short route.",
+      "p48",
+      "Voie facile assez courte."
+    ],
+    [
+      "268",
+      "Coco",
+      "",
+      "4c",
+      "20 m",
+      "Easy.",
+      "p48",
+      "Easy."
+    ],
+    [
+      "269",
+      "L'endormi",
+      "The Sleepy One",
+      "5b+",
+      "20 m",
+      "Delicate starting move. Fun finish.",
+      "p49",
+      "Mouvement de départ délicat. Sortie sympa."
+    ],
+    [
+      "270",
+      "La vedette",
+      "The Star",
+      "5c",
+      "20 m",
+      "Good cracks.",
+      "p49",
+      "De bonnes fissures."
+    ],
+    [
+      "271",
+      "Cathy",
+      "",
+      "5c",
+      "20 m",
+      "Delicate slab. The hard move is polished.",
+      "p49",
+      "Dalle délicate. Le pas dur est patiné."
+    ],
+    [
+      "272",
+      "Fanny",
+      "",
+      "5c",
+      "20 m",
+      "Technical slab move. Polished.",
+      "p49",
+      "Mouvement technique en dalle. Patiné."
+    ],
+    [
+      "273",
+      "La sans nom",
+      "The Nameless One",
+      "5b",
+      "18 m",
+      "Intense overhanging corner at the start, then easier. Tends to be polished.",
+      "p49",
+      "Dièdre déversant intense au départ, puis plus facile. Tendance à la patine."
+    ],
+    [
+      "274",
+      "Sketchup",
+      "",
+      "4c",
+      "18 m",
+      "Finishing variant of 275.",
+      "p49",
+      "Variante de sortie de 275."
+    ],
+    [
+      "275",
+      "La pseudo",
+      "The Pseudo",
+      "4c",
+      "18 m",
+      "Slab then polished corner. Loose rock at the top.",
+      "p49",
+      "Dalle puis dièdre patiné. Du rocher délité en haut."
+    ],
+    [
+      "276",
+      "Le Graphos",
+      "",
+      "5a",
+      "18 m",
+      "Delicate corner.",
+      "p49",
+      "Dièdre délicat."
+    ],
+    [
+      "277",
+      "La Crunch",
+      "",
+      "5c",
+      "18 m",
+      "Corner then slab.",
+      "p49",
+      "Dièdre puis dalle."
+    ],
+    [
+      "278",
+      "Le bloc",
+      "The Block",
+      "4c",
+      "18 m",
+      "Slab on the side of a leaning block — fun.",
+      "p50",
+      "Dalle sur le flanc d'un bloc incliné, rigolo."
+    ],
+    [
+      "279",
+      "Nid de bœufs",
+      "Oxen's Nest",
+      "5a",
+      "18 m",
+      "Chimney crack.",
+      "p50",
+      "Fissure cheminée."
+    ],
+    [
+      "280",
+      "Histoire de conque",
+      "A Tale of a Scoop",
+      "6c",
+      "15 m",
+      "Beautiful concave scoop in compact rock; bouldery.",
+      "p50",
+      "Belle conque concave dans du rocher compact, bloc."
+    ],
+    [
+      "281",
+      "La cathyverno",
+      "",
+      "6b",
+      "15 m",
+      "Small corner, then an overhanging pillar.",
+      "p50",
+      "Petit dièdre puis pilier déversant."
+    ],
+    [
+      "282",
+      "Le censeur",
+      "The Censor",
+      "4c",
+      "15 m",
+      "Easy, interesting corner.",
+      "p50",
+      "Dièdre facile et intéressant."
+    ],
+    [
+      "283",
+      "L'écaille",
+      "The Flake",
+      "4c",
+      "15 m",
+      "Big flake and corner.",
+      "p50",
+      "Grosse écaille et dièdre."
+    ],
+    [
+      "284",
+      "La fée des doigts",
+      "The Finger Fairy",
+      "5b+",
+      "12 m",
+      "Slab move.",
+      "p50",
+      "Passage de dalle."
+    ],
+    [
+      "285",
+      "Les nouilles à Jacquot",
+      "Jacquot's Noodles",
+      "4b",
+      "12 m",
+      "Staircase.",
+      "p50",
+      "Escalier."
+    ],
+    [
+      "285-1",
+      "Scoobi-doo",
+      "Scooby-Doo",
+      "5c",
+      "12 m",
+      "Technical slab climbing.",
+      "p50",
+      "Escalade technique en dalle."
+    ],
+    [
+      "286",
+      "Le dévissage",
+      "The Unscrewing (climber's slang for a fall)",
+      "4b",
+      "12 m",
+      "Chimney-corner, often dirty.",
+      "p51",
+      "Dièdre cheminée, souvent sale."
+    ],
+    [
+      "287",
+      "La valse des pantins",
+      "The Puppets' Waltz",
+      "6c",
+      "12 m",
+      "Slab with small holds.",
+      "p51",
+      "Dalle à petites prises."
+    ],
+    [
+      "288",
+      "La miaou",
+      "The Meow",
+      "6a",
+      "12 m",
+      "Slightly overhanging slab with pockets.",
+      "p51",
+      "Dalle un peu déversante avec des trous."
+    ],
+    [
+      "289",
+      "Gipsy",
+      "",
+      "4c",
+      "10 m",
+      "Jugs.",
+      "p51",
+      "Des bacs."
+    ],
+    [
+      "290",
+      "Tuyau de poêle",
+      "Stovepipe",
+      "4a",
+      "8 m",
+      "Chimney.",
+      "p51",
+      "Cheminée."
+    ],
+    [
+      "291",
+      "Graine de bison",
+      "Bison Seed",
+      "4b",
+      "8 m",
+      "Cracked slab.",
+      "p51",
+      "Dalle fissurée."
+    ],
+    [
+      "292",
+      "Petzl",
+      "",
+      "4b",
+      "8 m",
+      "Arête.",
+      "p51",
+      "Arête."
+    ],
+    [
+      "293",
+      "Rétro laser",
+      "",
+      "4b",
+      "8 m",
+      "Slab with a ledge.",
+      "p52",
+      "Dalle avec vire."
+    ],
+    [
+      "294",
+      "Sur les pieds",
+      "On Your Feet",
+      "4a",
+      "8 m",
+      "Staircase corner.",
+      "p52",
+      "Dièdre escalier."
+    ],
+    [
+      "295",
+      "Petit tonnerre",
+      "Little Thunder",
+      "5b",
+      "8 m",
+      "Vertical corner.",
+      "p52",
+      "Dièdre vertical."
+    ],
+    [
+      "296",
+      "Rantanplan",
+      "",
+      "4c",
+      "5 m",
+      "Staircase arête.",
+      "p52",
+      "Arête escalier."
+    ],
+    [
+      "297",
+      "Bulle et burille",
+      "",
+      "4a",
+      "5 m",
+      "Slab with big steps.",
+      "p52",
+      "Dalle à grosses marches."
+    ],
+    [
+      "298",
+      "Trompette",
+      "Trumpet",
+      "5b",
+      "5 m",
+      "Overhanging scoop and corner.",
+      "p52",
+      "Conque déversante et dièdre."
+    ],
+    [
+      "299",
+      "Pic nic",
+      "Picnic",
+      "4c",
+      "5 m",
+      "Overhanging corner.",
+      "p52",
+      "Dièdre déversant."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur de faible ampleur, ombragé, avec quelques itinéraires un peu patinés.",
+    "Quelques passages typés bloc très intéressants.",
+    "Pied des voies pas toujours très confortable."
   ]
 }

@@ -1,30 +1,185 @@
 {
-  "id": 9, "name": "Le Boulevard à Mathieu", "gloss": "Mathieu's Boulevard", "color": "#5a8a2c",
-  "stats": {"routes": 15, "grades": "4c – 7c+", "aspect": "South-facing", "height": "20 m to 30 m"},
+  "id": 9,
+  "name": "Le Boulevard à Mathieu",
+  "gloss": "Mathieu's Boulevard",
+  "color": "#5a8a2c",
+  "stats": {
+    "routes": 15,
+    "grades": "4c – 7c+",
+    "aspect": "South-facing",
+    "height": "20 m to 30 m",
+    "aspect_fr": "Orienté Sud",
+    "height_fr": "De 20 m à 30 m"
+  },
   "intro": "p32",
   "notes": [
     "Sector with very compact rock and a few flutings (runnels).",
     "Vertical slab with technical, demanding climbing on crimps."
   ],
   "topos": [
-    {"page": "p33", "routes": "194–200"},
-    {"page": "p34", "routes": "201–206"}
+    {
+      "page": "p33",
+      "routes": "194–200"
+    },
+    {
+      "page": "p34",
+      "routes": "201–206"
+    }
   ],
   "routes": [
-    ["194", "L'escalier", "The Staircase", "4c", "20 m", "Easy route along a flake. Climbing on jugs, but it still needs good technique.", "p33"],
-    ["195", "Fréquence tendresse", "Tenderness Frequency", "6a+", "25 m", "Very nice route on pretty, well-sculpted rock.", "p33"],
-    ["196", "Le caprice des vieux", "The Old-Timers' Whim", "6b", "25 m", "Finishing variant of route 195. Very sculpted rock. Continuous and consistent overall.", "p33"],
-    ["196-1", "Swiss connection", "", "7a", "25 m", "Complex route where you'll have to pinch hard. Demanding foot placements on very sculpted rock. Bouldery but very fun.", "p33"],
-    ["197", "Le Boulevard à Mathieu", "Mathieu's Boulevard", "7a+/b", "25 m", "A great classic on fantastic rock. Concretions that sometimes lack texture force you to squeeze the holds hard. A beautiful onsight prospect.", "p33"],
-    ["198", "Le pro s'tâte", "The Pro Hesitates (pun on 'prostate')", "7c+", "25 m", "Finishing variant of route 197. A boulder problem on micro-holds.", "p33"],
-    ["199", "Le champ du Perfodactyle", "The Field of the Perfodactyl", "6c+", "30 m", "Consistent route on crimps. A classic at the grade.", "p33"],
-    ["199-1", "Le champ du Perfodactyle direct", "Perfodactyl Field Direct", "7b", "30 m", "A serious boulder move on slab.", "p33"],
-    ["200", "Zargo's lords", "", "6b+", "30 m", "Very nice route on sometimes 'dubious' rock; very interesting and varied line.", "p33"],
-    ["201", "Bossu fait gaffe à l'orage", "Hunchback, Watch Out for the Storm", "7b+", "30 m", "Slab problems. Climbing on small flakes. Technical.", "p34"],
-    ["202", "Gémis sans mollir", "Moan Without Weakening", "7b", "30 m", "A slab move leads to an athletic crack. Not the best route at the grade.", "p34"],
-    ["203", "L'Ionisation", "Ionisation", "6b+", "30 m", "Varied, physical and rather athletic climbing. Start up the slab alongside the cave, then a steep section on good holds.", "p34"],
-    ["204", "Radio chou-fleur", "Radio Cauliflower", "6c", "27 m", "Finishing variant of route 205. Very nice ending.", "p34"],
-    ["205", "La facilité", "The Easy Way", "6c", "27 m", "Technical climbing in the first part, then really physical in the second.", "p34"],
-    ["206", "Eclipse de bras", "Arm Eclipse", "6c+", "27 m", "Similar to route 205, sharing the central section.", "p34"]
+    [
+      "194",
+      "L'escalier",
+      "The Staircase",
+      "4c",
+      "20 m",
+      "Easy route along a flake. Climbing on jugs, but it still needs good technique.",
+      "p33",
+      "Voie facile le long d'une écaille. Escalade sur des bacs mais qui demande tout de même une bonne technique."
+    ],
+    [
+      "195",
+      "Fréquence tendresse",
+      "Tenderness Frequency",
+      "6a+",
+      "25 m",
+      "Very nice route on pretty, well-sculpted rock.",
+      "p33",
+      "Très belle voie avec un joli rocher bien sculpté."
+    ],
+    [
+      "196",
+      "Le caprice des vieux",
+      "The Old-Timers' Whim",
+      "6b",
+      "25 m",
+      "Finishing variant of route 195. Very sculpted rock. Continuous and consistent overall.",
+      "p33",
+      "Variante de sortie de la voie 195. Rocher très sculpté. Ensemble continu et homogène."
+    ],
+    [
+      "196-1",
+      "Swiss connection",
+      "",
+      "7a",
+      "25 m",
+      "Complex route where you'll have to pinch hard. Demanding foot placements on very sculpted rock. Bouldery but very fun.",
+      "p33",
+      "Voie complexe où il va falloir pincer fort. Placements exigeants sur un rocher très sculpté. Typée bloc mais très sympa."
+    ],
+    [
+      "197",
+      "Le Boulevard à Mathieu",
+      "Mathieu's Boulevard",
+      "7a+/b",
+      "25 m",
+      "A great classic on fantastic rock. Concretions that sometimes lack texture force you to squeeze the holds hard. A beautiful onsight prospect.",
+      "p33",
+      "Une grande classique sur un rocher fantastique. Des concrétions parfois sans grain obligent à serrer fort les prises. Beau à vue en perspective."
+    ],
+    [
+      "198",
+      "Le pro s'tâte",
+      "The Pro Hesitates (pun on 'prostate')",
+      "7c+",
+      "25 m",
+      "Finishing variant of route 197. A boulder problem on micro-holds.",
+      "p33",
+      "Variante de sortie de la voie 197. Un problème de bloc sur micro-prises."
+    ],
+    [
+      "199",
+      "Le champ du Perfodactyle",
+      "The Field of the Perfodactyl",
+      "6c+",
+      "30 m",
+      "Consistent route on crimps. A classic at the grade.",
+      "p33",
+      "Voie homogène sur réglettes. Une classique dans ce niveau."
+    ],
+    [
+      "199-1",
+      "Le champ du Perfodactyle direct",
+      "Perfodactyl Field Direct",
+      "7b",
+      "30 m",
+      "A serious boulder move on slab.",
+      "p33",
+      "Un sérieux pas de bloc en dalle."
+    ],
+    [
+      "200",
+      "Zargo's lords",
+      "",
+      "6b+",
+      "30 m",
+      "Very nice route on sometimes 'dubious' rock; very interesting and varied line.",
+      "p33",
+      "Très belle voie sur du rocher parfois « douteux », itinéraire très intéressant et varié."
+    ],
+    [
+      "201",
+      "Bossu fait gaffe à l'orage",
+      "Hunchback, Watch Out for the Storm",
+      "7b+",
+      "30 m",
+      "Slab problems. Climbing on small flakes. Technical.",
+      "p34",
+      "Problèmes de dalle. Escalade sur petites écailles. Technique."
+    ],
+    [
+      "202",
+      "Gémis sans mollir",
+      "Moan Without Weakening",
+      "7b",
+      "30 m",
+      "A slab move leads to an athletic crack. Not the best route at the grade.",
+      "p34",
+      "Un pas en dalle permet de rejoindre une fissure athlétique. Pas la plus belle voie dans ce niveau."
+    ],
+    [
+      "203",
+      "L'Ionisation",
+      "Ionisation",
+      "6b+",
+      "30 m",
+      "Varied, physical and rather athletic climbing. Start up the slab alongside the cave, then a steep section on good holds.",
+      "p34",
+      "Escalade variée, physique et plutôt athlétique. Départ dans la dalle le long de la grotte, puis un dévers sur bonnes prises."
+    ],
+    [
+      "204",
+      "Radio chou-fleur",
+      "Radio Cauliflower",
+      "6c",
+      "27 m",
+      "Finishing variant of route 205. Very nice ending.",
+      "p34",
+      "Variante de sortie de la voie 205. Très belle fin."
+    ],
+    [
+      "205",
+      "La facilité",
+      "The Easy Way",
+      "6c",
+      "27 m",
+      "Technical climbing in the first part, then really physical in the second.",
+      "p34",
+      "Escalade technique en première partie, puis bien physique en seconde partie."
+    ],
+    [
+      "206",
+      "Eclipse de bras",
+      "Arm Eclipse",
+      "6c+",
+      "27 m",
+      "Similar to route 205, sharing the central section.",
+      "p34",
+      "Ressemble à la voie 205 avec la partie centrale commune."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur au rocher très compact avec quelques cannelures.",
+    "Dalle verticale avec une escalade technique et exigeante sur réglettes."
   ]
 }

@@ -1,6 +1,16 @@
 {
-  "id": 16, "name": "Tour Penchée", "gloss": "The Leaning Tower", "color": "#0f6b4f",
-  "stats": {"routes": 28, "grades": "4c – 8a", "aspect": "Several faces", "height": "5 m to 30 m"},
+  "id": 16,
+  "name": "Tour Penchée",
+  "gloss": "The Leaning Tower",
+  "color": "#0f6b4f",
+  "stats": {
+    "routes": 28,
+    "grades": "4c – 8a",
+    "aspect": "Several faces",
+    "height": "5 m to 30 m",
+    "aspect_fr": "Plusieurs faces",
+    "height_fr": "De 5 m à 30 m"
+  },
   "intro": "p61",
   "notes": [
     "Rarely visited sector, away from the crowds.",
@@ -10,38 +20,306 @@
     "Route numbers restart at 1 on this tower."
   ],
   "topos": [
-    {"page": "p62", "routes": "1–13"},
-    {"page": "p63", "routes": "14–24"},
-    {"page": "p64", "routes": "25–28"}
+    {
+      "page": "p62",
+      "routes": "1–13"
+    },
+    {
+      "page": "p63",
+      "routes": "14–24"
+    },
+    {
+      "page": "p64",
+      "routes": "25–28"
+    }
   ],
   "routes": [
-    ["1", "L'escargot", "The Snail", "6b", "25 m", "Leaning slab on a somewhat austere face.", "p62"],
-    ["2", "La voie Dalmais", "The Dalmais Route", "4c", "25 m", "The tower's normal route; easy but earthy. Not the most interesting at the grade.", "p62"],
-    ["3", "Gonopote", "", "5c", "22 m", "Sustained, fingery first part. A really technical leaning slab.", "p62"],
-    ["4", "Le Dièdre Inversé", "The Inverted Corner", "5a/b", "20 m", "Big lying-down corner allowing a great rising traverse on jugs. Surprising and fun overall.", "p62"],
-    ["5", "L'été meurtrier", "One Deadly Summer", "6a", "22 m", "Disconcerting climbing crossing two corners. A must-do.", "p62"],
-    ["6", "L'Obélix", "Obelix", "6b", "18 m", "Climbing on good holds on steep ground.", "p62"],
-    ["7", "Ô toi mon toi haut", "O You, My High Roof (pun)", "6c+", "22 m", "Finishing variant of route 5. Nice, surprising route.", "p62"],
-    ["8", "Touche pas à mon poète", "Hands Off My Poet", "7b", "18 m", "Varied, very interesting climbing that demands strength and determination right to the anchor.", "p62"],
-    ["9", "Le retour de King Kong", "The Return of King Kong", "7c+", "15 m", "Bouldery climbing. Core tension and compression on the programme.", "p62"],
-    ["10", "Tout feu tout femme", "All Fire, All Woman", "7b+", "10 m", "Continuous, complex overhang; rock sometimes crumbly.", "p62"],
-    ["11", "Culotte de Plomb", "Lead Knickers", "7a+", "8 m", "Overhang on bands that aren't always easy to use well. One big boulder problem.", "p62"],
-    ["12", "Le vice du dévers", "The Vice of Overhangs", "7b", "15 m", "Traversing overhang that visits every route exit on the face. Poor rock.", "p62"],
-    ["13", "Hip hop", "", "6a+", "5 m", "No interest (bolts removed).", "p62"],
-    ["14", "Homosapiens connardus", "", "5c", "10 m", "Route on good holds, traversing slightly left.", "p63"],
-    ["15", "Par mon...et par vos...", "", "6b+", "30 m", "A nice traverse that deserves a visit. Joins every anchor on the face.", "p63"],
-    ["16", "La diagonale du poux", "The Louse's Diagonal", "6b", "30 m", "Another traverse with an original path.", "p63"],
-    ["17", "Quadrillage", "Grid", "6a+", "15 m", "Fun route on good holds, a bit physical.", "p63"],
-    ["18", "Douce promenade", "Gentle Stroll", "6a", "25 m", "Traversing route following a good diagonal step. Shared finish with 21 and 23.", "p63"],
-    ["19", "La bonté du diable", "The Devil's Kindness", "6b", "18 m", "Climbing on astonishing rock bands. Fun route.", "p63"],
-    ["20", "Noctambule", "Night Owl", "6b+", "18 m", "Start from a block on the ground, then a slightly overhanging slab striped with thin cracks.", "p63"],
-    ["21", "La vampire", "The Vampire", "6a", "20 m", "The first route bolted on the leaning tower. Surprising climbing on a slight rising traverse. A must-do.", "p63"],
-    ["22", "Pas de prises, pas de surprises", "No Holds, No Surprises", "7a+/b", "20 m", "Fingery slab with an easier finish.", "p63"],
-    ["23", "Le centimètre", "The Centimetre", "6c", "20 m", "Finishing variant of route 22.", "p63"],
-    ["24", "Obsession inoxydable", "Stainless Obsession", "7?", "20 m", "Technical and fingery.", "p63"],
-    ["25", "Chronique d'une chute annoncée", "Chronicle of a Fall Foretold", "8a", "20 m", "Technical, varied climbing.", "p64"],
-    ["26", "Un monde foot", "A Football World (pun on 'un monde fou')", "7c ?", "20 m", "Finishing variant of route 25. Really steep.", "p64"],
-    ["27", "Et dieu créa la flemme", "And God Created Laziness", "7a", "22 m", "Disconcerting climbing with a weird corner and a tough little roof. Fun overall.", "p64"],
-    ["28", "Tant qu'il y aura des freins à main", "As Long as There Are Handbrakes", "6b", "22 m", "Nice arête line. Climbing on big holds with feet that aren't always visible.", "p64"]
+    [
+      "1",
+      "L'escargot",
+      "The Snail",
+      "6b",
+      "25 m",
+      "Leaning slab on a somewhat austere face.",
+      "p62",
+      "Dalle inclinée sur une face un peu austère."
+    ],
+    [
+      "2",
+      "La voie Dalmais",
+      "The Dalmais Route",
+      "4c",
+      "25 m",
+      "The tower's normal route; easy but earthy. Not the most interesting at the grade.",
+      "p62",
+      "Voie normale de la tour, facile mais terreuse. Pas la plus intéressante dans ce niveau."
+    ],
+    [
+      "3",
+      "Gonopote",
+      "",
+      "5c",
+      "22 m",
+      "Sustained, fingery first part. A really technical leaning slab.",
+      "p62",
+      "Première partie soutenue et à doigt. Une dalle inclinée bien technique."
+    ],
+    [
+      "4",
+      "Le Dièdre Inversé",
+      "The Inverted Corner",
+      "5a/b",
+      "20 m",
+      "Big lying-down corner allowing a great rising traverse on jugs. Surprising and fun overall.",
+      "p62",
+      "Grand dièdre couché permettant une grande traversée ascendante sur des bacs. Ensemble surprenant et sympa."
+    ],
+    [
+      "5",
+      "L'été meurtrier",
+      "One Deadly Summer",
+      "6a",
+      "22 m",
+      "Disconcerting climbing crossing two corners. A must-do.",
+      "p62",
+      "Escalade déroutante traversant deux dièdres. À faire."
+    ],
+    [
+      "6",
+      "L'Obélix",
+      "Obelix",
+      "6b",
+      "18 m",
+      "Climbing on good holds on steep ground.",
+      "p62",
+      "Escalade sur de bonnes prises en dévers."
+    ],
+    [
+      "7",
+      "Ô toi mon toi haut",
+      "O You, My High Roof (pun)",
+      "6c+",
+      "22 m",
+      "Finishing variant of route 5. Nice, surprising route.",
+      "p62",
+      "Variante de sortie de la voie 5. Belle voie surprenante."
+    ],
+    [
+      "8",
+      "Touche pas à mon poète",
+      "Hands Off My Poet",
+      "7b",
+      "18 m",
+      "Varied, very interesting climbing that demands strength and determination right to the anchor.",
+      "p62",
+      "Escalade variée et très intéressante qui demande force et détermination jusqu'au relais."
+    ],
+    [
+      "9",
+      "Le retour de King Kong",
+      "The Return of King Kong",
+      "7c+",
+      "15 m",
+      "Bouldery climbing. Core tension and compression on the programme.",
+      "p62",
+      "Escalade typée bloc. Gainage et compression au programme."
+    ],
+    [
+      "10",
+      "Tout feu tout femme",
+      "All Fire, All Woman",
+      "7b+",
+      "10 m",
+      "Continuous, complex overhang; rock sometimes crumbly.",
+      "p62",
+      "Dévers continu et complexe, rocher parfois péteux."
+    ],
+    [
+      "11",
+      "Culotte de Plomb",
+      "Lead Knickers",
+      "7a+",
+      "8 m",
+      "Overhang on bands that aren't always easy to use well. One big boulder problem.",
+      "p62",
+      "Dévers sur des strates pas toujours faciles à optimiser. Un grand bloc."
+    ],
+    [
+      "12",
+      "Le vice du dévers",
+      "The Vice of Overhangs",
+      "7b",
+      "15 m",
+      "Traversing overhang that visits every route exit on the face. Poor rock.",
+      "p62",
+      "Escalade en traversée en dévers qui visite toutes les sorties de voies de la face. Rocher médiocre."
+    ],
+    [
+      "13",
+      "Hip hop",
+      "",
+      "6a+",
+      "5 m",
+      "No interest (bolts removed).",
+      "p62",
+      "Aucun intérêt (déséquipée)."
+    ],
+    [
+      "14",
+      "Homosapiens connardus",
+      "",
+      "5c",
+      "10 m",
+      "Route on good holds, traversing slightly left.",
+      "p63",
+      "Voie sur bonnes prises en légère traversée sur la gauche."
+    ],
+    [
+      "15",
+      "Par mon...et par vos...",
+      "",
+      "6b+",
+      "30 m",
+      "A nice traverse that deserves a visit. Joins every anchor on the face.",
+      "p63",
+      "Une belle voie en trav qui mérite une visite. Rejoint tous les relais de la face."
+    ],
+    [
+      "16",
+      "La diagonale du poux",
+      "The Louse's Diagonal",
+      "6b",
+      "30 m",
+      "Another traverse with an original path.",
+      "p63",
+      "Encore une trav au cheminement original."
+    ],
+    [
+      "17",
+      "Quadrillage",
+      "Grid",
+      "6a+",
+      "15 m",
+      "Fun route on good holds, a bit physical.",
+      "p63",
+      "Voie sympa sur bonnes prises, un peu physique."
+    ],
+    [
+      "18",
+      "Douce promenade",
+      "Gentle Stroll",
+      "6a",
+      "25 m",
+      "Traversing route following a good diagonal step. Shared finish with 21 and 23.",
+      "p63",
+      "Voie en traversée qui suit une bonne marche oblique. Sortie commune à 21 et 23."
+    ],
+    [
+      "19",
+      "La bonté du diable",
+      "The Devil's Kindness",
+      "6b",
+      "18 m",
+      "Climbing on astonishing rock bands. Fun route.",
+      "p63",
+      "Escalade sur des strates étonnantes. Voie sympa."
+    ],
+    [
+      "20",
+      "Noctambule",
+      "Night Owl",
+      "6b+",
+      "18 m",
+      "Start from a block on the ground, then a slightly overhanging slab striped with thin cracks.",
+      "p63",
+      "Départ sur un bloc posé au sol, puis une dalle légèrement déversante rayée de minces fissures."
+    ],
+    [
+      "21",
+      "La vampire",
+      "The Vampire",
+      "6a",
+      "20 m",
+      "The first route bolted on the leaning tower. Surprising climbing on a slight rising traverse. A must-do.",
+      "p63",
+      "La première voie équipée sur la tour penchée. Escalade surprenante en légère traversée ascendante. À faire."
+    ],
+    [
+      "22",
+      "Pas de prises, pas de surprises",
+      "No Holds, No Surprises",
+      "7a+/b",
+      "20 m",
+      "Fingery slab with an easier finish.",
+      "p63",
+      "Dalle à doigt avec une sortie plus cool."
+    ],
+    [
+      "23",
+      "Le centimètre",
+      "The Centimetre",
+      "6c",
+      "20 m",
+      "Finishing variant of route 22.",
+      "p63",
+      "Variante de sortie de la voie 22."
+    ],
+    [
+      "24",
+      "Obsession inoxydable",
+      "Stainless Obsession",
+      "7?",
+      "20 m",
+      "Technical and fingery.",
+      "p63",
+      "Technique et à doigt."
+    ],
+    [
+      "25",
+      "Chronique d'une chute annoncée",
+      "Chronicle of a Fall Foretold",
+      "8a",
+      "20 m",
+      "Technical, varied climbing.",
+      "p64",
+      "Escalade technique et variée."
+    ],
+    [
+      "26",
+      "Un monde foot",
+      "A Football World (pun on 'un monde fou')",
+      "7c ?",
+      "20 m",
+      "Finishing variant of route 25. Really steep.",
+      "p64",
+      "Variante de sortie de la voie 25. Bien dévers."
+    ],
+    [
+      "27",
+      "Et dieu créa la flemme",
+      "And God Created Laziness",
+      "7a",
+      "22 m",
+      "Disconcerting climbing with a weird corner and a tough little roof. Fun overall.",
+      "p64",
+      "Escalade déroutante avec un dièdre chelou et un petit toit coriace. Ensemble sympa."
+    ],
+    [
+      "28",
+      "Tant qu'il y aura des freins à main",
+      "As Long as There Are Handbrakes",
+      "6b",
+      "22 m",
+      "Nice arête line. Climbing on big holds with feet that aren't always visible.",
+      "p64",
+      "Belle course d'arrête. Escalade sur grosses prises avec des pieds pas toujours visibles."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur peu fréquenté, à l'écart des foules.",
+    "Escalade courte typée bloc sur du rocher souvent déversant de qualité médiocre à exceptionnelle.",
+    "Escalade atypique.",
+    "Certaines voies sont abritées de la pluie.",
+    "La numérotation des voies repart à 1 sur cette tour."
   ]
 }

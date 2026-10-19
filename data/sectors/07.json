@@ -1,6 +1,16 @@
 {
-  "id": 7, "name": "La Voie de l'arbre", "gloss": "The Tree Route", "color": "#a8203f",
-  "stats": {"routes": 13, "grades": "5c – 7c", "aspect": "South & East-facing", "height": "28 m to 32 m"},
+  "id": 7,
+  "name": "La Voie de l'arbre",
+  "gloss": "The Tree Route",
+  "color": "#a8203f",
+  "stats": {
+    "routes": 13,
+    "grades": "5c – 7c",
+    "aspect": "South & East-facing",
+    "height": "28 m to 32 m",
+    "aspect_fr": "Orienté Sud et Est",
+    "height_fr": "De 28 m à 32 m"
+  },
   "intro": "p27",
   "notes": [
     "Rather physical climbing style on this sector.",
@@ -9,21 +19,147 @@
     "Routes 168 to 173 (Le curé de Miraude + L'enfant de chœur, between sectors 7 and 8): bolting and cleaning pending — poor-quality rock."
   ],
   "topos": [
-    {"page": "p28", "routes": "156–167"}
+    {
+      "page": "p28",
+      "routes": "156–167"
+    }
   ],
   "routes": [
-    ["156", "Mandragore", "Mandrake", "7a", "28 m", "Sustained with good rests; the difficulty is at the start in the roof. Both technical and physical climbing along the pillar. Very nice route. Do it onsight.", "p28"],
-    ["157", "Yaveka", "", "7b+", "32 m", "Very intense over the first three bolts, then pumpy. Fun route that needs strength.", "p28"],
-    ["158", "Le râteau", "The Rake", "6c+", "30 m", "Varied overall. Physical start; the slab that follows is rather technical. Nice route.", "p28"],
-    ["159", "Paix impossible, guerre improbable", "Impossible Peace, Improbable War", "7c", "30 m", "Sustained, continuous climbing. Fairly complex route — the onsight is far from a given — and keep a bit in reserve for the overhanging slab at the top.", "p28"],
-    ["160-1", "Racines", "Roots", "6c", "30 m", "Starting variant of 160. Sustained. Non-obvious slab on slopers. Makes 160 very consistent.", "p28"],
-    ["160", "La voie de l'arbre", "The Tree Route", "6b+", "28 m", "Crack climbing. Nice route with an original finish in the tree.", "p28"],
-    ["161", "Jambon - beurre", "Ham & Butter (the classic French sandwich)", "7b", "30 m", "Route that wanders through the roofs. Joins the crack of route 160 after the roof. Physical, very enjoyable climbing.", "p28"],
-    ["162", "Le balancier", "The Pendulum", "7b", "30 m", "Very athletic climbing that needs core strength and flexibility for the mantel. A must-do.", "p28"],
-    ["163", "Lumière du vide", "Light of the Void", "7b+", "30 m", "Finishing variant of route 162. Stay in the overhanging corner when exiting the roof. Physical and very enjoyable. Very exposed overall.", "p28"],
-    ["164", "La petite Mimiche", "Little Mimiche", "6a", "28 m", "Crack climbing with a traverse under the roof. Original.", "p28"],
-    ["165", "La Toto", "", "5c+", "28 m", "Start up a steep crack, then traverse left to reach the crack of route 167. Consistent and exposed overall.", "p28"],
-    ["166", "La Zizine", "", "5c", "28 m", "Athletic bridging/opposition moves in a crack.", "p28"],
-    ["167", "Compte de faits", "Fairy Tale (pun: 'count of facts')", "6b", "30 m", "Starting variant of 165. Very bouldery at the start, with very original moves.", "p28"]
+    [
+      "156",
+      "Mandragore",
+      "Mandrake",
+      "7a",
+      "28 m",
+      "Sustained with good rests; the difficulty is at the start in the roof. Both technical and physical climbing along the pillar. Very nice route. Do it onsight.",
+      "p28",
+      "Soutenue avec de bons repos, difficulté au départ dans le toit. Escalade à la fois technique et physique qui longe le pilier. Très belle voie. À faire à vue."
+    ],
+    [
+      "157",
+      "Yaveka",
+      "",
+      "7b+",
+      "32 m",
+      "Very intense over the first three bolts, then pumpy. Fun route that needs strength.",
+      "p28",
+      "Très intense sur les trois premiers points, puis rési. Voie sympa qui demande de la force."
+    ],
+    [
+      "158",
+      "Le râteau",
+      "The Rake",
+      "6c+",
+      "30 m",
+      "Varied overall. Physical start; the slab that follows is rather technical. Nice route.",
+      "p28",
+      "Ensemble varié. Départ physique, la dalle qui suit est plutôt technique. Belle voie."
+    ],
+    [
+      "159",
+      "Paix impossible, guerre improbable",
+      "Impossible Peace, Improbable War",
+      "7c",
+      "30 m",
+      "Sustained, continuous climbing. Fairly complex route — the onsight is far from a given — and keep a bit in reserve for the overhanging slab at the top.",
+      "p28",
+      "Escalade soutenue et continue. Voie assez complexe, le à vue n'est pas gagné, et gardez un peu de réserve pour la dalle déversante du haut."
+    ],
+    [
+      "160-1",
+      "Racines",
+      "Roots",
+      "6c",
+      "30 m",
+      "Starting variant of 160. Sustained. Non-obvious slab on slopers. Makes 160 very consistent.",
+      "p28",
+      "Variante de départ de 160. Soutenue. Dalle peu évidente sur plats. Confère une grande homogénéité à 160."
+    ],
+    [
+      "160",
+      "La voie de l'arbre",
+      "The Tree Route",
+      "6b+",
+      "28 m",
+      "Crack climbing. Nice route with an original finish in the tree.",
+      "p28",
+      "Escalade en fissure. Belle voie avec une fin originale dans l'arbre."
+    ],
+    [
+      "161",
+      "Jambon - beurre",
+      "Ham & Butter (the classic French sandwich)",
+      "7b",
+      "30 m",
+      "Route that wanders through the roofs. Joins the crack of route 160 after the roof. Physical, very enjoyable climbing.",
+      "p28",
+      "Voie se promenant dans les toits. Rejoint la fissure de la voie 160 après le toit. Escalade physique fort sympathique."
+    ],
+    [
+      "162",
+      "Le balancier",
+      "The Pendulum",
+      "7b",
+      "30 m",
+      "Very athletic climbing that needs core strength and flexibility for the mantel. A must-do.",
+      "p28",
+      "Escalade très athlétique qui demande gainage et souplesse pour le réta. À faire."
+    ],
+    [
+      "163",
+      "Lumière du vide",
+      "Light of the Void",
+      "7b+",
+      "30 m",
+      "Finishing variant of route 162. Stay in the overhanging corner when exiting the roof. Physical and very enjoyable. Very exposed overall.",
+      "p28",
+      "Variante de sortie de la voie 162. Rester dans le dièdre déversant à la sortie du toit. Physique et très agréable. L'ensemble est bien gazeux."
+    ],
+    [
+      "164",
+      "La petite Mimiche",
+      "Little Mimiche",
+      "6a",
+      "28 m",
+      "Crack climbing with a traverse under the roof. Original.",
+      "p28",
+      "Escalade en fissure avec une traversée sous le toit. Originale."
+    ],
+    [
+      "165",
+      "La Toto",
+      "",
+      "5c+",
+      "28 m",
+      "Start up a steep crack, then traverse left to reach the crack of route 167. Consistent and exposed overall.",
+      "p28",
+      "Départ dans une fissure raide puis traversée à gauche pour rejoindre la fissure de la voie 167. Ensemble homogène et gazeux."
+    ],
+    [
+      "166",
+      "La Zizine",
+      "",
+      "5c",
+      "28 m",
+      "Athletic bridging/opposition moves in a crack.",
+      "p28",
+      "Mouvements athlétiques en oppo dans une fissure."
+    ],
+    [
+      "167",
+      "Compte de faits",
+      "Fairy Tale (pun: 'count of facts')",
+      "6b",
+      "30 m",
+      "Starting variant of 165. Very bouldery at the start, with very original moves.",
+      "p28",
+      "Variante de départ de 165. Très bloc au départ, avec des mouvements très originaux."
+    ]
+  ],
+  "notes_fr": [
+    "Style d'escalade plutôt physique sur ce secteur.",
+    "Beaucoup de toits.",
+    "Rocher de bonne qualité.",
+    "Voies 168 à 173 (Le curé de Miraude, L'enfant de chœur, entre les secteurs 7 et 8) : équipement différé, rocher de qualité médiocre."
   ]
 }

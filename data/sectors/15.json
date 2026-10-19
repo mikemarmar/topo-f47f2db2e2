@@ -1,6 +1,16 @@
 {
-  "id": 15, "name": "Tour Carrée", "gloss": "The Square Tower", "color": "#f2b51c",
-  "stats": {"routes": 42, "grades": "4c – 7c", "aspect": "All four faces", "height": "30 m to 35 m"},
+  "id": 15,
+  "name": "Tour Carrée",
+  "gloss": "The Square Tower",
+  "color": "#f2b51c",
+  "stats": {
+    "routes": 42,
+    "grades": "4c – 7c",
+    "aspect": "All four faces",
+    "height": "30 m to 35 m",
+    "aspect_fr": "4 faces",
+    "height_fr": "De 30 m à 35 m"
+  },
   "intro": "p56",
   "notes": [
     "A remarkable, emblematic sector of the Saffres cliff.",
@@ -10,53 +20,450 @@
     "Route numbers restart at 1 on this tower."
   ],
   "topos": [
-    {"page": "p57", "routes": "1–10"},
-    {"page": "p58", "routes": "11–23"},
-    {"page": "p59", "routes": "24–33"},
-    {"page": "p60", "routes": "34–42"}
+    {
+      "page": "p57",
+      "routes": "1–10"
+    },
+    {
+      "page": "p58",
+      "routes": "11–23"
+    },
+    {
+      "page": "p59",
+      "routes": "24–33"
+    },
+    {
+      "page": "p60",
+      "routes": "34–42"
+    }
   ],
   "routes": [
-    ["1", "La Batier", "", "4c", "30 m", "The tower's normal route. Old descent route of the tower. Route with good jugs, some of which are not solid. Don't yank on them like an ox, or you'll see big blocks fall.", "p57"],
-    ["2", "Papy Russe", "Russian Grandpa", "5b", "30 m", "Easy route with a slightly bouldery start on good crimps. Needs good reading in the first moves.", "p57"],
-    ["3", "L'Equinoxe", "The Equinox", "5c+", "30 m", "Demanding climbing that needs good reading.", "p57"],
-    ["4", "Chaussettes jacquart", "Argyle Socks", "5b+", "30 m", "Fun slab climbing; some areas of slightly loose rock.", "p57"],
-    ["5", "Bobi", "", "5b", "30 m", "Varied climbing with a slightly physical slab move. Plenty of ledges — belay carefully.", "p57"],
-    ["6", "Idées Noires", "Dark Thoughts", "5b+", "30 m", "Starting variant of route 5.", "p57"],
-    ["7", "Oui nide iou", "We Need You", "5b+", "30 m", "Fun slab climbing; watch the solidity of some holds.", "p57"],
-    ["8", "Un âne pour la nuit", "A Donkey for the Night", "5b+", "30 m", "Some technical sections. Mainly slab climbing.", "p57"],
-    ["9", "Chaud Devant", "Hot Stuff Coming Through", "6a", "30 m", "Technical and sustained. A start that sets the tone, followed by a mantel onto a big flake. The finish along the arête is gorgeous and really airy.", "p57"],
-    ["10", "Le spigolo Nord-Ouest", "The North-West Arête", "5c+", "30 m", "Surprising climbing with atmosphere. Remember to extend some quickdraws to avoid rope drag.", "p57"],
-    ["11", "At Home", "", "6b+", "30 m", "Very complex starting pillar. Rather bouldery climbing where you'll have to optimise your reading. 2nd part is a walk.", "p58"],
-    ["12", "Bedoul la roumoule", "", "5c", "30 m", "Demanding start in a small, awkward corner; the rest is calmer but a little committing.", "p58"],
-    ["13", "DWD", "", "5c", "30 m", "A series of slabs in varied styles; joins route 12 at the top. Tends to be run-out.", "p58"],
-    ["14", "La Directissime", "The Directissima", "5c", "30 m", "A great classic. Climbing that needs intuition, good line management and good slab technique. A must-do.", "p58"],
-    ["15", "La perpendiculaire", "The Perpendicular", "6b+", "30 m", "Very technical, fingery climbing in the first part. 2nd part, after the ledge, on very sculpted holds.", "p58"],
-    ["16", "Pervers Pépère", "", "6b+", "30 m", "Same start as 15, then finish right into route 17 in a pleasant yellow hollow.", "p58"],
-    ["17", "L'innominata", "The Unnamed One", "6a+", "30 m", "Very technical climbing with a demanding move that takes determination. Magnificent.", "p58"],
-    ["18", "Age Quod Agis", "Do What You Are Doing (Latin)", "6a", "32 m", "Inconsistent climbing with plenty of ledges. The rock at the top is surprising.", "p58"],
-    ["19", "Concerto pour omoplates", "Concerto for Shoulder Blades", "6b", "32 m", "Inconsistent but very interesting. Really physical start and an exceptional finale on jugs.", "p58"],
-    ["20", "T'as pas cent balles", "Got a Hundred Francs?", "6a", "32 m", "Nice overhanging corner at the start followed by a technical slab. Possible finish via the overhang of route 19 after the ledge, trending left.", "p58"],
-    ["21", "La Ouest", "The West", "5c+", "32 m", "A big route with lots of variety. For the all-round climber.", "p58"],
-    ["22", "Un bus pour l'enfer", "A Bus to Hell", "6c+", "32 m", "Crimpy slab with some really nasty moves; finish up 23.", "p58"],
-    ["23", "Un bus direct pour l'enfer", "A Direct Bus to Hell", "6b+", "32 m", "A classic to do. Varied climbing along the line of a pillar mixing technique, power and good reading to top it all off. A must at the grade.", "p58"],
-    ["24", "La voie Allain", "The Allain Route", "6b", "32 m", "Selective start on a pillar, followed by an easier section, then a very pleasant finish in an overhanging crack.", "p59"],
-    ["25", "Nouvelles de l'enfer", "News from Hell", "6b/b+", "32 m", "Starting variant of route 24, with a nastier start.", "p59"],
-    ["26", "Éclair de Lune", "Moonbeam", "6a+", "32 m", "Starting variant of route 27. Physical climbing.", "p59"],
-    ["27", "Les Aigles", "The Eagles", "5c+", "32 m", "Athletic and absolutely beautiful climbing at the grade. Your strength is put to the test on this route. A slightly clumsy start, but the rest is well sculpted. A must-do.", "p59"],
-    ["28", "La Jo", "", "6b+", "32 m", "Same start as 27. Varied climbing with a first part in a crack on sometimes slightly dubious rock, followed by a second part where you need to pace your climbing well, on decent holds. Fun route.", "p59"],
-    ["29", "Falco Peregrinus", "Peregrine Falcon", "6c+", "30 m", "Technical climbing on rock with loose flakes.", "p59"],
-    ["30", "Les cent jours", "The Hundred Days", "6c", "30 m", "Start on very sculpted rock, then traverse left at the overhang to reach route 29; climbing on slightly 'crumbly' rock that doesn't inspire confidence.", "p59"],
-    ["31", "L'Échelon sauvage", "The Wild Rung", "7b+/c", "30 m", "Complex overhanging route. An unsettling traverse left on sometimes dubious rock. A nice route all the same.", "p59"],
-    ["32", "Icare, mon cousin", "Icarus, My Cousin", "7b+", "30 m", "Stunning route with a series of small roofs mixing grip, crack locks and core strength. A consistent, fun route that's worth a visit.", "p59"],
-    ["33", "Thalassa", "", "6c+", "30 m", "Jugs on steep ground. Nice route. A small thought for Georges Pernoud (TV presenter of the sea show 'Thalassa'). Apparently you can see the sea from the anchor.", "p59"],
-    ["34", "Les Pions", "The Pawns", "6b+", "28 m", "Nice physical route on good holds.", "p60"],
-    ["35", "Dimension Sacrée", "Sacred Dimension", "6c", "28 m", "Finishing variant of route 34. Bouldery mantel and a summit slab climbed with finesse.", "p60"],
-    ["36", "Carabinier", "", "5c+ / 6a", "28 m", "A historic route on surprising rock. Some slightly powerful moves mid-route. Good reading and precision are needed for the redpoint.", "p60"],
-    ["37", "État de Grâce", "State of Grace", "6b+", "28 m", "Finishing variant of route 36. Nice technical, compact slab.", "p60"],
-    ["38", "Ribouldingue", "", "7a", "25 m", "Fun slab route with some hidden holds.", "p60"],
-    ["39", "La Gus", "", "6b+/c", "25 m", "Nice, very technical slab route where a good sense of the line is essential.", "p60"],
-    ["40", "La Popof", "", "6a+", "28 m", "Pleasant route on good holds. A bit physical in places. A must-do.", "p60"],
-    ["41", "Shunt", "", "6a+", "28 m", "Starting variant of 40.", "p60"],
-    ["42", "Le Spigolo Nord Est", "The North-East Arête", "5c", "28 m", "Really vertical climbing on good holds. A complex move to get onto the slab.", "p60"]
+    [
+      "1",
+      "La Batier",
+      "",
+      "4c",
+      "30 m",
+      "The tower's normal route. Old descent route of the tower. Route with good jugs, some of which are not solid. Don't yank on them like an ox, or you'll see big blocks fall.",
+      "p57",
+      "Voie normale de la tour. Ancienne voie de descente de la tour. Voie avec des bons bacs, dont certains manquent de solidité. Ne tirez pas dessus comme un bœuf sous peine de voir tomber de gros blocs."
+    ],
+    [
+      "2",
+      "Papy Russe",
+      "Russian Grandpa",
+      "5b",
+      "30 m",
+      "Easy route with a slightly bouldery start on good crimps. Needs good reading in the first moves.",
+      "p57",
+      "Voie facile avec un départ un peu bloc sur de bonnes réglettes. Nécessite une bonne lecture dans les premiers mouvements."
+    ],
+    [
+      "3",
+      "L'Equinoxe",
+      "The Equinox",
+      "5c+",
+      "30 m",
+      "Demanding climbing that needs good reading.",
+      "p57",
+      "Escalade exigeante qui demande une bonne lecture."
+    ],
+    [
+      "4",
+      "Chaussettes jacquart",
+      "Argyle Socks",
+      "5b+",
+      "30 m",
+      "Fun slab climbing; some areas of slightly loose rock.",
+      "p57",
+      "Escalade sympa en dalle, quelques zones de rocher un peu délité."
+    ],
+    [
+      "5",
+      "Bobi",
+      "",
+      "5b",
+      "30 m",
+      "Varied climbing with a slightly physical slab move. Plenty of ledges — belay carefully.",
+      "p57",
+      "Escalade variée avec un pas un peu physique en dalle. Pas mal de vires, prudence à l'assurage."
+    ],
+    [
+      "6",
+      "Idées Noires",
+      "Dark Thoughts",
+      "5b+",
+      "30 m",
+      "Starting variant of route 5.",
+      "p57",
+      "Variante de départ de la voie 5."
+    ],
+    [
+      "7",
+      "Oui nide iou",
+      "We Need You",
+      "5b+",
+      "30 m",
+      "Fun slab climbing; watch the solidity of some holds.",
+      "p57",
+      "Escalade sympa en dalle, attention à la solidité de certaines prises."
+    ],
+    [
+      "8",
+      "Un âne pour la nuit",
+      "A Donkey for the Night",
+      "5b+",
+      "30 m",
+      "Some technical sections. Mainly slab climbing.",
+      "p57",
+      "Quelques passages techniques. Escalade principalement en dalle."
+    ],
+    [
+      "9",
+      "Chaud Devant",
+      "Hot Stuff Coming Through",
+      "6a",
+      "30 m",
+      "Technical and sustained. A start that sets the tone, followed by a mantel onto a big flake. The finish along the arête is gorgeous and really airy.",
+      "p57",
+      "Technique et soutenue. Un départ qui met dans l'ambiance, suivi d'un réta sur une grosse écaille. La fin le long de l'arrête est de toute beauté et bien gazeuse."
+    ],
+    [
+      "10",
+      "Le spigolo Nord-Ouest",
+      "The North-West Arête",
+      "5c+",
+      "30 m",
+      "Surprising climbing with atmosphere. Remember to extend some quickdraws to avoid rope drag.",
+      "p57",
+      "Escalade surprenante avec de l'ambiance. Pensez à rallonger certaines dégaines pour éviter les frottements."
+    ],
+    [
+      "11",
+      "At Home",
+      "",
+      "6b+",
+      "30 m",
+      "Very complex starting pillar. Rather bouldery climbing where you'll have to optimise your reading. 2nd part is a walk.",
+      "p58",
+      "Pilier de départ très complexe. Escalade plutôt typée bloc où il va falloir optimiser votre lecture. 2e partie rando."
+    ],
+    [
+      "12",
+      "Bedoul la roumoule",
+      "",
+      "5c",
+      "30 m",
+      "Demanding start in a small, awkward corner; the rest is calmer but a little committing.",
+      "p58",
+      "Départ exigeant dans un petit dièdre inconfortable, la suite est plus tranquille mais un peu engagée."
+    ],
+    [
+      "13",
+      "DWD",
+      "",
+      "5c",
+      "30 m",
+      "A series of slabs in varied styles; joins route 12 at the top. Tends to be run-out.",
+      "p58",
+      "Succession de dalles aux styles variés, rejoint la voie 12 sur le haut. Tendance à l'engagement."
+    ],
+    [
+      "14",
+      "La Directissime",
+      "The Directissima",
+      "5c",
+      "30 m",
+      "A great classic. Climbing that needs intuition, good line management and good slab technique. A must-do.",
+      "p58",
+      "Grande classique. Escalade qui demande intuition, bonne gestion de l'itinéraire et une bonne technique en dalle. À faire."
+    ],
+    [
+      "15",
+      "La perpendiculaire",
+      "The Perpendicular",
+      "6b+",
+      "30 m",
+      "Very technical, fingery climbing in the first part. 2nd part, after the ledge, on very sculpted holds.",
+      "p58",
+      "Escalade très technique et à doigt en première partie. 2e partie après la vire sur des prises très sculptées."
+    ],
+    [
+      "16",
+      "Pervers Pépère",
+      "",
+      "6b+",
+      "30 m",
+      "Same start as 15, then finish right into route 17 in a pleasant yellow hollow.",
+      "p58",
+      "Départ identique à 15 puis sortie à droite dans la voie 17 dans une dépression jaune agréable."
+    ],
+    [
+      "17",
+      "L'innominata",
+      "The Unnamed One",
+      "6a+",
+      "30 m",
+      "Very technical climbing with a demanding move that takes determination. Magnificent.",
+      "p58",
+      "Escalade très technique avec un pas exigeant qui demande de la détermination. Magnifique."
+    ],
+    [
+      "18",
+      "Age Quod Agis",
+      "Do What You Are Doing (Latin)",
+      "6a",
+      "32 m",
+      "Inconsistent climbing with plenty of ledges. The rock at the top is surprising.",
+      "p58",
+      "Escalade peu homogène avec pas mal de vires. Le rocher en haut est surprenant."
+    ],
+    [
+      "19",
+      "Concerto pour omoplates",
+      "Concerto for Shoulder Blades",
+      "6b",
+      "32 m",
+      "Inconsistent but very interesting. Really physical start and an exceptional finale on jugs.",
+      "p58",
+      "Peu homogène mais très intéressant. Départ bien physique et un final exceptionnel sur des bacs."
+    ],
+    [
+      "20",
+      "T'as pas cent balles",
+      "Got a Hundred Francs?",
+      "6a",
+      "32 m",
+      "Nice overhanging corner at the start followed by a technical slab. Possible finish via the overhang of route 19 after the ledge, trending left.",
+      "p58",
+      "Beau dièdre déversant au départ suivi d'une dalle technique. Sortie possible dans le surplomb de la voie 19 après la vire en tirant à gauche."
+    ],
+    [
+      "21",
+      "La Ouest",
+      "The West",
+      "5c+",
+      "32 m",
+      "A big route with lots of variety. For the all-round climber.",
+      "p58",
+      "Une voie d'ampleur avec beaucoup de variété. Pour grimpeur complet."
+    ],
+    [
+      "22",
+      "Un bus pour l'enfer",
+      "A Bus to Hell",
+      "6c+",
+      "32 m",
+      "Crimpy slab with some really nasty moves; finish up 23.",
+      "p58",
+      "Dalle à réglettes avec quelques mouvs bien teigneux, sortie dans 23."
+    ],
+    [
+      "23",
+      "Un bus direct pour l'enfer",
+      "A Direct Bus to Hell",
+      "6b+",
+      "32 m",
+      "A classic to do. Varied climbing along the line of a pillar mixing technique, power and good reading to top it all off. A must at the grade.",
+      "p58",
+      "Une classique à faire. Escalade variée le long du fil d'un pilier où se mêlent technique, physique et une bonne lecture pour couronner le tout. Un must dans ce niveau."
+    ],
+    [
+      "24",
+      "La voie Allain",
+      "The Allain Route",
+      "6b",
+      "32 m",
+      "Selective start on a pillar, followed by an easier section, then a very pleasant finish in an overhanging crack.",
+      "p59",
+      "Départ sélectif sur un pilier, suivi d'une zone plus facile, puis une fin en fissure déversante très agréable."
+    ],
+    [
+      "25",
+      "Nouvelles de l'enfer",
+      "News from Hell",
+      "6b/b+",
+      "32 m",
+      "Starting variant of route 24, with a nastier start.",
+      "p59",
+      "Variante de départ de la voie 24, départ plus teigneux."
+    ],
+    [
+      "26",
+      "Éclair de Lune",
+      "Moonbeam",
+      "6a+",
+      "32 m",
+      "Starting variant of route 27. Physical climbing.",
+      "p59",
+      "Variante de départ de la voie 27. Escalade physique."
+    ],
+    [
+      "27",
+      "Les Aigles",
+      "The Eagles",
+      "5c+",
+      "32 m",
+      "Athletic and absolutely beautiful climbing at the grade. Your strength is put to the test on this route. A slightly clumsy start, but the rest is well sculpted. A must-do.",
+      "p59",
+      "Escalade athlétique et de toute beauté dans ce niveau. Le physique est mis à rude épreuve dans cette voie. Un départ un peu pataud, mais la suite est bien sculptée. À faire."
+    ],
+    [
+      "28",
+      "La Jo",
+      "",
+      "6b+",
+      "32 m",
+      "Same start as 27. Varied climbing with a first part in a crack on sometimes slightly dubious rock, followed by a second part where you need to pace your climbing well, on decent holds. Fun route.",
+      "p59",
+      "Départ commun à 27. Escalade variée avec une première partie en fissure sur un rocher parfois un peu douteux, suivie d'une deuxième partie où il faut bien rythmer son escalade sur des prises correctes. Voie sympa."
+    ],
+    [
+      "29",
+      "Falco Peregrinus",
+      "Peregrine Falcon",
+      "6c+",
+      "30 m",
+      "Technical climbing on rock with loose flakes.",
+      "p59",
+      "Escalade technique sur du rocher présentant des écailles délitées."
+    ],
+    [
+      "30",
+      "Les cent jours",
+      "The Hundred Days",
+      "6c",
+      "30 m",
+      "Start on very sculpted rock, then traverse left at the overhang to reach route 29; climbing on slightly 'crumbly' rock that doesn't inspire confidence.",
+      "p59",
+      "Départ sur du rocher très sculpté, puis traversée sur la gauche au niveau du surplomb pour rejoindre la voie 29, escalade sur du rocher un peu « péteux » qui ne met pas en confiance."
+    ],
+    [
+      "31",
+      "L'Échelon sauvage",
+      "The Wild Rung",
+      "7b+/c",
+      "30 m",
+      "Complex overhanging route. An unsettling traverse left on sometimes dubious rock. A nice route all the same.",
+      "p59",
+      "Voie complexe en dévers. Une traversée sur la gauche déstabilisante sur du rocher parfois douteux. Belle voie malgré tout."
+    ],
+    [
+      "32",
+      "Icare, mon cousin",
+      "Icarus, My Cousin",
+      "7b+",
+      "30 m",
+      "Stunning route with a series of small roofs mixing grip, crack locks and core strength. A consistent, fun route that's worth a visit.",
+      "p59",
+      "Voie renversante avec une succession de petits toits où se mêlent tenue de prises, verrous en fissure et gainage. Voie homogène et sympa qui mérite une visite."
+    ],
+    [
+      "33",
+      "Thalassa",
+      "",
+      "6c+",
+      "30 m",
+      "Jugs on steep ground. Nice route. A small thought for Georges Pernoud (TV presenter of the sea show 'Thalassa'). Apparently you can see the sea from the anchor.",
+      "p59",
+      "Des bacs en dévers. Belle voie. Une petite pensée pour Georges Pernoud. Du relais il paraît qu'on peut voir la mer."
+    ],
+    [
+      "34",
+      "Les Pions",
+      "The Pawns",
+      "6b+",
+      "28 m",
+      "Nice physical route on good holds.",
+      "p60",
+      "Belle voie physique sur de bonnes prises."
+    ],
+    [
+      "35",
+      "Dimension Sacrée",
+      "Sacred Dimension",
+      "6c",
+      "28 m",
+      "Finishing variant of route 34. Bouldery mantel and a summit slab climbed with finesse.",
+      "p60",
+      "Variante de sortie de la voie 34. Passage typé bloc au réta, et une dalle sommitale tout en finesse."
+    ],
+    [
+      "36",
+      "Carabinier",
+      "",
+      "5c+ / 6a",
+      "28 m",
+      "A historic route on surprising rock. Some slightly powerful moves mid-route. Good reading and precision are needed for the redpoint.",
+      "p60",
+      "Une voie historique, sur du rocher surprenant. Quelques mouvs un peu en force en milieu de voie. Une bonne lecture et de la précision sont requis pour l'enchaînement."
+    ],
+    [
+      "37",
+      "État de Grâce",
+      "State of Grace",
+      "6b+",
+      "28 m",
+      "Finishing variant of route 36. Nice technical, compact slab.",
+      "p60",
+      "Variante de sortie de la voie 36. Belle dalle technique et compacte."
+    ],
+    [
+      "38",
+      "Ribouldingue",
+      "",
+      "7a",
+      "25 m",
+      "Fun slab route with some hidden holds.",
+      "p60",
+      "Voie en dalle sympa, avec quelques prises cachées."
+    ],
+    [
+      "39",
+      "La Gus",
+      "",
+      "6b+/c",
+      "25 m",
+      "Nice, very technical slab route where a good sense of the line is essential.",
+      "p60",
+      "Belle voie en dalle bien technique où un bon sens de l'itinéraire est primordial."
+    ],
+    [
+      "40",
+      "La Popof",
+      "",
+      "6a+",
+      "28 m",
+      "Pleasant route on good holds. A bit physical in places. A must-do.",
+      "p60",
+      "Voie agréable sur de bonnes prises. Un peu physique par endroit. À faire."
+    ],
+    [
+      "41",
+      "Shunt",
+      "",
+      "6a+",
+      "28 m",
+      "Starting variant of 40.",
+      "p60",
+      "Variante de départ de 40."
+    ],
+    [
+      "42",
+      "Le Spigolo Nord Est",
+      "The North-East Arête",
+      "5c",
+      "28 m",
+      "Really vertical climbing on good holds. A complex move to get onto the slab.",
+      "p60",
+      "Escalade bien verticale sur de bonnes prises. Un pas complexe pour rentrer dans la dalle."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur remarquable et emblématique de la falaise de Saffres.",
+    "Bloc rocheux d'une trentaine de mètres détaché de la paroi principale.",
+    "Les 4 faces de la tour sont équipées, leur orientation permet de jouer avec le soleil.",
+    "La qualité du rocher est très variable en fonction des orientations et amène toujours à rester vigilant.",
+    "La numérotation des voies repart à 1 sur cette tour."
   ]
 }

@@ -1,6 +1,16 @@
 {
-  "id": 14, "name": "Grand Steak", "gloss": "", "color": "#e3201b",
-  "stats": {"routes": 21, "grades": "4a – 7a", "aspect": "West-facing", "height": "8 m to 25 m"},
+  "id": 14,
+  "name": "Grand Steak",
+  "gloss": "",
+  "color": "#e3201b",
+  "stats": {
+    "routes": 21,
+    "grades": "4a – 7a",
+    "aspect": "West-facing",
+    "height": "8 m to 25 m",
+    "aspect_fr": "Orienté Ouest",
+    "height_fr": "De 8 m à 25 m"
+  },
   "intro": "p53",
   "notes": [
     "Sector currently being cleaned and re-bolted.",
@@ -11,30 +21,233 @@
     "Short, nasty climbing."
   ],
   "topos": [
-    {"page": "p54", "routes": "300–307"},
-    {"page": "p55", "routes": "308–320"}
+    {
+      "page": "p54",
+      "routes": "300–307"
+    },
+    {
+      "page": "p55",
+      "routes": "308–320"
+    }
   ],
   "routes": [
-    ["300", "Violette bleue", "Blue Violet", "4b", "8 m", "Slab, often mossy.", "p54"],
-    ["301", "Droz erra", "", "6a", "15 m", "Slab arête.", "p54"],
-    ["302", "K2", "", "6c", "15 m", "Overhanging slab, smooth, then less steep and easier.", "p54"],
-    ["303", "Le D", "", "7a", "15 m", "Faint corner.", "p54"],
-    ["304", "Kin top", "", "6c", "15 m", "Vertical corner.", "p54"],
-    ["305", "Grand steack", "", "6b+", "18 m", "Sculpted corner.", "p54"],
-    ["306", "BIP BIP", "Beep Beep", "6c", "18 m", "Scoop in rounded rock.", "p54"],
-    ["307", "Flot de parole", "Flood of Words", "7a", "18 m", "Overhanging slab.", "p54"],
-    ["308", "Rone", "", "6c", "18 m", "Overhanging slab at the finish.", "p55"],
-    ["309", "Vincent", "", "6a", "18 m", "Slab arête with big holds.", "p55"],
-    ["310", "Ailez", "", "4c", "15 m", "Leaning slab.", "p55"],
-    ["311", "Zotres", "", "4c", "15 m", "Leaning slab.", "p55"],
-    ["312", "Yakari", "", "5b", "18 m", "Overhanging slab broken up by ledges.", "p55"],
-    ["313", "Pluto", "", "5a", "18 m", "Crack, then steps.", "p55"],
-    ["314", "Papooses", "", "5a", "20 m", "Big crack, then slab.", "p55"],
-    ["315", "Pitchoune", "Little One", "6a", "20 m", "Bulge, then scoop.", "p55"],
-    ["316", "Symphonia", "", "6a+", "20 m", "Vertical slab with small holds, then flakes.", "p55"],
-    ["317", "Nirvana", "", "?", "20 m", "Thin slab, overhang and slab.", "p55"],
-    ["318", "Keraban", "", "?", "23 m", "Flared corner and overhang.", "p55"],
-    ["319", "Bosse fort", "Work Hard (pun)", "?", "23 m", "Finishing variant of 318. Vague overhanging corner.", "p55"],
-    ["320", "Arabesque", "", "?", "23 m", "Slab, overhang, pillar.", "p55"]
+    [
+      "300",
+      "Violette bleue",
+      "Blue Violet",
+      "4b",
+      "8 m",
+      "Slab, often mossy.",
+      "p54",
+      "Dalle, souvent moussue."
+    ],
+    [
+      "301",
+      "Droz erra",
+      "",
+      "6a",
+      "15 m",
+      "Slab arête.",
+      "p54",
+      "Arête de dalle."
+    ],
+    [
+      "302",
+      "K2",
+      "",
+      "6c",
+      "15 m",
+      "Overhanging slab, smooth, then less steep and easier.",
+      "p54",
+      "Dalle déversante, lisse puis moins raide et plus facile."
+    ],
+    [
+      "303",
+      "Le D",
+      "",
+      "7a",
+      "15 m",
+      "Faint corner.",
+      "p54",
+      "Dièdre peu marqué."
+    ],
+    [
+      "304",
+      "Kin top",
+      "",
+      "6c",
+      "15 m",
+      "Vertical corner.",
+      "p54",
+      "Dièdre vertical."
+    ],
+    [
+      "305",
+      "Grand steack",
+      "",
+      "6b+",
+      "18 m",
+      "Sculpted corner.",
+      "p54",
+      "Dièdre sculpté."
+    ],
+    [
+      "306",
+      "BIP BIP",
+      "Beep Beep",
+      "6c",
+      "18 m",
+      "Scoop in rounded rock.",
+      "p54",
+      "Conque dans du rocher rond."
+    ],
+    [
+      "307",
+      "Flot de parole",
+      "Flood of Words",
+      "7a",
+      "18 m",
+      "Overhanging slab.",
+      "p54",
+      "Dalle déversante."
+    ],
+    [
+      "308",
+      "Rone",
+      "",
+      "6c",
+      "18 m",
+      "Overhanging slab at the finish.",
+      "p55",
+      "Dalle déversante en sortie."
+    ],
+    [
+      "309",
+      "Vincent",
+      "",
+      "6a",
+      "18 m",
+      "Slab arête with big holds.",
+      "p55",
+      "Arête de dalle à grosses prises."
+    ],
+    [
+      "310",
+      "Ailez",
+      "",
+      "4c",
+      "15 m",
+      "Leaning slab.",
+      "p55",
+      "Dalle inclinée."
+    ],
+    [
+      "311",
+      "Zotres",
+      "",
+      "4c",
+      "15 m",
+      "Leaning slab.",
+      "p55",
+      "Dalle inclinée."
+    ],
+    [
+      "312",
+      "Yakari",
+      "",
+      "5b",
+      "18 m",
+      "Overhanging slab broken up by ledges.",
+      "p55",
+      "Dalle déversante entrecoupée de vires."
+    ],
+    [
+      "313",
+      "Pluto",
+      "",
+      "5a",
+      "18 m",
+      "Crack, then steps.",
+      "p55",
+      "Fissure puis des marches."
+    ],
+    [
+      "314",
+      "Papooses",
+      "",
+      "5a",
+      "20 m",
+      "Big crack, then slab.",
+      "p55",
+      "Grosse fissure puis dalle."
+    ],
+    [
+      "315",
+      "Pitchoune",
+      "Little One",
+      "6a",
+      "20 m",
+      "Bulge, then scoop.",
+      "p55",
+      "Bombé puis conque."
+    ],
+    [
+      "316",
+      "Symphonia",
+      "",
+      "6a+",
+      "20 m",
+      "Vertical slab with small holds, then flakes.",
+      "p55",
+      "Dalle verticale, à petites prises puis des écailles."
+    ],
+    [
+      "317",
+      "Nirvana",
+      "",
+      "?",
+      "20 m",
+      "Thin slab, overhang and slab.",
+      "p55",
+      "Dalle fine, surplomb et dalle."
+    ],
+    [
+      "318",
+      "Keraban",
+      "",
+      "?",
+      "23 m",
+      "Flared corner and overhang.",
+      "p55",
+      "Dièdre évasé et surplomb."
+    ],
+    [
+      "319",
+      "Bosse fort",
+      "Work Hard (pun)",
+      "?",
+      "23 m",
+      "Finishing variant of 318. Vague overhanging corner.",
+      "p55",
+      "Variante de sortie de 318. Vague dièdre déversant."
+    ],
+    [
+      "320",
+      "Arabesque",
+      "",
+      "?",
+      "23 m",
+      "Slab, overhang, pillar.",
+      "p55",
+      "Dalle, surplomb, pilier."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur en cours de nettoyage et de rééquipement.",
+    "Secteur de faible ampleur avec du rocher parfois abrasif.",
+    "Pied des voies inconfortable.",
+    "Secteur peu fréquenté.",
+    "Quelques cotations sont encore à confirmer.",
+    "Escalade courte et teigneuse."
   ]
 }

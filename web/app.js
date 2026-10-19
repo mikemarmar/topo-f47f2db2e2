@@ -4,10 +4,70 @@
   const titleEl = document.getElementById('title');
   const back = document.getElementById('back');
 
+  // ---------- language ----------
+  const STR = {
+    fr: {
+      heroTitle: 'Escalade à Saffres',
+      heroSub: "Terres d'Auxois, Bourgogne · ~400 voies équipées · 16 secteurs",
+      heroNote: "D'après la 6e édition du topo de Yannick Dupin.",
+      sectors: 'Secteurs', info: 'Infos', sector: 'Secteur', routes: 'voies', route: 'voie',
+      topoRoutes: 'Voies', locCap: 'Position sur la falaise (cadre rouge)', locAlt: 'Position du secteur sur la falaise',
+      orig: 'Pages originales du topo', zoom: 'Toucher pour zoomer', find: 'Chercher une voie',
+      searchPh: 'Nom, numéro ou description…',
+      offTitle: 'Hors connexion', checking: 'Vérification…', dlAll: 'Tout télécharger', dlFinish: 'Terminer le téléchargement', dlCheck: 'Revérifier',
+      saved: (n, t) => `${n} images sur ${t} enregistrées sur cet appareil.`,
+      allSaved: '✓ Tout est enregistré sur cet appareil — fonctionne sans réseau.',
+      downloading: (d, t) => `Téléchargement… ${d} / ${t}`,
+      failed: (f) => `${f} échec(s) — vérifiez votre connexion et réessayez.`,
+      using: (mb) => `${mb} Mo utilisés`, noSupport: 'Ce navigateur ne gère pas le mode hors connexion.',
+      ios: "Sur iPhone : touchez <b>Partager → Sur l'écran d'accueil</b> et ouvrez le topo depuis là. Safari peut effacer les données hors connexion des sites non ouverts depuis une semaine ; l'app sur l'écran d'accueil les conserve.",
+      vhint: 'Pincer ou toucher deux fois pour zoomer',
+    },
+    en: {
+      heroTitle: 'Climbing in Saffres',
+      heroSub: "Terres d'Auxois, Burgundy · ~400 bolted routes · 16 sectors",
+      heroNote: 'Unofficial English adaptation of the 6th-edition topo by Yannick Dupin.',
+      sectors: 'Sectors', info: 'Info', sector: 'Sector', routes: 'routes', route: 'route',
+      topoRoutes: 'Routes', locCap: 'Location on the cliff (red box)', locAlt: 'Where the sector is on the cliff',
+      orig: 'Original book pages (French)', zoom: 'Tap to zoom', find: 'Find a route',
+      searchPh: 'Route name, number or description…',
+      offTitle: 'Offline use', checking: 'Checking…', dlAll: 'Download everything', dlFinish: 'Finish download', dlCheck: 'Re-check download',
+      saved: (n, t) => `${n} of ${t} images saved on this device.`,
+      allSaved: '✓ Everything is saved on this device — works with no signal.',
+      downloading: (d, t) => `Downloading… ${d} / ${t}`,
+      failed: (f) => `${f} failed — check your connection and tap again.`,
+      using: (mb) => `Using ${mb} MB`, noSupport: 'This browser does not support offline mode.',
+      ios: "On iPhone: tap <b>Share → Add to Home Screen</b> and open it from there. Safari may clear offline data for websites you haven't opened in a week; the home-screen app keeps it.",
+      vhint: 'Pinch or double-tap to zoom',
+    },
+  };
+  let lang = 'fr';
+  try { if (localStorage.getItem('lang') === 'en') lang = 'en'; } catch (e) { /* storage unavailable */ }
+  const L = () => STR[lang];
+  const isEn = () => lang === 'en';
+  // Pick the French or English variant of a data field (English is the unsuffixed key).
+  const pick = (o, key) => (isEn() ? o[key] : (o[key + '_fr'] ?? o[key]));
+
+  function setLang(l) {
+    lang = l;
+    try { localStorage.setItem('lang', l); } catch (e) { /* storage unavailable */ }
+    applyLangChrome();
+    route();
+  }
+  function applyLangChrome() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('#langs button').forEach((b) => b.setAttribute('aria-pressed', b.dataset.lang === lang));
+    document.getElementById('searchlink').setAttribute('aria-label', L().find);
+    document.getElementById('vhint').textContent = L().vhint;
+  }
+  document.querySelectorAll('#langs button').forEach((b) => b.addEventListener('click', () => setLang(b.dataset.lang)));
+
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const img = (page, side) => `img/${page}${side}.webp`;
   const sectorById = (id) => T.sectors.find((s) => String(s.id) === String(id));
-  const allRoutes = T.sectors.flatMap((s) => s.routes.map((r) => ({ s, n: r[0], name: r[1], gloss: r[2], grade: r[3], h: r[4], desc: r[5], page: r[6] })));
+  const allRoutes = T.sectors.flatMap((s) => s.routes.map((r) => ({ s, n: r[0], name: r[1], gloss: r[2], grade: r[3], h: r[4], desc: r[5], page: r[6], descFr: r[7] })));
+  const routeDesc = (r) => (isEn() ? r.desc : r.descFr);
+  const plural = (n) => `${n} ${n === 1 ? L().route : L().routes}`;
 
   function gradeClass(g) {
     const m = String(g).match(/[3-9]/);
@@ -24,40 +84,40 @@
     const link = withSector ? ` data-href="#/s/${r.s.id}/${encodeURIComponent(r.n)}" role="link" tabindex="0"` : '';
     return `<li class="route" id="${withSector ? '' : `r-${r.s.id}-${esc(r.n)}`}"${link}>
       <div class="n">${esc(r.n)}</div>
-      <div class="nm">${esc(r.name)}${r.gloss ? ` <span class="gloss">— ${esc(r.gloss)}</span>` : ''}</div>
+      <div class="nm">${esc(r.name)}${isEn() && r.gloss ? ` <span class="gloss">— ${esc(r.gloss)}</span>` : ''}</div>
       <div class="gr"><span class="grade ${gradeClass(r.grade)}">${esc(r.grade)}</span><span class="ht">${esc(r.h)}</span></div>
-      <div class="desc">${esc(r.desc)}${withSector ? `<div class="sec">Sector ${r.s.id} · ${esc(r.s.name)}</div>` : ''}</div>
+      <div class="desc">${esc(routeDesc(r))}${withSector ? `<div class="sec">${L().sector} ${r.s.id} · ${esc(r.s.name)}</div>` : ''}</div>
     </li>`;
   }
 
   function figure(page, side, cap) {
-    return `<div class="topo-img" data-zoom="${img(page, side)}"><img loading="lazy" src="${img(page, side)}" alt="${esc(cap || '')}"><span class="zoom">Tap to zoom</span></div>`;
+    return `<div class="topo-img" data-zoom="${img(page, side)}"><img loading="lazy" src="${img(page, side)}" alt="${esc(cap || '')}"><span class="zoom">${L().zoom}</span></div>`;
   }
 
   // ---------- pages ----------
   function home() {
     titleEl.textContent = 'Saffres';
     back.style.visibility = 'hidden';
-    const infoLinks = T.info.sections.map((s) => `<a href="#/info/${s.id}">${esc(s.title)}</a>`).join('');
+    const infoLinks = T.info.sections.map((s) => `<a href="#/info/${s.id}">${esc(pick(s, 'title'))}</a>`).join('');
     app.innerHTML = `
       <div class="hero">
-        <h2>Climbing in Saffres</h2>
-        <div class="muted">Terres d'Auxois, Burgundy · ~400 bolted routes · 16 sectors</div>
-        <div class="muted small">Unofficial English adaptation of the 6th-edition topo by Yannick Dupin.</div>
+        <h2>${L().heroTitle}</h2>
+        <div class="muted">${L().heroSub}</div>
+        <div class="muted small">${L().heroNote}</div>
       </div>
       ${offlineCard()}
-      <h2>Sectors</h2>
+      <h2>${L().sectors}</h2>
       <div class="sectors">${T.sectors.map((s) => `
         <a class="sector-link" href="#/s/${s.id}" style="--c:${s.color}">
           <span class="num">${s.id}</span>
           <span><div class="nm">${esc(s.name)}</div>
-          <div class="meta">${s.gloss ? esc(s.gloss) + ' · ' : ''}${s.stats.routes} routes · ${esc(s.stats.grades)}</div></span>
+          <div class="meta">${isEn() && s.gloss ? esc(s.gloss) + ' · ' : ''}${plural(s.stats.routes)} · ${esc(s.stats.grades)}</div></span>
           <span class="go">›</span>
         </a>`).join('')}
       </div>
-      <h2>Info</h2>
+      <h2>${L().info}</h2>
       <div class="links">${infoLinks}</div>
-      <footer class="credits">${T.info.credits}</footer>`;
+      <footer class="credits">${pick(T.info, 'credits')}</footer>`;
     initOffline();
   }
 
@@ -72,29 +132,30 @@
     const topoBlocks = s.topos.map((t) => {
       const rs = routes.filter((r) => r.page === t.page);
       return `<section class="topo">
-        ${figure(t.page, 'L', `Topo, routes ${t.routes}`)}
-        <div class="topo-cap">${t.label ? esc(t.label) + ' · ' : ''}Routes ${esc(t.routes)}</div>
+        ${figure(t.page, 'L', `Topo ${t.routes}`)}
+        <div class="topo-cap">${L().topoRoutes} ${esc(t.routes)}</div>
         <ul class="routes">${rs.map((r) => routeLi(r)).join('')}</ul>
       </section>`;
     }).join('');
+    const warning = pick(s, 'warning');
     app.innerHTML = `
       <div class="sec-head" style="--c:${s.color}">
-        <div class="muted small">Sector ${s.id}</div>
+        <div class="muted small">${L().sector} ${s.id}</div>
         <h2>${esc(s.name)}</h2>
-        ${s.gloss ? `<div class="muted">${esc(s.gloss)}</div>` : ''}
+        ${isEn() && s.gloss ? `<div class="muted">${esc(s.gloss)}</div>` : ''}
       </div>
       <div class="chips">
-        <span class="chip">${s.stats.routes} routes</span>
+        <span class="chip">${plural(s.stats.routes)}</span>
         <span class="chip">${esc(s.stats.grades)}</span>
-        <span class="chip">${esc(s.stats.aspect)}</span>
-        <span class="chip">${esc(s.stats.height)}</span>
+        <span class="chip">${esc(pick(s.stats, 'aspect'))}</span>
+        <span class="chip">${esc(pick(s.stats, 'height'))}</span>
       </div>
-      ${s.warning ? `<div class="warn">${esc(s.warning)}</div>` : ''}
-      <ul class="notes">${s.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
-      ${figure(s.intro, 'R', 'Where the sector is on the cliff')}
-      <div class="topo-cap">Location on the cliff (red box)</div>
+      ${warning ? `<div class="warn">${esc(warning)}</div>` : ''}
+      <ul class="notes">${pick(s, 'notes').map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
+      ${figure(s.intro, 'R', L().locAlt)}
+      <div class="topo-cap">${L().locCap}</div>
       ${topoBlocks}
-      <details class="orig"><summary>Original book pages (French)</summary>
+      <details class="orig"><summary>${L().orig}</summary>
         <div class="orig-grid">${[s.intro, ...s.topos.map((t) => t.page)].flatMap((p) => [figure(p, 'L'), figure(p, 'R')]).join('')}</div>
       </details>
       <nav class="secnav">
@@ -109,12 +170,12 @@
 
   const searchState = { q: '', band: '' };
   function search() {
-    titleEl.textContent = 'Find a route';
+    titleEl.textContent = L().find;
     back.style.visibility = 'visible';
     const bands = ['3', '4', '5', '6', '7', '8'];
     app.innerHTML = `
       <div class="search">
-        <input id="q" type="search" placeholder="Route name, number or description…" autocomplete="off" value="${esc(searchState.q)}">
+        <input id="q" type="search" placeholder="${L().searchPh}" autocomplete="off" value="${esc(searchState.q)}">
         <div class="filters">${bands.map((b) => `<button data-band="${b}" aria-pressed="${searchState.band === b}">${b}</button>`).join('')}</div>
       </div>
       <div id="count" class="muted small"></div>
@@ -126,9 +187,9 @@
       const res = allRoutes.filter((r) => {
         if (searchState.band && String(Math.floor(gradeValue(r.grade) || 0)) !== searchState.band) return false;
         if (!term) return true;
-        return r.n === term || norm(`${r.name} ${r.gloss} ${r.desc} ${r.s.name}`).includes(term);
+        return r.n === term || norm(`${r.name} ${r.gloss} ${r.desc} ${r.descFr} ${r.s.name}`).includes(term);
       });
-      document.getElementById('count').textContent = `${res.length} route${res.length === 1 ? '' : 's'}`;
+      document.getElementById('count').textContent = plural(res.length);
       document.getElementById('results').innerHTML = res.slice(0, 300).map((r) => routeLi(r, true)).join('');
     };
     q.addEventListener('input', () => { searchState.q = q.value; run(); });
@@ -153,10 +214,11 @@
   function info(id) {
     const sec = T.info.sections.find((s) => s.id === id);
     if (!sec) return home();
-    titleEl.textContent = sec.title;
+    const title = pick(sec, 'title');
+    titleEl.textContent = title;
     back.style.visibility = 'visible';
-    app.innerHTML = `<div class="prose"><h2>${esc(sec.title)}</h2>${sec.blocks.map(renderBlock).join('')}
-      ${sec.pages && sec.pages.length ? `<details class="orig"><summary>Original book pages (French)</summary><div class="orig-grid">${sec.pages.flatMap((p) => [figure(p, 'L'), figure(p, 'R')]).join('')}</div></details>` : ''}
+    app.innerHTML = `<div class="prose"><h2>${esc(title)}</h2>${pick(sec, 'blocks').map(renderBlock).join('')}
+      ${sec.pages && sec.pages.length ? `<details class="orig"><summary>${L().orig}</summary><div class="orig-grid">${sec.pages.flatMap((p) => [figure(p, 'L'), figure(p, 'R')]).join('')}</div></details>` : ''}
     </div>`;
     window.scrollTo(0, 0);
   }
@@ -164,14 +226,14 @@
   // ---------- offline ----------
   function offlineCard() {
     return `<div class="card offline" id="offline">
-      <strong>Offline use</strong>
-      <div id="ostatus" class="small muted">Checking…</div>
+      <strong>${L().offTitle}</strong>
+      <div id="ostatus" class="small muted">${L().checking}</div>
       <div class="bar-outer"><div class="bar-inner" id="obar"></div></div>
       <div class="row">
-        <button class="btn" id="odl">Download everything</button>
+        <button class="btn" id="odl">${L().dlAll}</button>
         <span id="osize" class="small muted"></span>
       </div>
-      <div id="oios" class="ios-hint muted" hidden>On iPhone: tap <b>Share → Add to Home Screen</b> and open it from there. Safari may clear offline data for websites you haven't opened in a week; the home-screen app keeps it.</div>
+      <div id="oios" class="ios-hint muted" hidden>${L().ios}</div>
     </div>`;
   }
 
@@ -187,13 +249,13 @@
     const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) && !navigator.standalone;
     if (ios) document.getElementById('oios').hidden = false;
     if (!('serviceWorker' in navigator) || !('caches' in window)) {
-      st.textContent = 'This browser does not support offline mode.'; btn.disabled = true; return;
+      st.textContent = L().noSupport; btn.disabled = true; return;
     }
     const total = T.images.length;
     const show = (n) => {
       bar.style.width = (100 * n / total) + '%';
-      st.innerHTML = n === total ? '<span class="ok">✓ Everything is saved on this device — works with no signal.</span>' : `${n} of ${total} images saved on this device.`;
-      btn.textContent = n === total ? 'Re-check download' : (n ? 'Finish download' : 'Download everything');
+      st.innerHTML = n === total ? `<span class="ok">${L().allSaved}</span>` : L().saved(n, total);
+      btn.textContent = n === total ? L().dlCheck : (n ? L().dlFinish : L().dlAll);
     };
     show(await cachedCount());
     btn.onclick = async () => {
@@ -213,18 +275,18 @@
             if (!ok) failed++;
           }
           done++; bar.style.width = (100 * done / total) + '%';
-          st.textContent = `Downloading… ${done} / ${total}`;
+          st.textContent = L().downloading(done, total);
         }
       };
       await Promise.all([worker(), worker(), worker(), worker()]);
       const n = await cachedCount();
       show(n);
-      if (failed) st.innerHTML += ` <b>${failed} failed — check your connection and tap again.</b>`;
+      if (failed) st.innerHTML += ` <b>${L().failed(failed)}</b>`;
       btn.disabled = false;
     };
     if (navigator.storage?.estimate) {
       const e = await navigator.storage.estimate();
-      document.getElementById('osize').textContent = `Using ${(e.usage / 1e6).toFixed(0)} MB`;
+      document.getElementById('osize').textContent = L().using((e.usage / 1e6).toFixed(0));
     }
   }
 
@@ -290,6 +352,7 @@
     home(); window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
+  applyLangChrome();
   route();
 
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

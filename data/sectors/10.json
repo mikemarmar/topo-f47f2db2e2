@@ -1,6 +1,16 @@
 {
-  "id": 10, "name": "Robert clef de 12", "gloss": "Robert the 12 mm Spanner", "color": "#9c1d1d",
-  "stats": {"routes": 24, "grades": "5b+ – 8a", "aspect": "South-facing", "height": "30 m to 35 m"},
+  "id": 10,
+  "name": "Robert clef de 12",
+  "gloss": "Robert the 12 mm Spanner",
+  "color": "#9c1d1d",
+  "stats": {
+    "routes": 24,
+    "grades": "5b+ – 8a",
+    "aspect": "South-facing",
+    "height": "30 m to 35 m",
+    "aspect_fr": "Orienté Sud",
+    "height_fr": "De 30 m à 35 m"
+  },
   "intro": "p35",
   "notes": [
     "The canyon sector: shady, nice on very hot days.",
@@ -8,34 +18,264 @@
     "Physically demanding climbing."
   ],
   "topos": [
-    {"page": "p36", "routes": "207–212"},
-    {"page": "p37", "routes": "213–220"},
-    {"page": "p38", "routes": "221–227"}
+    {
+      "page": "p36",
+      "routes": "207–212"
+    },
+    {
+      "page": "p37",
+      "routes": "213–220"
+    },
+    {
+      "page": "p38",
+      "routes": "221–227"
+    }
   ],
   "routes": [
-    ["207", "La Bambino", "", "6a+", "32 m", "Very nice, physical route. One move that is very demanding on core strength for the grade. Crack climbing on jugs and big pockets — you climb through the jackdaws' nests.", "p36"],
-    ["208", "Le pilier d'étrons", "The Pillar of Turds", "6b", "30 m", "Finishing variant of 207. A very fun, airy diagonal ramp.", "p36"],
-    ["209", "Ben Hur descends de ton youpala", "Ben Hur, Get Out of Your Baby Walker", "7c", "30 m", "Climbing on rock that is more solid than it looks in the first part. Slightly steep pillar at the top that requires climbing with rhythm.", "p36"],
-    ["209-1", "Câlin express", "Express Cuddle", "7c+", "32 m", "Bulges that are hard to negotiate.", "p36"],
-    ["209-2", "La Jean Phi", "", "8a", "32 m", "Start up 210, then the same finish as Câlin express. Nice route that requires a well-paced, rhythmic climb.", "p36"],
-    ["210", "La Mondette", "", "6c+", "35 m", "Named after the landlady of the Saffres bar, back when there was one. A great journey with an intense boulder move.", "p36"],
-    ["211", "Splendeur sauvage", "Wild Splendour", "7a", "32 m", "Straight up the steep ground. Very nice route where you need to manage the rests well — a beautiful onsight to do, but not a given. A Saffres staple.", "p36"],
-    ["212", "Topoverdose", "", "6b+", "32 m", "Technical, varied route — one of the crag's classics at the grade.", "p36"],
-    ["213", "Ygdrasil", "Yggdrasil", "7b+", "32 m", "Very nice, continuous and really pumpy route. Pillar that demands a strong sense of route-reading.", "p37"],
-    ["214", "La Quille", "The Skittle", "6c+", "32 m", "Mixed route with an easier section in the middle. Save some energy for the top moves, which need strength and real determination.", "p37"],
-    ["215", "Robert « clef de 12 »", "Robert 'the 12 mm Spanner'", "6c+", "32 m", "Consistent, fairly complex route that needs technique and good route-reading. A must-do.", "p37"],
-    ["216", "La Terray nouvelle", "The New Terray", "7a", "32 m", "Sustained climbing with an intense move on a hard-to-hold sloper mid-route; the rest is really pumpy and very pretty.", "p37"],
-    ["217", "L'aspic", "The Asp", "6a", "30 m", "Route with an original line. Physical start on edges, a slightly unsettling traverse right and an easier finish in a corner. Slightly loose rock that needs care.", "p37"],
-    ["218", "Le Beauf", "The Redneck", "6a", "30 m", "Very bouldery, with one move where you'll have to get angry. Easier exit crack.", "p37"],
-    ["219", "La Pépère", "The Easy-Going One", "5b+", "30 m", "Easy route that needs good anticipation of the line. Some ledges break the rhythm.", "p37"],
-    ["220", "Inox du sol au plafond", "Stainless Steel from Floor to Ceiling", "5c+", "28 m", "Steep start on jugs, a section shared with route 218. Mixed route.", "p37"],
-    ["221", "Touche pas à mon spit", "Hands Off My Bolt", "6c+", "28 m", "Surprising, bouldery route. 3 boulder-style sections broken up by ledges. Not the most interesting at the grade.", "p38"],
-    ["222", "Tintin au pays des écailles", "Tintin in the Land of Flakes", "7b", "28 m", "Slab lovers will be happy here. Profile somewhat like route 221. Bouldery sections broken up by good rests. Smearing and balance to the fore.", "p38"],
-    ["223", "RSCM 78", "", "5c+", "30 m", "Starting variant of 224. More direct crimpy slab.", "p38"],
-    ["224", "La plus belle fissure", "The Most Beautiful Crack", "6a", "30 m", "Fairly demanding crack climbing. A route that needs good jamming and bridging technique. A band of loose rock in the first part — be careful.", "p38"],
-    ["225", "La Caporal", "The Corporal", "6c", "30 m", "Very pleasant route on very beautiful, well-sculpted rock.", "p38"],
-    ["225-1", "A38 again", "", "6c+", "30 m", "Finishing variant of route 225. Exit through a steep section with hidden holds; very enjoyable climbing.", "p38"],
-    ["226", "Le sens de l'histoire", "The Direction of History", "7a+", "30 m", "Sustained and continuous. Very nice route with a nasty start and great atmosphere at the top.", "p38"],
-    ["227", "Edelridissimo", "", "7a", "30 m", "Varied route with steep ground, slab and crack. A route for all-round climbers. Exposure in the second part of the route.", "p38"]
+    [
+      "207",
+      "La Bambino",
+      "",
+      "6a+",
+      "32 m",
+      "Very nice, physical route. One move that is very demanding on core strength for the grade. Crack climbing on jugs and big pockets — you climb through the jackdaws' nests.",
+      "p36",
+      "Très belle voie, physique. Un pas bien exigeant en gainage pour la cotation. Escalade en fissure sur des bacs et gros trous, on grimpe dans les nids de choucas."
+    ],
+    [
+      "208",
+      "Le pilier d'étrons",
+      "The Pillar of Turds",
+      "6b",
+      "30 m",
+      "Finishing variant of 207. A very fun, airy diagonal ramp.",
+      "p36",
+      "Variante de sortie de 207. Une rampe oblique et gazeuse très sympa."
+    ],
+    [
+      "209",
+      "Ben Hur descends de ton youpala",
+      "Ben Hur, Get Out of Your Baby Walker",
+      "7c",
+      "30 m",
+      "Climbing on rock that is more solid than it looks in the first part. Slightly steep pillar at the top that requires climbing with rhythm.",
+      "p36",
+      "Escalade sur du rocher plus solide qu'il n'y paraît en première partie. Pilier un peu devers sur le haut qui demande de grimper en rythme."
+    ],
+    [
+      "209-1",
+      "Câlin express",
+      "Express Cuddle",
+      "7c+",
+      "32 m",
+      "Bulges that are hard to negotiate.",
+      "p36",
+      "Des bombés difficiles à négocier."
+    ],
+    [
+      "209-2",
+      "La Jean Phi",
+      "",
+      "8a",
+      "32 m",
+      "Start up 210, then the same finish as Câlin express. Nice route that requires a well-paced, rhythmic climb.",
+      "p36",
+      "Départ par 210 puis fin identique à Câlin express. Belle voie qui nécessite une grimpe bien rythmée."
+    ],
+    [
+      "210",
+      "La Mondette",
+      "",
+      "6c+",
+      "35 m",
+      "Named after the landlady of the Saffres bar, back when there was one. A great journey with an intense boulder move.",
+      "p36",
+      "Du nom de la tenancière du bar de Saffres, au temps où il y en avait un. Beau voyage avec un pas de bloc intense."
+    ],
+    [
+      "211",
+      "Splendeur sauvage",
+      "Wild Splendour",
+      "7a",
+      "32 m",
+      "Straight up the steep ground. Very nice route where you need to manage the rests well — a beautiful onsight to do, but not a given. A Saffres staple.",
+      "p36",
+      "Droit dans le pentu. Très belle voie où il faut bien gérer les repos, un beau à vue à faire, pas donné. Une base à Saffres."
+    ],
+    [
+      "212",
+      "Topoverdose",
+      "",
+      "6b+",
+      "32 m",
+      "Technical, varied route — one of the crag's classics at the grade.",
+      "p36",
+      "Voie technique et variée, une classique de la falaise dans ce niveau."
+    ],
+    [
+      "213",
+      "Ygdrasil",
+      "Yggdrasil",
+      "7b+",
+      "32 m",
+      "Very nice, continuous and really pumpy route. Pillar that demands a strong sense of route-reading.",
+      "p37",
+      "Très belle voie continue et bien rési. Pilier qui demande un sens de la lecture assez important."
+    ],
+    [
+      "214",
+      "La Quille",
+      "The Skittle",
+      "6c+",
+      "32 m",
+      "Mixed route with an easier section in the middle. Save some energy for the top moves, which need strength and real determination.",
+      "p37",
+      "Voie hétérogène avec une zone plus facile au milieu. Gardez de la réserve pour les mouvs du haut qui demandent de la force et une bonne détermination."
+    ],
+    [
+      "215",
+      "Robert « clef de 12 »",
+      "Robert 'the 12 mm Spanner'",
+      "6c+",
+      "32 m",
+      "Consistent, fairly complex route that needs technique and good route-reading. A must-do.",
+      "p37",
+      "Voie homogène assez complexe qui demande de la technique et une bonne lecture. À faire."
+    ],
+    [
+      "216",
+      "La Terray nouvelle",
+      "The New Terray",
+      "7a",
+      "32 m",
+      "Sustained climbing with an intense move on a hard-to-hold sloper mid-route; the rest is really pumpy and very pretty.",
+      "p37",
+      "Escalade soutenue avec un pas intense sur un plat pas facile à tenir en milieu de voie, la suite est bien rési et très jolie."
+    ],
+    [
+      "217",
+      "L'aspic",
+      "The Asp",
+      "6a",
+      "30 m",
+      "Route with an original line. Physical start on edges, a slightly unsettling traverse right and an easier finish in a corner. Slightly loose rock that needs care.",
+      "p37",
+      "Voie au tracé original. Départ physique sur règles, une traversée sur la droite un peu déstabilisante et une fin plus cool en dièdre. Rocher un peu délité qui demande de l'attention."
+    ],
+    [
+      "218",
+      "Le Beauf",
+      "The Redneck",
+      "6a",
+      "30 m",
+      "Very bouldery, with one move where you'll have to get angry. Easier exit crack.",
+      "p37",
+      "Très bloc avec un pas où il va falloir s'énerver. Fissure de sortie plus cool."
+    ],
+    [
+      "219",
+      "La Pépère",
+      "The Easy-Going One",
+      "5b+",
+      "30 m",
+      "Easy route that needs good anticipation of the line. Some ledges break the rhythm.",
+      "p37",
+      "Voie facile qui demande une bonne anticipation de l'itinéraire. Quelques vires viennent casser le rythme."
+    ],
+    [
+      "220",
+      "Inox du sol au plafond",
+      "Stainless Steel from Floor to Ceiling",
+      "5c+",
+      "28 m",
+      "Steep start on jugs, a section shared with route 218. Mixed route.",
+      "p37",
+      "Départ en devers sur des bacs, une partie commune avec la voie 218. Voie hétérogène."
+    ],
+    [
+      "221",
+      "Touche pas à mon spit",
+      "Hands Off My Bolt",
+      "6c+",
+      "28 m",
+      "Surprising, bouldery route. 3 boulder-style sections broken up by ledges. Not the most interesting at the grade.",
+      "p38",
+      "Voie surprenante typée bloc. 3 passages blocs entrecoupés de vires. Pas la plus intéressante dans ce niveau."
+    ],
+    [
+      "222",
+      "Tintin au pays des écailles",
+      "Tintin in the Land of Flakes",
+      "7b",
+      "28 m",
+      "Slab lovers will be happy here. Profile somewhat like route 221. Bouldery sections broken up by good rests. Smearing and balance to the fore.",
+      "p38",
+      "Les amateurs de dalles y trouveront leur bonheur. Profil un peu identique à la voie 221. Passages de bloc entrecoupés de bons repos. Adhérence et équilibre à l'honneur."
+    ],
+    [
+      "223",
+      "RSCM 78",
+      "",
+      "5c+",
+      "30 m",
+      "Starting variant of 224. More direct crimpy slab.",
+      "p38",
+      "Variante de départ de 224. Dalle à réglettes plus directe."
+    ],
+    [
+      "224",
+      "La plus belle fissure",
+      "The Most Beautiful Crack",
+      "6a",
+      "30 m",
+      "Fairly demanding crack climbing. A route that needs good jamming and bridging technique. A band of loose rock in the first part — be careful.",
+      "p38",
+      "Escalade en fissure assez exigeante. Voie qui demande une bonne technique en matière de coincements et d'opposition. Une strate en première partie avec du rocher délité, soyez attentifs."
+    ],
+    [
+      "225",
+      "La Caporal",
+      "The Corporal",
+      "6c",
+      "30 m",
+      "Very pleasant route on very beautiful, well-sculpted rock.",
+      "p38",
+      "Voie très agréable avec un très beau rocher bien sculpté."
+    ],
+    [
+      "225-1",
+      "A38 again",
+      "",
+      "6c+",
+      "30 m",
+      "Finishing variant of route 225. Exit through a steep section with hidden holds; very enjoyable climbing.",
+      "p38",
+      "Variante de sortie de la voie 225. Sortie dans un dévers aux prises cachées, escalade fort sympathique."
+    ],
+    [
+      "226",
+      "Le sens de l'histoire",
+      "The Direction of History",
+      "7a+",
+      "30 m",
+      "Sustained and continuous. Very nice route with a nasty start and great atmosphere at the top.",
+      "p38",
+      "Soutenue et continue. Très belle voie avec un départ teigneux et une belle ambiance dans le haut."
+    ],
+    [
+      "227",
+      "Edelridissimo",
+      "",
+      "7a",
+      "30 m",
+      "Varied route with steep ground, slab and crack. A route for all-round climbers. Exposure in the second part of the route.",
+      "p38",
+      "Voie variée avec du dévers, de la dalle, de la fissure. Voie pour grimpeur complet. Du gaz en deuxième partie de voie."
+    ]
+  ],
+  "notes_fr": [
+    "Secteur du canyon, ombragé, sympa les journées de fortes chaleurs.",
+    "Escalade souvent verticale voire légèrement déversante.",
+    "Escalade physiquement exigeante."
   ]
 }
